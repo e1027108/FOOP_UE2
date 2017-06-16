@@ -1,130 +1,124 @@
-[31m
-[0mProcess>>terminate
-NECController>>stopCompletionDelay
-NECController>>closeMenu
-MessageSend>>value
-MessageSend>>cull:
-MessageSend>>cull:cull:
-[ action cull: anAnnouncement cull: announcer ] in AnnouncementSubscription>>deliver: in Block: [ action cull: anAnnouncement cull: announcer ]
-BlockClosure>>on:do:
-BlockClosure>>on:fork:
-AnnouncementSubscription>>deliver:
-[ "Ensure delivery to remaining announcements" subscription deliver: anAnnouncement ] in SubscriptionRegistry>>deliver:to:startingAt: in Block: [ "Ensure delivery to remaining announcements" sub...etc...
-BlockClosure>>ifCurtailed:
-SubscriptionRegistry>>deliver:to:startingAt:
-SubscriptionRegistry>>deliver:to:
-SubscriptionRegistry>>deliver:
-Announcer>>announce:
-RubEditingArea(Morph)>>doAnnounce:
-RubEditingArea(Morph)>>announceKeyboardFocusChange:
-RubEditingArea(Morph)>>keyboardFocusChange:
-RubEditingArea(RubAbstractTextArea)>>keyboardFocusChange:
-HandMorph>>newKeyboardFocus:
-HandMorph>>releaseKeyboardFocus
-[ :hand | hand releaseKeyboardFocus ] in WorldMorph>>viewBox: in Block: [ :hand | hand releaseKeyboardFocus ]
-Array(SequenceableCollection)>>do:
-WorldState>>handsDo:
-WorldMorph>>viewBox:
-WorldMorph(PasteUpMorph)>>restoreMorphicDisplay
-WorldMorph class>>startUp
-WorldMorph class(Behavior)>>startUp:
-ClassSessionHandler>>startup:
-[0m[31m
-[0mProcess>>terminate
-NECController>>stopCompletionDelay
-NECController>>closeMenu
-MessageSend>>value
-MessageSend>>cull:
-MessageSend>>cull:cull:
-[ action cull: anAnnouncement cull: announcer ] in AnnouncementSubscription>>deliver: in Block: [ action cull: anAnnouncement cull: announcer ]
-BlockClosure>>on:do:
-BlockClosure>>on:fork:
-AnnouncementSubscription>>deliver:
-[ "Ensure delivery to remaining announcements" subscription deliver: anAnnouncement ] in SubscriptionRegistry>>deliver:to:startingAt: in Block: [ "Ensure delivery to remaining announcements" sub...etc...
-BlockClosure>>ifCurtailed:
-SubscriptionRegistry>>deliver:to:startingAt:
-SubscriptionRegistry>>deliver:to:
-SubscriptionRegistry>>deliver:
-Announcer>>announce:
-RubEditingArea(Morph)>>doAnnounce:
-RubEditingArea(Morph)>>announceKeyboardFocusChange:
-RubEditingArea(Morph)>>keyboardFocusChange:
-RubEditingArea(RubAbstractTextArea)>>keyboardFocusChange:
-HandMorph>>newKeyboardFocus:
-HandMorph>>releaseKeyboardFocus
-[ :hand | hand releaseKeyboardFocus ] in WorldMorph>>viewBox: in Block: [ :hand | hand releaseKeyboardFocus ]
-Array(SequenceableCollection)>>do:
-WorldState>>handsDo:
-WorldMorph>>viewBox:
-WorldMorph(PasteUpMorph)>>restoreMorphicDisplay
-WorldMorph class>>startUp
-WorldMorph class(Behavior)>>startUp:
-ClassSessionHandler>>startup:
-[0m[31m
-[0mProcess>>terminate
-NECController>>stopCompletionDelay
-NECController>>closeMenu
-MessageSend>>value
-MessageSend>>cull:
-MessageSend>>cull:cull:
-[ action cull: anAnnouncement cull: announcer ] in AnnouncementSubscription>>deliver: in Block: [ action cull: anAnnouncement cull: announcer ]
-BlockClosure>>on:do:
-BlockClosure>>on:fork:
-AnnouncementSubscription>>deliver:
-[ "Ensure delivery to remaining announcements" subscription deliver: anAnnouncement ] in SubscriptionRegistry>>deliver:to:startingAt: in Block: [ "Ensure delivery to remaining announcements" sub...etc...
-BlockClosure>>ifCurtailed:
-SubscriptionRegistry>>deliver:to:startingAt:
-SubscriptionRegistry>>deliver:to:
-SubscriptionRegistry>>deliver:
-Announcer>>announce:
-RubEditingArea(Morph)>>doAnnounce:
-RubEditingArea(Morph)>>announceKeyboardFocusChange:
-RubEditingArea(Morph)>>keyboardFocusChange:
-RubEditingArea(RubAbstractTextArea)>>keyboardFocusChange:
-HandMorph>>newKeyboardFocus:
-HandMorph>>releaseKeyboardFocus
-[ :hand | hand releaseKeyboardFocus ] in WorldMorph>>viewBox: in Block: [ :hand | hand releaseKeyboardFocus ]
-Array(SequenceableCollection)>>do:
-WorldState>>handsDo:
-WorldMorph>>viewBox:
-WorldMorph(PasteUpMorph)>>restoreMorphicDisplay
-WorldMorph class>>startUp
-WorldMorph class(Behavior)>>startUp:
-ClassSessionHandler>>startup:
-[0m[31m
-[0mProcess>>terminate
-NECController>>stopCompletionDelay
-NECController>>closeMenu
-MessageSend>>value
-MessageSend>>cull:
-MessageSend>>cull:cull:
-[ action cull: anAnnouncement cull: announcer ] in AnnouncementSubscription>>deliver: in Block: [ action cull: anAnnouncement cull: announcer ]
-BlockClosure>>on:do:
-BlockClosure>>on:fork:
-AnnouncementSubscription>>deliver:
-[ "Ensure delivery to remaining announcements" subscription deliver: anAnnouncement ] in SubscriptionRegistry>>deliver:to:startingAt: in Block: [ "Ensure delivery to remaining announcements" sub...etc...
-BlockClosure>>ifCurtailed:
-SubscriptionRegistry>>deliver:to:startingAt:
-SubscriptionRegistry>>deliver:to:
-SubscriptionRegistry>>deliver:
-Announcer>>announce:
-RubEditingArea(Morph)>>doAnnounce:
-RubEditingArea(Morph)>>announceKeyboardFocusChange:
-RubEditingArea(Morph)>>keyboardFocusChange:
-RubEditingArea(RubAbstractTextArea)>>keyboardFocusChange:
-HandMorph>>newKeyboardFocus:
-HandMorph>>releaseKeyboardFocus
-[ :hand | hand releaseKeyboardFocus ] in WorldMorph>>viewBox: in Block: [ :hand | hand releaseKeyboardFocus ]
-Array(SequenceableCollection)>>do:
-WorldState>>handsDo:
-WorldMorph>>viewBox:
-WorldMorph(PasteUpMorph)>>restoreMorphicDisplay
-WorldMorph class>>startUp
-WorldMorph class(Behavior)>>startUp:
-ClassSessionHandler>>startup:
-[0m[31mInstance of BlankCellTest did not understand #shoud:
-[0mBlankCellTest(Object)>>doesNotUnderstand: #shoud:
+[31mInstance of BlankCell did not understand #playerHead:
+[0mBlankCell(Object)>>doesNotUnderstand: #playerHead:
+BlankCell>>initializeSnakeHead
+BlankCell>>initialize
+BlankCell class(Behavior)>>new
 BlankCellTest>>testCellOnState
+BlankCellTest(TestCase)>>performTest
+[ self setUp.
+self performTest ] in BlankCellTest(TestCase)>>runCase in Block: [ self setUp....
+BlockClosure>>ensure:
+BlankCellTest(TestCase)>>runCase
+[ aTestCase runCase ] in [ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ aTestCase runCase ]
+BlockClosure>>on:do:
+[ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ [ aTestCase runCase ]...
+BlockClosure>>on:do:
+TestExecutionEnvironment>>runTestCaseSafelly:
+[ self runTestCaseSafelly: aTestCase ] in [ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ self runTestCaseSafelly: aTestCase ]
+BlockClosure>>ensure:
+[ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ [ self runTestCaseSafelly: aTestCase ]...
+BlockClosure>>ifCurtailed:
+TestExecutionEnvironment>>runTestCase:
+[ testEnv runTestCase: aTestCase ] in DefaultExecutionEnvironment>>runTestCase: in Block: [ testEnv runTestCase: aTestCase ]
+[ self value: anExecutionEnvironment.
+anExecutionEnvironment activated.
+aBlock value ] in CurrentExecutionEnvironment class>>activate:for: in Block: [ self value: anExecutionEnvironment....
+BlockClosure>>ensure:
+CurrentExecutionEnvironment class>>activate:for:
+TestExecutionEnvironment(ExecutionEnvironment)>>beActiveDuring:
+DefaultExecutionEnvironment>>runTestCase:
+CurrentExecutionEnvironment class>>runTestCase:
+BlankCellTest(TestCase)>>runCaseManaged
+[ aTestCase announce: TestCaseStarted withResult: self.
+aTestCase runCaseManaged.
+aTestCase announce: TestCaseEnded withResult: self.
+self addPass: aTestCase ] in TestResult>>runCaseForDebug: in Block: [ aTestCase announce: TestCaseStarted withResult: ...etc...
+BlockClosure>>on:do:
+TestResult>>runCaseForDebug:
+[0m[31m
+[0mProcess>>terminate
+NECController>>stopCompletionDelay
+NECController>>closeMenu
+MessageSend>>value
+MessageSend>>cull:
+MessageSend>>cull:cull:
+[ action cull: anAnnouncement cull: announcer ] in AnnouncementSubscription>>deliver: in Block: [ action cull: anAnnouncement cull: announcer ]
+BlockClosure>>on:do:
+BlockClosure>>on:fork:
+AnnouncementSubscription>>deliver:
+[ "Ensure delivery to remaining announcements" subscription deliver: anAnnouncement ] in SubscriptionRegistry>>deliver:to:startingAt: in Block: [ "Ensure delivery to remaining announcements" sub...etc...
+BlockClosure>>ifCurtailed:
+SubscriptionRegistry>>deliver:to:startingAt:
+SubscriptionRegistry>>deliver:to:
+SubscriptionRegistry>>deliver:
+Announcer>>announce:
+RubEditingArea(Morph)>>doAnnounce:
+RubEditingArea(Morph)>>announceKeyboardFocusChange:
+RubEditingArea(Morph)>>keyboardFocusChange:
+RubEditingArea(RubAbstractTextArea)>>keyboardFocusChange:
+HandMorph>>newKeyboardFocus:
+HandMorph>>releaseKeyboardFocus
+[ :hand | hand releaseKeyboardFocus ] in WorldMorph>>viewBox: in Block: [ :hand | hand releaseKeyboardFocus ]
+Array(SequenceableCollection)>>do:
+WorldState>>handsDo:
+WorldMorph>>viewBox:
+WorldMorph(PasteUpMorph)>>restoreMorphicDisplay
+WorldMorph class>>startUp
+WorldMorph class(Behavior)>>startUp:
+ClassSessionHandler>>startup:
+[0m[31m
+[0mProcess>>terminate
+NECController>>stopCompletionDelay
+NECController>>closeMenu
+MessageSend>>value
+MessageSend>>cull:
+MessageSend>>cull:cull:
+[ action cull: anAnnouncement cull: announcer ] in AnnouncementSubscription>>deliver: in Block: [ action cull: anAnnouncement cull: announcer ]
+BlockClosure>>on:do:
+BlockClosure>>on:fork:
+AnnouncementSubscription>>deliver:
+[ "Ensure delivery to remaining announcements" subscription deliver: anAnnouncement ] in SubscriptionRegistry>>deliver:to:startingAt: in Block: [ "Ensure delivery to remaining announcements" sub...etc...
+BlockClosure>>ifCurtailed:
+SubscriptionRegistry>>deliver:to:startingAt:
+SubscriptionRegistry>>deliver:to:
+SubscriptionRegistry>>deliver:
+Announcer>>announce:
+RubEditingArea(Morph)>>doAnnounce:
+RubEditingArea(Morph)>>announceKeyboardFocusChange:
+RubEditingArea(Morph)>>keyboardFocusChange:
+RubEditingArea(RubAbstractTextArea)>>keyboardFocusChange:
+HandMorph>>newKeyboardFocus:
+HandMorph>>releaseKeyboardFocus
+[ :hand | hand releaseKeyboardFocus ] in WorldMorph>>viewBox: in Block: [ :hand | hand releaseKeyboardFocus ]
+Array(SequenceableCollection)>>do:
+WorldState>>handsDo:
+WorldMorph>>viewBox:
+WorldMorph(PasteUpMorph)>>restoreMorphicDisplay
+WorldMorph class>>startUp
+WorldMorph class(Behavior)>>startUp:
+ClassSessionHandler>>startup:
+[0m[31mInstance of False did not understand #put:
+[0mFalse(Object)>>doesNotUnderstand: #put:
+BlankCell>>enteredFrom:
+BlankCellTest>>testCellSnakeEnteredFrom
 BlankCellTest(TestCase)>>performTest
 [ self setUp.
 self performTest ] in BlankCellTest(TestCase)>>runCase in Block: [ self setUp....
@@ -176,45 +170,10 @@ BlockClosure>>on:do:
 TestResult>>runCaseForDebug:
 [ result runCaseForDebug: self ] in BlankCellTest(TestCase)>>debug in Block: [ result runCaseForDebug: self ]
 BlockClosure>>ensure:
-BlankCellTest(TestCase)>>debug
-[0m[31m
-[0mProcess>>terminate
-NECController>>stopCompletionDelay
-NECController>>closeMenu
-MessageSend>>value
-MessageSend>>cull:
-MessageSend>>cull:cull:
-[ action cull: anAnnouncement cull: announcer ] in AnnouncementSubscription>>deliver: in Block: [ action cull: anAnnouncement cull: announcer ]
-BlockClosure>>on:do:
-BlockClosure>>on:fork:
-AnnouncementSubscription>>deliver:
-[ "Ensure delivery to remaining announcements" subscription deliver: anAnnouncement ] in SubscriptionRegistry>>deliver:to:startingAt: in Block: [ "Ensure delivery to remaining announcements" sub...etc...
-BlockClosure>>ifCurtailed:
-SubscriptionRegistry>>deliver:to:startingAt:
-SubscriptionRegistry>>deliver:to:
-SubscriptionRegistry>>deliver:
-Announcer>>announce:
-RubEditingArea(Morph)>>doAnnounce:
-RubEditingArea(Morph)>>announceKeyboardFocusChange:
-RubEditingArea(Morph)>>keyboardFocusChange:
-RubEditingArea(RubAbstractTextArea)>>keyboardFocusChange:
-HandMorph>>newKeyboardFocus:
-HandMorph>>releaseKeyboardFocus
-[ :hand | hand releaseKeyboardFocus ] in WorldMorph>>viewBox: in Block: [ :hand | hand releaseKeyboardFocus ]
-Array(SequenceableCollection)>>do:
-WorldState>>handsDo:
-WorldMorph>>viewBox:
-WorldMorph(PasteUpMorph)>>restoreMorphicDisplay
-WorldMorph class>>startUp
-WorldMorph class(Behavior)>>startUp:
-ClassSessionHandler>>startup:
-[0m[31mInstance of BlankCell did not understand #activeSnake
-[0mBlankCell(Object)>>doesNotUnderstand: #activeSnake
-BlankCell>>isOn
-BlankCell>>isOff
-[ cell isOff ] in BlankCellTest>>testCellOnState in Block: [ cell isOff ]
-BlankCellTest(TestAsserter)>>should:
-BlankCellTest>>testCellOnState
+[0m[31mInstance of False did not understand #put:
+[0mFalse(Object)>>doesNotUnderstand: #put:
+BlankCell>>enteredFrom:
+BlankCellTest>>testCellSnakeEnteredFrom
 BlankCellTest(TestCase)>>performTest
 [ self setUp.
 self performTest ] in BlankCellTest(TestCase)>>runCase in Block: [ self setUp....
@@ -263,6 +222,813 @@ aTestCase runCaseManaged.
 aTestCase announce: TestCaseEnded withResult: self.
 self addPass: aTestCase ] in TestResult>>runCaseForDebug: in Block: [ aTestCase announce: TestCaseStarted withResult: ...etc...
 BlockClosure>>on:do:
+TestResult>>runCaseForDebug:
+[ result runCaseForDebug: self ] in BlankCellTest(TestCase)>>debug in Block: [ result runCaseForDebug: self ]
+BlockClosure>>ensure:
+[0m[31m#put: was sent to nil
+[0mUndefinedObject(Object)>>doesNotUnderstand: #put:
+BlankCell>>enteredFrom:
+BlankCellTest>>testCellSnakeEnteredFrom
+BlankCellTest(TestCase)>>performTest
+[ self setUp.
+self performTest ] in BlankCellTest(TestCase)>>runCase in Block: [ self setUp....
+BlockClosure>>ensure:
+BlankCellTest(TestCase)>>runCase
+[ aTestCase runCase ] in [ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ aTestCase runCase ]
+BlockClosure>>on:do:
+[ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ [ aTestCase runCase ]...
+BlockClosure>>on:do:
+TestExecutionEnvironment>>runTestCaseSafelly:
+[ self runTestCaseSafelly: aTestCase ] in [ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ self runTestCaseSafelly: aTestCase ]
+BlockClosure>>ensure:
+[ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ [ self runTestCaseSafelly: aTestCase ]...
+BlockClosure>>ifCurtailed:
+TestExecutionEnvironment>>runTestCase:
+[ testEnv runTestCase: aTestCase ] in DefaultExecutionEnvironment>>runTestCase: in Block: [ testEnv runTestCase: aTestCase ]
+[ self value: anExecutionEnvironment.
+anExecutionEnvironment activated.
+aBlock value ] in CurrentExecutionEnvironment class>>activate:for: in Block: [ self value: anExecutionEnvironment....
+BlockClosure>>ensure:
+CurrentExecutionEnvironment class>>activate:for:
+TestExecutionEnvironment(ExecutionEnvironment)>>beActiveDuring:
+DefaultExecutionEnvironment>>runTestCase:
+CurrentExecutionEnvironment class>>runTestCase:
+BlankCellTest(TestCase)>>runCaseManaged
+[ aTestCase announce: TestCaseStarted withResult: self.
+aTestCase runCaseManaged.
+aTestCase announce: TestCaseEnded withResult: self.
+self addPass: aTestCase ] in TestResult>>runCaseForDebug: in Block: [ aTestCase announce: TestCaseStarted withResult: ...etc...
+BlockClosure>>on:do:
+TestResult>>runCaseForDebug:
+[ result runCaseForDebug: self ] in BlankCellTest(TestCase)>>debug in Block: [ result runCaseForDebug: self ]
+BlockClosure>>ensure:
+[0m[31mInstance of BlankCell did not understand #ifFalse:
+[0mBlankCell(Object)>>doesNotUnderstand: #ifFalse:
+BlankCellTest(TestAsserter)>>ExecuteUnOptimizedIn:
+BlankCell(Object)>>mustBeBooleanInMagic:
+BlankCell(Object)>>mustBeBoolean
+BlankCellTest(TestAsserter)>>assert:
+BlankCellTest(TestAsserter)>>should:
+BlankCellTest>>testCellSnakeEnteredFrom
+BlankCellTest(TestCase)>>performTest
+[ self setUp.
+self performTest ] in BlankCellTest(TestCase)>>runCase in Block: [ self setUp....
+BlockClosure>>ensure:
+BlankCellTest(TestCase)>>runCase
+[ aTestCase runCase ] in [ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ aTestCase runCase ]
+BlockClosure>>on:do:
+[ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ [ aTestCase runCase ]...
+BlockClosure>>on:do:
+TestExecutionEnvironment>>runTestCaseSafelly:
+[ self runTestCaseSafelly: aTestCase ] in [ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ self runTestCaseSafelly: aTestCase ]
+BlockClosure>>ensure:
+[ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ [ self runTestCaseSafelly: aTestCase ]...
+BlockClosure>>ifCurtailed:
+TestExecutionEnvironment>>runTestCase:
+[ testEnv runTestCase: aTestCase ] in DefaultExecutionEnvironment>>runTestCase: in Block: [ testEnv runTestCase: aTestCase ]
+[ self value: anExecutionEnvironment.
+anExecutionEnvironment activated.
+aBlock value ] in CurrentExecutionEnvironment class>>activate:for: in Block: [ self value: anExecutionEnvironment....
+BlockClosure>>ensure:
+CurrentExecutionEnvironment class>>activate:for:
+TestExecutionEnvironment(ExecutionEnvironment)>>beActiveDuring:
+DefaultExecutionEnvironment>>runTestCase:
+CurrentExecutionEnvironment class>>runTestCase:
+BlankCellTest(TestCase)>>runCaseManaged
+[ aTestCase announce: TestCaseStarted withResult: self.
+aTestCase runCaseManaged.
+aTestCase announce: TestCaseEnded withResult: self.
+self addPass: aTestCase ] in TestResult>>runCaseForDebug: in Block: [ aTestCase announce: TestCaseStarted withResult: ...etc...
+[0m[31m
+[0mProcess>>terminate
+NECController>>stopCompletionDelay
+NECController>>closeMenu
+MessageSend>>value
+MessageSend>>cull:
+MessageSend>>cull:cull:
+[ action cull: anAnnouncement cull: announcer ] in AnnouncementSubscription>>deliver: in Block: [ action cull: anAnnouncement cull: announcer ]
+BlockClosure>>on:do:
+BlockClosure>>on:fork:
+AnnouncementSubscription>>deliver:
+[ "Ensure delivery to remaining announcements" subscription deliver: anAnnouncement ] in SubscriptionRegistry>>deliver:to:startingAt: in Block: [ "Ensure delivery to remaining announcements" sub...etc...
+BlockClosure>>ifCurtailed:
+SubscriptionRegistry>>deliver:to:startingAt:
+SubscriptionRegistry>>deliver:to:
+SubscriptionRegistry>>deliver:
+Announcer>>announce:
+RubEditingArea(Morph)>>doAnnounce:
+RubEditingArea(Morph)>>announceKeyboardFocusChange:
+RubEditingArea(Morph)>>keyboardFocusChange:
+RubEditingArea(RubAbstractTextArea)>>keyboardFocusChange:
+HandMorph>>newKeyboardFocus:
+HandMorph>>releaseKeyboardFocus
+[ :hand | hand releaseKeyboardFocus ] in WorldMorph>>viewBox: in Block: [ :hand | hand releaseKeyboardFocus ]
+Array(SequenceableCollection)>>do:
+WorldState>>handsDo:
+WorldMorph>>viewBox:
+WorldMorph(PasteUpMorph)>>restoreMorphicDisplay
+WorldMorph class>>startUp
+WorldMorph class(Behavior)>>startUp:
+ClassSessionHandler>>startup:
+[0m[31mInstance of BlankCell did not understand #isPlayerActive
+[0mBlankCell(Object)>>doesNotUnderstand: #isPlayerActive
+[ cell isPlayerActive = #speedUp ] in BlankCellTest>>testCellArtifact in Block: [ cell isPlayerActive = #speedUp ]
+BlankCellTest(TestAsserter)>>shouldnt:
+BlankCellTest>>testCellArtifact
+BlankCellTest(TestCase)>>performTest
+[ self setUp.
+self performTest ] in BlankCellTest(TestCase)>>runCase in Block: [ self setUp....
+BlockClosure>>ensure:
+BlankCellTest(TestCase)>>runCase
+[ aTestCase runCase ] in [ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ aTestCase runCase ]
+BlockClosure>>on:do:
+[ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ [ aTestCase runCase ]...
+BlockClosure>>on:do:
+TestExecutionEnvironment>>runTestCaseSafelly:
+[ self runTestCaseSafelly: aTestCase ] in [ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ self runTestCaseSafelly: aTestCase ]
+BlockClosure>>ensure:
+[ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ [ self runTestCaseSafelly: aTestCase ]...
+BlockClosure>>ifCurtailed:
+TestExecutionEnvironment>>runTestCase:
+[ testEnv runTestCase: aTestCase ] in DefaultExecutionEnvironment>>runTestCase: in Block: [ testEnv runTestCase: aTestCase ]
+[ self value: anExecutionEnvironment.
+anExecutionEnvironment activated.
+aBlock value ] in CurrentExecutionEnvironment class>>activate:for: in Block: [ self value: anExecutionEnvironment....
+BlockClosure>>ensure:
+CurrentExecutionEnvironment class>>activate:for:
+TestExecutionEnvironment(ExecutionEnvironment)>>beActiveDuring:
+DefaultExecutionEnvironment>>runTestCase:
+CurrentExecutionEnvironment class>>runTestCase:
+BlankCellTest(TestCase)>>runCaseManaged
+[ aTestCase announce: TestCaseStarted withResult: self.
+aTestCase runCaseManaged.
+aTestCase announce: TestCaseEnded withResult: self.
+self addPass: aTestCase ] in TestResult>>runCaseForDebug: in Block: [ aTestCase announce: TestCaseStarted withResult: ...etc...
+BlockClosure>>on:do:
+TestResult>>runCaseForDebug:
+[ result runCaseForDebug: self ] in BlankCellTest(TestCase)>>debug in Block: [ result runCaseForDebug: self ]
+[0m[31mTestFailure: Assertion failed
+[0mBlankCellTest(TestAsserter)>>assert:
+BlankCellTest(TestAsserter)>>should:
+BlankCellTest>>testCellArtifact
+BlankCellTest(TestCase)>>performTest
+[ self setUp.
+self performTest ] in BlankCellTest(TestCase)>>runCase in Block: [ self setUp....
+BlockClosure>>ensure:
+BlankCellTest(TestCase)>>runCase
+[ aTestCase runCase ] in [ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ aTestCase runCase ]
+BlockClosure>>on:do:
+[ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ [ aTestCase runCase ]...
+BlockClosure>>on:do:
+TestExecutionEnvironment>>runTestCaseSafelly:
+[ self runTestCaseSafelly: aTestCase ] in [ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ self runTestCaseSafelly: aTestCase ]
+BlockClosure>>ensure:
+[ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ [ self runTestCaseSafelly: aTestCase ]...
+BlockClosure>>ifCurtailed:
+TestExecutionEnvironment>>runTestCase:
+[ testEnv runTestCase: aTestCase ] in DefaultExecutionEnvironment>>runTestCase: in Block: [ testEnv runTestCase: aTestCase ]
+[ self value: anExecutionEnvironment.
+anExecutionEnvironment activated.
+aBlock value ] in CurrentExecutionEnvironment class>>activate:for: in Block: [ self value: anExecutionEnvironment....
+BlockClosure>>ensure:
+CurrentExecutionEnvironment class>>activate:for:
+TestExecutionEnvironment(ExecutionEnvironment)>>beActiveDuring:
+DefaultExecutionEnvironment>>runTestCase:
+CurrentExecutionEnvironment class>>runTestCase:
+BlankCellTest(TestCase)>>runCaseManaged
+[ aTestCase announce: TestCaseStarted withResult: self.
+aTestCase runCaseManaged.
+aTestCase announce: TestCaseEnded withResult: self.
+self addPass: aTestCase ] in TestResult>>runCaseForDebug: in Block: [ aTestCase announce: TestCaseStarted withResult: ...etc...
+BlockClosure>>on:do:
+TestResult>>runCaseForDebug:
+[ result runCaseForDebug: self ] in BlankCellTest(TestCase)>>debug in Block: [ result runCaseForDebug: self ]
+BlockClosure>>ensure:
+[0m[31mTestFailure: Assertion failed
+[0mBlankCellTest(TestAsserter)>>assert:
+BlankCellTest(TestAsserter)>>should:
+BlankCellTest>>testCellSomePlayerActive
+BlankCellTest(TestCase)>>performTest
+[ self setUp.
+self performTest ] in BlankCellTest(TestCase)>>runCase in Block: [ self setUp....
+BlockClosure>>ensure:
+BlankCellTest(TestCase)>>runCase
+[ aTestCase runCase ] in [ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ aTestCase runCase ]
+BlockClosure>>on:do:
+[ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ [ aTestCase runCase ]...
+BlockClosure>>on:do:
+TestExecutionEnvironment>>runTestCaseSafelly:
+[ self runTestCaseSafelly: aTestCase ] in [ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ self runTestCaseSafelly: aTestCase ]
+BlockClosure>>ensure:
+[ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ [ self runTestCaseSafelly: aTestCase ]...
+BlockClosure>>ifCurtailed:
+TestExecutionEnvironment>>runTestCase:
+[ testEnv runTestCase: aTestCase ] in DefaultExecutionEnvironment>>runTestCase: in Block: [ testEnv runTestCase: aTestCase ]
+[ self value: anExecutionEnvironment.
+anExecutionEnvironment activated.
+aBlock value ] in CurrentExecutionEnvironment class>>activate:for: in Block: [ self value: anExecutionEnvironment....
+BlockClosure>>ensure:
+CurrentExecutionEnvironment class>>activate:for:
+TestExecutionEnvironment(ExecutionEnvironment)>>beActiveDuring:
+DefaultExecutionEnvironment>>runTestCase:
+CurrentExecutionEnvironment class>>runTestCase:
+BlankCellTest(TestCase)>>runCaseManaged
+[ aTestCase announce: TestCaseStarted withResult: self.
+aTestCase runCaseManaged.
+aTestCase announce: TestCaseEnded withResult: self.
+self addPass: aTestCase ] in TestResult>>runCaseForDebug: in Block: [ aTestCase announce: TestCaseStarted withResult: ...etc...
+BlockClosure>>on:do:
+TestResult>>runCaseForDebug:
+[ result runCaseForDebug: self ] in BlankCellTest(TestCase)>>debug in Block: [ result runCaseForDebug: self ]
+BlockClosure>>ensure:
+[0m[31mError: only integers should be used as indices
+[0mByteSymbol(Object)>>error:
+ByteSymbol(Object)>>errorNonIntegerIndex
+ByteSymbol(Object)>>at:
+ByteSymbol>>at:
+BlankCell>>isPlayerActive:
+BlankCell>>somePlayerActive
+[ cell somePlayerActive ] in BlankCellTest>>testCellSomePlayerActive in Block: [ cell somePlayerActive ]
+BlankCellTest(TestAsserter)>>should:
+BlankCellTest>>testCellSomePlayerActive
+BlankCellTest(TestCase)>>performTest
+[ self setUp.
+self performTest ] in BlankCellTest(TestCase)>>runCase in Block: [ self setUp....
+BlockClosure>>ensure:
+BlankCellTest(TestCase)>>runCase
+[ aTestCase runCase ] in [ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ aTestCase runCase ]
+BlockClosure>>on:do:
+[ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ [ aTestCase runCase ]...
+BlockClosure>>on:do:
+TestExecutionEnvironment>>runTestCaseSafelly:
+[ self runTestCaseSafelly: aTestCase ] in [ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ self runTestCaseSafelly: aTestCase ]
+BlockClosure>>ensure:
+[ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ [ self runTestCaseSafelly: aTestCase ]...
+BlockClosure>>ifCurtailed:
+TestExecutionEnvironment>>runTestCase:
+[ testEnv runTestCase: aTestCase ] in DefaultExecutionEnvironment>>runTestCase: in Block: [ testEnv runTestCase: aTestCase ]
+[ self value: anExecutionEnvironment.
+anExecutionEnvironment activated.
+aBlock value ] in CurrentExecutionEnvironment class>>activate:for: in Block: [ self value: anExecutionEnvironment....
+BlockClosure>>ensure:
+CurrentExecutionEnvironment class>>activate:for:
+TestExecutionEnvironment(ExecutionEnvironment)>>beActiveDuring:
+DefaultExecutionEnvironment>>runTestCase:
+CurrentExecutionEnvironment class>>runTestCase:
+[0m[31mError: only integers should be used as indices
+[0mByteSymbol(Object)>>error:
+ByteSymbol(Object)>>errorNonIntegerIndex
+ByteSymbol(Object)>>at:
+ByteSymbol>>at:
+BlankCell>>isPlayerActive:
+BlankCell>>somePlayerActive
+[ cell somePlayerActive ] in BlankCellTest>>testCellSomePlayerActive in Block: [ cell somePlayerActive ]
+BlankCellTest(TestAsserter)>>should:
+BlankCellTest>>testCellSomePlayerActive
+BlankCellTest(TestCase)>>performTest
+[ self setUp.
+self performTest ] in BlankCellTest(TestCase)>>runCase in Block: [ self setUp....
+BlockClosure>>ensure:
+BlankCellTest(TestCase)>>runCase
+[ aTestCase runCase ] in [ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ aTestCase runCase ]
+BlockClosure>>on:do:
+[ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ [ aTestCase runCase ]...
+BlockClosure>>on:do:
+TestExecutionEnvironment>>runTestCaseSafelly:
+[ self runTestCaseSafelly: aTestCase ] in [ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ self runTestCaseSafelly: aTestCase ]
+BlockClosure>>ensure:
+[ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ [ self runTestCaseSafelly: aTestCase ]...
+BlockClosure>>ifCurtailed:
+TestExecutionEnvironment>>runTestCase:
+[ testEnv runTestCase: aTestCase ] in DefaultExecutionEnvironment>>runTestCase: in Block: [ testEnv runTestCase: aTestCase ]
+[ self value: anExecutionEnvironment.
+anExecutionEnvironment activated.
+aBlock value ] in CurrentExecutionEnvironment class>>activate:for: in Block: [ self value: anExecutionEnvironment....
+BlockClosure>>ensure:
+CurrentExecutionEnvironment class>>activate:for:
+TestExecutionEnvironment(ExecutionEnvironment)>>beActiveDuring:
+DefaultExecutionEnvironment>>runTestCase:
+CurrentExecutionEnvironment class>>runTestCase:
+[0m[31mError: only integers should be used as indices
+[0mByteSymbol(Object)>>error:
+ByteSymbol(Object)>>errorNonIntegerIndex
+ByteSymbol(Object)>>at:
+ByteSymbol>>at:
+BlankCell>>isPlayerActive:
+BlankCell>>somePlayerActive
+[ cell somePlayerActive ] in BlankCellTest>>testCellSomePlayerActive in Block: [ cell somePlayerActive ]
+BlankCellTest(TestAsserter)>>should:
+BlankCellTest>>testCellSomePlayerActive
+BlankCellTest(TestCase)>>performTest
+[ self setUp.
+self performTest ] in BlankCellTest(TestCase)>>runCase in Block: [ self setUp....
+BlockClosure>>ensure:
+BlankCellTest(TestCase)>>runCase
+[ aTestCase runCase ] in [ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ aTestCase runCase ]
+BlockClosure>>on:do:
+[ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ [ aTestCase runCase ]...
+BlockClosure>>on:do:
+TestExecutionEnvironment>>runTestCaseSafelly:
+[ self runTestCaseSafelly: aTestCase ] in [ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ self runTestCaseSafelly: aTestCase ]
+BlockClosure>>ensure:
+[ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ [ self runTestCaseSafelly: aTestCase ]...
+BlockClosure>>ifCurtailed:
+TestExecutionEnvironment>>runTestCase:
+[ testEnv runTestCase: aTestCase ] in DefaultExecutionEnvironment>>runTestCase: in Block: [ testEnv runTestCase: aTestCase ]
+[ self value: anExecutionEnvironment.
+anExecutionEnvironment activated.
+aBlock value ] in CurrentExecutionEnvironment class>>activate:for: in Block: [ self value: anExecutionEnvironment....
+BlockClosure>>ensure:
+CurrentExecutionEnvironment class>>activate:for:
+TestExecutionEnvironment(ExecutionEnvironment)>>beActiveDuring:
+DefaultExecutionEnvironment>>runTestCase:
+CurrentExecutionEnvironment class>>runTestCase:
+[0m[31mError: only integers should be used as indices
+[0mByteSymbol(Object)>>error:
+ByteSymbol(Object)>>errorNonIntegerIndex
+ByteSymbol(Object)>>at:
+ByteSymbol>>at:
+BlankCell>>isPlayerActive:
+BlankCell>>somePlayerActive
+[ cell somePlayerActive ] in BlankCellTest>>testCellSomePlayerActive in Block: [ cell somePlayerActive ]
+BlankCellTest(TestAsserter)>>should:
+BlankCellTest>>testCellSomePlayerActive
+BlankCellTest(TestCase)>>performTest
+[ self setUp.
+self performTest ] in BlankCellTest(TestCase)>>runCase in Block: [ self setUp....
+BlockClosure>>ensure:
+BlankCellTest(TestCase)>>runCase
+[ aTestCase runCase ] in [ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ aTestCase runCase ]
+BlockClosure>>on:do:
+[ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ [ aTestCase runCase ]...
+BlockClosure>>on:do:
+TestExecutionEnvironment>>runTestCaseSafelly:
+[ self runTestCaseSafelly: aTestCase ] in [ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ self runTestCaseSafelly: aTestCase ]
+BlockClosure>>ensure:
+[ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ [ self runTestCaseSafelly: aTestCase ]...
+BlockClosure>>ifCurtailed:
+TestExecutionEnvironment>>runTestCase:
+[ testEnv runTestCase: aTestCase ] in DefaultExecutionEnvironment>>runTestCase: in Block: [ testEnv runTestCase: aTestCase ]
+[ self value: anExecutionEnvironment.
+anExecutionEnvironment activated.
+aBlock value ] in CurrentExecutionEnvironment class>>activate:for: in Block: [ self value: anExecutionEnvironment....
+BlockClosure>>ensure:
+CurrentExecutionEnvironment class>>activate:for:
+TestExecutionEnvironment(ExecutionEnvironment)>>beActiveDuring:
+DefaultExecutionEnvironment>>runTestCase:
+CurrentExecutionEnvironment class>>runTestCase:
+[0m[31m
+[0mProcess>>terminate
+NECController>>stopCompletionDelay
+NECController>>closeMenu
+MessageSend>>value
+MessageSend>>cull:
+MessageSend>>cull:cull:
+[ action cull: anAnnouncement cull: announcer ] in AnnouncementSubscription>>deliver: in Block: [ action cull: anAnnouncement cull: announcer ]
+BlockClosure>>on:do:
+BlockClosure>>on:fork:
+AnnouncementSubscription>>deliver:
+[ "Ensure delivery to remaining announcements" subscription deliver: anAnnouncement ] in SubscriptionRegistry>>deliver:to:startingAt: in Block: [ "Ensure delivery to remaining announcements" sub...etc...
+BlockClosure>>ifCurtailed:
+SubscriptionRegistry>>deliver:to:startingAt:
+SubscriptionRegistry>>deliver:to:
+SubscriptionRegistry>>deliver:
+Announcer>>announce:
+RubEditingArea(Morph)>>doAnnounce:
+RubEditingArea(Morph)>>announceKeyboardFocusChange:
+RubEditingArea(Morph)>>keyboardFocusChange:
+RubEditingArea(RubAbstractTextArea)>>keyboardFocusChange:
+HandMorph>>newKeyboardFocus:
+HandMorph>>releaseKeyboardFocus
+[ :hand | hand releaseKeyboardFocus ] in WorldMorph>>viewBox: in Block: [ :hand | hand releaseKeyboardFocus ]
+Array(SequenceableCollection)>>do:
+WorldState>>handsDo:
+WorldMorph>>viewBox:
+WorldMorph(PasteUpMorph)>>restoreMorphicDisplay
+WorldMorph class>>startUp
+WorldMorph class(Behavior)>>startUp:
+ClassSessionHandler>>startup:
+[0m[31m
+[0mProcess>>terminate
+NECController>>stopCompletionDelay
+NECController>>closeMenu
+MessageSend>>value
+MessageSend>>cull:
+MessageSend>>cull:cull:
+[ action cull: anAnnouncement cull: announcer ] in AnnouncementSubscription>>deliver: in Block: [ action cull: anAnnouncement cull: announcer ]
+BlockClosure>>on:do:
+BlockClosure>>on:fork:
+AnnouncementSubscription>>deliver:
+[ "Ensure delivery to remaining announcements" subscription deliver: anAnnouncement ] in SubscriptionRegistry>>deliver:to:startingAt: in Block: [ "Ensure delivery to remaining announcements" sub...etc...
+BlockClosure>>ifCurtailed:
+SubscriptionRegistry>>deliver:to:startingAt:
+SubscriptionRegistry>>deliver:to:
+SubscriptionRegistry>>deliver:
+Announcer>>announce:
+RubEditingArea(Morph)>>doAnnounce:
+RubEditingArea(Morph)>>announceKeyboardFocusChange:
+RubEditingArea(Morph)>>keyboardFocusChange:
+RubEditingArea(RubAbstractTextArea)>>keyboardFocusChange:
+HandMorph>>newKeyboardFocus:
+HandMorph>>releaseKeyboardFocus
+[ :hand | hand releaseKeyboardFocus ] in WorldMorph>>viewBox: in Block: [ :hand | hand releaseKeyboardFocus ]
+Array(SequenceableCollection)>>do:
+WorldState>>handsDo:
+WorldMorph>>viewBox:
+WorldMorph(PasteUpMorph)>>restoreMorphicDisplay
+WorldMorph class>>startUp
+WorldMorph class(Behavior)>>startUp:
+ClassSessionHandler>>startup:
+[0m[31m
+[0mProcess>>terminate
+NECController>>stopCompletionDelay
+NECController>>closeMenu
+MessageSend>>value
+MessageSend>>cull:
+MessageSend>>cull:cull:
+[ action cull: anAnnouncement cull: announcer ] in AnnouncementSubscription>>deliver: in Block: [ action cull: anAnnouncement cull: announcer ]
+BlockClosure>>on:do:
+BlockClosure>>on:fork:
+AnnouncementSubscription>>deliver:
+[ "Ensure delivery to remaining announcements" subscription deliver: anAnnouncement ] in SubscriptionRegistry>>deliver:to:startingAt: in Block: [ "Ensure delivery to remaining announcements" sub...etc...
+BlockClosure>>ifCurtailed:
+SubscriptionRegistry>>deliver:to:startingAt:
+SubscriptionRegistry>>deliver:to:
+SubscriptionRegistry>>deliver:
+Announcer>>announce:
+RubEditingArea(Morph)>>doAnnounce:
+RubEditingArea(Morph)>>announceKeyboardFocusChange:
+RubEditingArea(Morph)>>keyboardFocusChange:
+RubEditingArea(RubAbstractTextArea)>>keyboardFocusChange:
+HandMorph>>newKeyboardFocus:
+HandMorph>>releaseKeyboardFocus
+[ :hand | hand releaseKeyboardFocus ] in WorldMorph>>viewBox: in Block: [ :hand | hand releaseKeyboardFocus ]
+Array(SequenceableCollection)>>do:
+WorldState>>handsDo:
+WorldMorph>>viewBox:
+WorldMorph(PasteUpMorph)>>restoreMorphicDisplay
+WorldMorph class>>startUp
+WorldMorph class(Behavior)>>startUp:
+ClassSessionHandler>>startup:
+[0m[31m
+[0mProcess>>terminate
+NECController>>stopCompletionDelay
+NECController>>closeMenu
+MessageSend>>value
+MessageSend>>cull:
+MessageSend>>cull:cull:
+[ action cull: anAnnouncement cull: announcer ] in AnnouncementSubscription>>deliver: in Block: [ action cull: anAnnouncement cull: announcer ]
+BlockClosure>>on:do:
+BlockClosure>>on:fork:
+AnnouncementSubscription>>deliver:
+[ "Ensure delivery to remaining announcements" subscription deliver: anAnnouncement ] in SubscriptionRegistry>>deliver:to:startingAt: in Block: [ "Ensure delivery to remaining announcements" sub...etc...
+BlockClosure>>ifCurtailed:
+SubscriptionRegistry>>deliver:to:startingAt:
+SubscriptionRegistry>>deliver:to:
+SubscriptionRegistry>>deliver:
+Announcer>>announce:
+RubEditingArea(Morph)>>doAnnounce:
+RubEditingArea(Morph)>>announceKeyboardFocusChange:
+RubEditingArea(Morph)>>keyboardFocusChange:
+RubEditingArea(RubAbstractTextArea)>>keyboardFocusChange:
+HandMorph>>newKeyboardFocus:
+HandMorph>>releaseKeyboardFocus
+[ :hand | hand releaseKeyboardFocus ] in WorldMorph>>viewBox: in Block: [ :hand | hand releaseKeyboardFocus ]
+Array(SequenceableCollection)>>do:
+WorldState>>handsDo:
+WorldMorph>>viewBox:
+WorldMorph(PasteUpMorph)>>restoreMorphicDisplay
+WorldMorph class>>startUp
+WorldMorph class(Behavior)>>startUp:
+ClassSessionHandler>>startup:
+[0m[31m#adaptToNumber:andSend: was sent to nil
+[0mUndefinedObject(Object)>>doesNotUnderstand: #adaptToNumber:andSend:
+UndefinedObject(Object)>>adaptToInteger:andSend:
+UndefinedObject(Object)>>adaptToInteger:andCompare:
+SmallInteger(Integer)>><=
+SmallInteger>><=
+Grid>>initializeCells
+Grid>>initialize
+Grid class(Behavior)>>new
+GridTest>>testGridInitialization
+GridTest(TestCase)>>performTest
+[ self setUp.
+self performTest ] in GridTest(TestCase)>>runCase in Block: [ self setUp....
+BlockClosure>>ensure:
+GridTest(TestCase)>>runCase
+[ aTestCase runCase ] in [ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ aTestCase runCase ]
+BlockClosure>>on:do:
+[ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ [ aTestCase runCase ]...
+BlockClosure>>on:do:
+TestExecutionEnvironment>>runTestCaseSafelly:
+[ self runTestCaseSafelly: aTestCase ] in [ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ self runTestCaseSafelly: aTestCase ]
+BlockClosure>>ensure:
+[ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ [ self runTestCaseSafelly: aTestCase ]...
+BlockClosure>>ifCurtailed:
+TestExecutionEnvironment>>runTestCase:
+[ testEnv runTestCase: aTestCase ] in DefaultExecutionEnvironment>>runTestCase: in Block: [ testEnv runTestCase: aTestCase ]
+[ self value: anExecutionEnvironment.
+anExecutionEnvironment activated.
+aBlock value ] in CurrentExecutionEnvironment class>>activate:for: in Block: [ self value: anExecutionEnvironment....
+BlockClosure>>ensure:
+CurrentExecutionEnvironment class>>activate:for:
+TestExecutionEnvironment(ExecutionEnvironment)>>beActiveDuring:
+DefaultExecutionEnvironment>>runTestCase:
+CurrentExecutionEnvironment class>>runTestCase:
+[0m[31m#adaptToNumber:andSend: was sent to nil
+[0mUndefinedObject(Object)>>doesNotUnderstand: #adaptToNumber:andSend:
+UndefinedObject(Object)>>adaptToInteger:andSend:
+UndefinedObject(Object)>>adaptToInteger:andCompare:
+SmallInteger(Integer)>><=
+SmallInteger>><=
+Grid>>initializeCells
+Grid>>initialize
+Grid class(Behavior)>>new
+GridTest>>testGridInitialization
+GridTest(TestCase)>>performTest
+[ self setUp.
+self performTest ] in GridTest(TestCase)>>runCase in Block: [ self setUp....
+BlockClosure>>ensure:
+GridTest(TestCase)>>runCase
+[ aTestCase runCase ] in [ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ aTestCase runCase ]
+BlockClosure>>on:do:
+[ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ [ aTestCase runCase ]...
+BlockClosure>>on:do:
+TestExecutionEnvironment>>runTestCaseSafelly:
+[ self runTestCaseSafelly: aTestCase ] in [ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ self runTestCaseSafelly: aTestCase ]
+BlockClosure>>ensure:
+[ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ [ self runTestCaseSafelly: aTestCase ]...
+BlockClosure>>ifCurtailed:
+TestExecutionEnvironment>>runTestCase:
+[ testEnv runTestCase: aTestCase ] in DefaultExecutionEnvironment>>runTestCase: in Block: [ testEnv runTestCase: aTestCase ]
+[ self value: anExecutionEnvironment.
+anExecutionEnvironment activated.
+aBlock value ] in CurrentExecutionEnvironment class>>activate:for: in Block: [ self value: anExecutionEnvironment....
+BlockClosure>>ensure:
+CurrentExecutionEnvironment class>>activate:for:
+TestExecutionEnvironment(ExecutionEnvironment)>>beActiveDuring:
+DefaultExecutionEnvironment>>runTestCase:
+CurrentExecutionEnvironment class>>runTestCase:
+[0m[31m
+[0mProcess>>terminate
+NECController>>stopCompletionDelay
+NECController>>closeMenu
+MessageSend>>value
+MessageSend>>cull:
+MessageSend>>cull:cull:
+[ action cull: anAnnouncement cull: announcer ] in AnnouncementSubscription>>deliver: in Block: [ action cull: anAnnouncement cull: announcer ]
+BlockClosure>>on:do:
+BlockClosure>>on:fork:
+AnnouncementSubscription>>deliver:
+[ "Ensure delivery to remaining announcements" subscription deliver: anAnnouncement ] in SubscriptionRegistry>>deliver:to:startingAt: in Block: [ "Ensure delivery to remaining announcements" sub...etc...
+BlockClosure>>ifCurtailed:
+SubscriptionRegistry>>deliver:to:startingAt:
+SubscriptionRegistry>>deliver:to:
+SubscriptionRegistry>>deliver:
+Announcer>>announce:
+RubEditingArea(Morph)>>doAnnounce:
+RubEditingArea(Morph)>>announceKeyboardFocusChange:
+RubEditingArea(Morph)>>keyboardFocusChange:
+RubEditingArea(RubAbstractTextArea)>>keyboardFocusChange:
+HandMorph>>newKeyboardFocus:
+HandMorph>>releaseKeyboardFocus
+[ :hand | hand releaseKeyboardFocus ] in WorldMorph>>viewBox: in Block: [ :hand | hand releaseKeyboardFocus ]
+Array(SequenceableCollection)>>do:
+WorldState>>handsDo:
+WorldMorph>>viewBox:
+WorldMorph(PasteUpMorph)>>restoreMorphicDisplay
+WorldMorph class>>startUp
+WorldMorph class(Behavior)>>startUp:
+ClassSessionHandler>>startup:
+[0m[31m
+[0mProcess>>terminate
+NECController>>stopCompletionDelay
+NECController>>closeMenu
+MessageSend>>value
+MessageSend>>cull:
+MessageSend>>cull:cull:
+[ action cull: anAnnouncement cull: announcer ] in AnnouncementSubscription>>deliver: in Block: [ action cull: anAnnouncement cull: announcer ]
+BlockClosure>>on:do:
+BlockClosure>>on:fork:
+AnnouncementSubscription>>deliver:
+[ "Ensure delivery to remaining announcements" subscription deliver: anAnnouncement ] in SubscriptionRegistry>>deliver:to:startingAt: in Block: [ "Ensure delivery to remaining announcements" sub...etc...
+BlockClosure>>ifCurtailed:
+SubscriptionRegistry>>deliver:to:startingAt:
+SubscriptionRegistry>>deliver:to:
+SubscriptionRegistry>>deliver:
+Announcer>>announce:
+RubEditingArea(Morph)>>doAnnounce:
+RubEditingArea(Morph)>>announceKeyboardFocusChange:
+RubEditingArea(Morph)>>keyboardFocusChange:
+RubEditingArea(RubAbstractTextArea)>>keyboardFocusChange:
+HandMorph>>newKeyboardFocus:
+HandMorph>>releaseKeyboardFocus
+[ :hand | hand releaseKeyboardFocus ] in WorldMorph>>viewBox: in Block: [ :hand | hand releaseKeyboardFocus ]
+Array(SequenceableCollection)>>do:
+WorldState>>handsDo:
+WorldMorph>>viewBox:
+WorldMorph(PasteUpMorph)>>restoreMorphicDisplay
+WorldMorph class>>startUp
+WorldMorph class(Behavior)>>startUp:
+ClassSessionHandler>>startup:
 [0m[31m
 [0mProcess>>terminate
 NECController>>stopCompletionDelay
