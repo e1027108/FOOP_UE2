@@ -1,1 +1,0 @@
-grid := Grid newOfSize: 28@28.form := Form extent: (SnakeGame gameBoardExtentFor: grid) depth: Display depth.form fillColor: (Color r: 0.9 g: 0.9 b: 0.9 ). "gray background"renderer := CellRenderer new.cellLoc := 1@1.renderer 	position: cellLoc; cellGrid: grid; cellForm: form.form displayAt: 100@30.
