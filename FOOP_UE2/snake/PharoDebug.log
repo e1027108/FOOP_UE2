@@ -110729,3 +110729,1891 @@ false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess
 Processor terminateActive ] in BlockClosure>>newProcess
 -------------------------------------------------------------------------------
 
+THERE_BE_DRAGONS_HERE
+
+23 June 2017 6:42:35.785118 pm
+
+VM: unix - i686 - linux-gnu - CoInterpreter VMMaker.oscog-eem.2231 uuid: de62947a-7f40-4977-a232-e06a3a80c939 May 31 2017
+StackToRegisterMappingCogit VMMaker.oscog-eem.2227 uuid: 7ea146b4-39ce-4de7-afa3-a76ed1d1da35 May 31 2017
+VM: 201705310241 https://github.com/OpenSmalltalk/opensmalltalk-vm.git $ Date: Tue May 30 19:41:27 2017 -0700 $ Plugins: 201705310241 https://github.com/OpenSmalltalk/opensmalltalk-vm.git $
+
+Image: Pharo6.0 [Latest update: #60499]
+
+Process>>terminate
+	Receiver: a Process in Process>>terminate
+	Arguments and temporary variables: 
+		ctxt: 	nil
+		unwindBlock: 	nil
+		oldList: 	nil
+	Receiver's instance variables: 
+		nextLink: 	nil
+		suspendedContext: 	Process>>terminate
+		priority: 	40
+		myList: 	nil
+		name: 	nil
+		env: 	nil
+		effectiveProcess: 	nil
+		terminating: 	true
+
+
+NECController>>stopCompletionDelay
+	Receiver: a NECController
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		model: 	a RubScrolledTextModel
+		menuMorph: 	nil
+		editor: 	a RubSmalltalkEditor
+		context: 	nil
+		inverseMapping: 	a Dictionary($"->$" $'->$' $)->$( $]->$[ $}->${ )
+		completionDelay: 	a Process in Process>>terminate
+
+
+NECController>>closeMenu
+	Receiver: a NECController
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		model: 	a RubScrolledTextModel
+		menuMorph: 	nil
+		editor: 	a RubSmalltalkEditor
+		context: 	nil
+		inverseMapping: 	a Dictionary($"->$" $'->$' $)->$( $]->$[ $}->${ )
+		completionDelay: 	a Process in Process>>terminate
+
+
+MessageSend>>value
+	Receiver: MessageSend(#closeMenu -> a NECController)
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		receiver: 	a NECController
+		selector: 	#closeMenu
+		arguments: 	#()
+
+
+MessageSend>>cull:
+	Receiver: MessageSend(#closeMenu -> a NECController)
+	Arguments and temporary variables: 
+		arg: 	a MorphLostFocus
+	Receiver's instance variables: 
+		receiver: 	a NECController
+		selector: 	#closeMenu
+		arguments: 	#()
+
+
+MessageSend>>cull:cull:
+	Receiver: MessageSend(#closeMenu -> a NECController)
+	Arguments and temporary variables: 
+		arg1: 	a MorphLostFocus
+		arg2: 	an Announcer
+	Receiver's instance variables: 
+		receiver: 	a NECController
+		selector: 	#closeMenu
+		arguments: 	#()
+
+
+[ action cull: anAnnouncement cull: announcer ] in AnnouncementSubscription>>deliver:
+	Receiver: an AnnouncementSubscription
+	Arguments and temporary variables: 
+		anAnnouncement: 	a MorphLostFocus
+	Receiver's instance variables: 
+		announcer: 	an Announcer
+		announcementClass: 	MorphLostFocus
+		subscriber: 	a NECController
+		action: 	MessageSend(#closeMenu -> a NECController)
+
+
+BlockClosure>>on:do:
+	Receiver: [ action cull: anAnnouncement cull: announcer ]
+	Arguments and temporary variables: 
+		exception: 	UnhandledError
+		handlerAction: 	[ :ex | 
+| copy onDoCtx process handler bottom thisCtx |
+onDoCtx...etc...
+	Receiver's instance variables: 
+		outerContext: 	AnnouncementSubscription>>deliver:
+		startpc: 	47
+		numArgs: 	0
+
+
+BlockClosure>>on:fork:
+	Receiver: [ action cull: anAnnouncement cull: announcer ]
+	Arguments and temporary variables: 
+		exception: 	UnhandledError
+		handlerAction: 	[ :ex | ex pass ]
+	Receiver's instance variables: 
+		outerContext: 	AnnouncementSubscription>>deliver:
+		startpc: 	47
+		numArgs: 	0
+
+
+AnnouncementSubscription>>deliver:
+	Receiver: an AnnouncementSubscription
+	Arguments and temporary variables: 
+		anAnnouncement: 	a MorphLostFocus
+	Receiver's instance variables: 
+		announcer: 	an Announcer
+		announcementClass: 	MorphLostFocus
+		subscriber: 	a NECController
+		action: 	MessageSend(#closeMenu -> a NECController)
+
+
+[ "Ensure delivery to remaining announcements" subscription deliver: anAnnouncement ] in SubscriptionRegistry>>deliver:to:startingAt:
+	Receiver: a SubscriptionRegistry
+	Arguments and temporary variables: 
+		anAnnouncement: 	a MorphLostFocus
+		subs: 	an Array(an AnnouncementSubscription an AnnouncementSubscription an Annou...etc...
+		startIndex: 	1
+		index: 	4
+		subscription: 	an AnnouncementSubscription
+	Receiver's instance variables: 
+		subscriptions: 	an IdentitySet(an AnnouncementSubscription an AnnouncementSubscr...etc...
+		monitor: 	a Semaphore()
+
+
+BlockClosure>>ifCurtailed:
+	Receiver: [ "Ensure delivery to remaining announcements" subscription deliver: anAnnouncement ]
+	Arguments and temporary variables: 
+		aBlock: 	[ self deliver: anAnnouncement to: subs startingAt: index + 1 ]
+		complete: 	nil
+		result: 	nil
+	Receiver's instance variables: 
+		outerContext: 	SubscriptionRegistry>>deliver:to:startingAt:
+		startpc: 	54
+		numArgs: 	0
+
+
+SubscriptionRegistry>>deliver:to:startingAt:
+	Receiver: a SubscriptionRegistry
+	Arguments and temporary variables: 
+		anAnnouncement: 	a MorphLostFocus
+		subs: 	an Array(an AnnouncementSubscription an AnnouncementSubscription an Annou...etc...
+		startIndex: 	1
+		subscription: 	an AnnouncementSubscription
+		index: 	4
+	Receiver's instance variables: 
+		subscriptions: 	an IdentitySet(an AnnouncementSubscription an AnnouncementSubscr...etc...
+		monitor: 	a Semaphore()
+
+
+SubscriptionRegistry>>deliver:to:
+	Receiver: a SubscriptionRegistry
+	Arguments and temporary variables: 
+		anAnnouncement: 	a MorphLostFocus
+		subs: 	an Array(an AnnouncementSubscription an AnnouncementSubscription an Annou...etc...
+	Receiver's instance variables: 
+		subscriptions: 	an IdentitySet(an AnnouncementSubscription an AnnouncementSubscr...etc...
+		monitor: 	a Semaphore()
+
+
+SubscriptionRegistry>>deliver:
+	Receiver: a SubscriptionRegistry
+	Arguments and temporary variables: 
+		interestedSubscriptions: 	an Array(an AnnouncementSubscription an AnnouncementSu...etc...
+		anAnnouncement: 	a MorphLostFocus
+	Receiver's instance variables: 
+		subscriptions: 	an IdentitySet(an AnnouncementSubscription an AnnouncementSubscr...etc...
+		monitor: 	a Semaphore()
+
+
+Announcer>>announce:
+	Receiver: an Announcer
+	Arguments and temporary variables: 
+		anAnnouncement: 	a MorphLostFocus
+		announcement: 	a MorphLostFocus
+	Receiver's instance variables: 
+		registry: 	a SubscriptionRegistry
+
+
+RubEditingArea(Morph)>>doAnnounce:
+	Receiver: a RubEditingArea(357473024)
+	Arguments and temporary variables: 
+		anAnnouncement: 	a MorphLostFocus
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (1526@411)
+		owner: 	a TransformWithLayoutMorph(466835968)
+		submorphs: 	an Array(a RubPrimarySelectionMorph(711402752) a RubCursor(646287872...etc...
+		fullBounds: 	(0@0) corner: (1526@411)
+		color: 	Color transparent
+		extension: 	a MorphExtension (615461376) [other:  (announcer -> an Announcer) (k...etc...
+		model: 	a RubScrolledTextModel
+		paragraph: 	a RubShoutStylerDecorator
+		editor: 	a RubSmalltalkEditor
+		scrollPane: 	a RubTextScrollPane(281681664)
+		editingState: 	a RubEditingState
+		textStyle: 	a TextStyle Source Code Pro
+		textColor: 	Color white
+		margins: 	(6@6) corner: (6@6)
+		readOnly: 	false
+		menuAllowed: 	true
+		editingMode: 	a RubSmalltalkCodeMode
+		cursor: 	a RubCursor(646287872)
+		segments: 	an OrderedCollection()
+		getMenuPolicy: 	a RubPluggableGetMenuPolicy
+		mouseDownPoint: 	nil
+		wrapped: 	true
+		editorClass: 	RubSmalltalkEditor
+
+
+RubEditingArea(Morph)>>announceKeyboardFocusChange:
+	Receiver: a RubEditingArea(357473024)
+	Arguments and temporary variables: 
+		gotFocus: 	false
+		announcement: 	a MorphLostFocus
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (1526@411)
+		owner: 	a TransformWithLayoutMorph(466835968)
+		submorphs: 	an Array(a RubPrimarySelectionMorph(711402752) a RubCursor(646287872...etc...
+		fullBounds: 	(0@0) corner: (1526@411)
+		color: 	Color transparent
+		extension: 	a MorphExtension (615461376) [other:  (announcer -> an Announcer) (k...etc...
+		model: 	a RubScrolledTextModel
+		paragraph: 	a RubShoutStylerDecorator
+		editor: 	a RubSmalltalkEditor
+		scrollPane: 	a RubTextScrollPane(281681664)
+		editingState: 	a RubEditingState
+		textStyle: 	a TextStyle Source Code Pro
+		textColor: 	Color white
+		margins: 	(6@6) corner: (6@6)
+		readOnly: 	false
+		menuAllowed: 	true
+		editingMode: 	a RubSmalltalkCodeMode
+		cursor: 	a RubCursor(646287872)
+		segments: 	an OrderedCollection()
+		getMenuPolicy: 	a RubPluggableGetMenuPolicy
+		mouseDownPoint: 	nil
+		wrapped: 	true
+		editorClass: 	RubSmalltalkEditor
+
+
+RubEditingArea(Morph)>>keyboardFocusChange:
+	Receiver: a RubEditingArea(357473024)
+	Arguments and temporary variables: 
+		gotFocus: 	false
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (1526@411)
+		owner: 	a TransformWithLayoutMorph(466835968)
+		submorphs: 	an Array(a RubPrimarySelectionMorph(711402752) a RubCursor(646287872...etc...
+		fullBounds: 	(0@0) corner: (1526@411)
+		color: 	Color transparent
+		extension: 	a MorphExtension (615461376) [other:  (announcer -> an Announcer) (k...etc...
+		model: 	a RubScrolledTextModel
+		paragraph: 	a RubShoutStylerDecorator
+		editor: 	a RubSmalltalkEditor
+		scrollPane: 	a RubTextScrollPane(281681664)
+		editingState: 	a RubEditingState
+		textStyle: 	a TextStyle Source Code Pro
+		textColor: 	Color white
+		margins: 	(6@6) corner: (6@6)
+		readOnly: 	false
+		menuAllowed: 	true
+		editingMode: 	a RubSmalltalkCodeMode
+		cursor: 	a RubCursor(646287872)
+		segments: 	an OrderedCollection()
+		getMenuPolicy: 	a RubPluggableGetMenuPolicy
+		mouseDownPoint: 	nil
+		wrapped: 	true
+		editorClass: 	RubSmalltalkEditor
+
+
+RubEditingArea(RubAbstractTextArea)>>keyboardFocusChange:
+	Receiver: a RubEditingArea(357473024)
+	Arguments and temporary variables: 
+		aBoolean: 	false
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (1526@411)
+		owner: 	a TransformWithLayoutMorph(466835968)
+		submorphs: 	an Array(a RubPrimarySelectionMorph(711402752) a RubCursor(646287872...etc...
+		fullBounds: 	(0@0) corner: (1526@411)
+		color: 	Color transparent
+		extension: 	a MorphExtension (615461376) [other:  (announcer -> an Announcer) (k...etc...
+		model: 	a RubScrolledTextModel
+		paragraph: 	a RubShoutStylerDecorator
+		editor: 	a RubSmalltalkEditor
+		scrollPane: 	a RubTextScrollPane(281681664)
+		editingState: 	a RubEditingState
+		textStyle: 	a TextStyle Source Code Pro
+		textColor: 	Color white
+		margins: 	(6@6) corner: (6@6)
+		readOnly: 	false
+		menuAllowed: 	true
+		editingMode: 	a RubSmalltalkCodeMode
+		cursor: 	a RubCursor(646287872)
+		segments: 	an OrderedCollection()
+		getMenuPolicy: 	a RubPluggableGetMenuPolicy
+		mouseDownPoint: 	nil
+		wrapped: 	true
+		editorClass: 	RubSmalltalkEditor
+
+
+HandMorph>>newKeyboardFocus:
+	Receiver: a HandMorph(58125568)
+	Arguments and temporary variables: 
+		aMorphOrNil: 	nil
+		oldFocus: 	a RubEditingArea(357473024)
+	Receiver's instance variables: 
+		bounds: 	(608@237.0) corner: (624@253.0)
+		owner: 	a WorldMorph(562956288) [world]
+		submorphs: 	#()
+		fullBounds: 	nil
+		color: 	Color blue
+		extension: 	a MorphExtension (5551872)
+		mouseFocus: 	nil
+		keyboardFocus: 	nil
+		eventListeners: 	nil
+		mouseListeners: 	nil
+		keyboardListeners: 	nil
+		mouseClickState: 	nil
+		mouseOverHandler: 	a MouseOverHandler
+		lastMouseEvent: 	[(600@229) mouseOver 250420 nil]
+		targetOffset: 	(7.0@11.0)
+		damageRecorder: 	a DamageRecorder
+		cacheCanvas: 	nil
+		cachedCanvasHasHoles: 	false
+		temporaryCursor: 	nil
+		temporaryCursorOffset: 	nil
+		hardwareCursor: 	nil
+		hasChanged: 	true
+		savedPatch: 	nil
+		lastEventBuffer: 	#(1 250420 600 229 0 0 0 1)
+		lastKeyScanCode: 	19
+		combinedChar: 	nil
+		eventSource: 	nil
+		lastSystemEvent: 	nil
+		captureBlock: 	nil
+		recentModifiers: 	3
+
+
+HandMorph>>releaseKeyboardFocus
+	Receiver: a HandMorph(58125568)
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		bounds: 	(608@237.0) corner: (624@253.0)
+		owner: 	a WorldMorph(562956288) [world]
+		submorphs: 	#()
+		fullBounds: 	nil
+		color: 	Color blue
+		extension: 	a MorphExtension (5551872)
+		mouseFocus: 	nil
+		keyboardFocus: 	nil
+		eventListeners: 	nil
+		mouseListeners: 	nil
+		keyboardListeners: 	nil
+		mouseClickState: 	nil
+		mouseOverHandler: 	a MouseOverHandler
+		lastMouseEvent: 	[(600@229) mouseOver 250420 nil]
+		targetOffset: 	(7.0@11.0)
+		damageRecorder: 	a DamageRecorder
+		cacheCanvas: 	nil
+		cachedCanvasHasHoles: 	false
+		temporaryCursor: 	nil
+		temporaryCursorOffset: 	nil
+		hardwareCursor: 	nil
+		hasChanged: 	true
+		savedPatch: 	nil
+		lastEventBuffer: 	#(1 250420 600 229 0 0 0 1)
+		lastKeyScanCode: 	19
+		combinedChar: 	nil
+		eventSource: 	nil
+		lastSystemEvent: 	nil
+		captureBlock: 	nil
+		recentModifiers: 	3
+
+
+[ :hand | hand releaseKeyboardFocus ] in WorldMorph>>viewBox:
+	Receiver: a WorldMorph(562956288) [world]
+	Arguments and temporary variables: 
+		newViewBox: 	(0@0) corner: (1855@1056)
+		hand: 	a HandMorph(58125568)
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (1855@1056)
+		owner: 	nil
+		submorphs: 	an Array(a MenuMorph(252727040) a TaskbarMorph(804941056) a Nautilus...etc...
+		fullBounds: 	nil
+		color: 	(Color r: 0.295 g: 0.295 b: 0.295 alpha: 1.0)
+		extension: 	a MorphExtension (841644544) [other:  (dragEnabled -> true) (dropEna...etc...
+		borderWidth: 	0
+		borderColor: 	(Color r: 0.861 g: 1.0 b: 0.722 alpha: 1.0)
+		backgroundMorph: 	nil
+		worldState: 	a WorldState
+		griddingOn: 	nil
+		osWindow: 	nil
+		session: 	nil
+
+
+Array(SequenceableCollection)>>do:
+	Receiver: an Array(a HandMorph(58125568))
+	Arguments and temporary variables: 
+		aBlock: 	[ :hand | hand releaseKeyboardFocus ]
+		index: 	1
+	Receiver's instance variables: 
+an Array(a HandMorph(58125568))
+
+WorldState>>handsDo:
+	Receiver: a WorldState
+	Arguments and temporary variables: 
+		aBlock: 	[ :hand | hand releaseKeyboardFocus ]
+	Receiver's instance variables: 
+		hands: 	an Array(a HandMorph(58125568))
+		viewBox: 	(0@0) corner: (1855@1056)
+		canvas: 	nil
+		damageRecorder: 	a DamageRecorder
+		stepList: 	a Heap(StepMessage(#stepAt: -> a DropListMorph(436128512))(a DropList...etc...
+		lastStepTime: 	255498
+		lastStepMessage: 	nil
+		lastCycleTime: 	255520
+		alarms: 	a Heap()
+		lastAlarmTime: 	255498
+		menuBuilder: 	a PragmaMenuBuilder ( nil ) 
+		activeHand: 	a HandMorph(58125568)
+
+
+WorldMorph>>viewBox:
+	Receiver: a WorldMorph(562956288) [world]
+	Arguments and temporary variables: 
+		newViewBox: 	(0@0) corner: (1855@1056)
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (1855@1056)
+		owner: 	nil
+		submorphs: 	an Array(a MenuMorph(252727040) a TaskbarMorph(804941056) a Nautilus...etc...
+		fullBounds: 	nil
+		color: 	(Color r: 0.295 g: 0.295 b: 0.295 alpha: 1.0)
+		extension: 	a MorphExtension (841644544) [other:  (dragEnabled -> true) (dropEna...etc...
+		borderWidth: 	0
+		borderColor: 	(Color r: 0.861 g: 1.0 b: 0.722 alpha: 1.0)
+		backgroundMorph: 	nil
+		worldState: 	a WorldState
+		griddingOn: 	nil
+		osWindow: 	nil
+		session: 	nil
+
+
+WorldMorph(PasteUpMorph)>>restoreMorphicDisplay
+	Receiver: a WorldMorph(562956288) [world]
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (1855@1056)
+		owner: 	nil
+		submorphs: 	an Array(a MenuMorph(252727040) a TaskbarMorph(804941056) a Nautilus...etc...
+		fullBounds: 	nil
+		color: 	(Color r: 0.295 g: 0.295 b: 0.295 alpha: 1.0)
+		extension: 	a MorphExtension (841644544) [other:  (dragEnabled -> true) (dropEna...etc...
+		borderWidth: 	0
+		borderColor: 	(Color r: 0.861 g: 1.0 b: 0.722 alpha: 1.0)
+		backgroundMorph: 	nil
+		worldState: 	a WorldState
+		griddingOn: 	nil
+		osWindow: 	nil
+		session: 	nil
+
+
+WorldMorph class>>startUp
+	Receiver: WorldMorph
+	Arguments and temporary variables: 
+		world: 	a WorldMorph(562956288) [world]
+	Receiver's instance variables: 
+		superclass: 	PasteUpMorph
+		methodDict: 	a MethodDictionary(#acceptDroppingMorph:event:->WorldMorph>>#accept...etc...
+		format: 	65549
+		layout: 	a FixedLayout
+		instanceVariables: 	nil
+		organization: 	a ClassOrganization
+		subclasses: 	{AthensWorldMorph. OSWindowWorldMorph}
+		name: 	#WorldMorph
+		classPool: 	a Dictionary(#ExtraWorldList->#() )
+		sharedPools: 	an OrderedCollection()
+		environment: 	a SystemDictionary(lots of globals)
+		category: 	#'Morphic-Core-Worlds'
+		traitComposition: 	{}
+		localSelectors: 	nil
+		announcer: 	nil
+
+
+WorldMorph class(Behavior)>>startUp:
+	Receiver: WorldMorph
+	Arguments and temporary variables: 
+		resuming: 	true
+	Receiver's instance variables: 
+		superclass: 	PasteUpMorph
+		methodDict: 	a MethodDictionary(#acceptDroppingMorph:event:->WorldMorph>>#accept...etc...
+		format: 	65549
+		layout: 	a FixedLayout
+		instanceVariables: 	nil
+		organization: 	a ClassOrganization
+		subclasses: 	{AthensWorldMorph. OSWindowWorldMorph}
+		name: 	#WorldMorph
+		classPool: 	a Dictionary(#ExtraWorldList->#() )
+		sharedPools: 	an OrderedCollection()
+		environment: 	a SystemDictionary(lots of globals)
+		category: 	#'Morphic-Core-Worlds'
+		traitComposition: 	{}
+		localSelectors: 	nil
+		announcer: 	nil
+
+
+ClassSessionHandler>>startup:
+	Receiver: a ClassSessionHandler(WorldMorph)
+	Arguments and temporary variables: 
+		isImageStarting: 	true
+	Receiver's instance variables: 
+		registeredClassName: 	#WorldMorph
+
+
+[ :each | each startup: isImageStarting ] in WorkingSession>>runStartup:
+	Receiver: a WorkingSession
+	Arguments and temporary variables: 
+		isImageStarting: 	true
+		each: 	a ClassSessionHandler(WorldMorph)
+	Receiver's instance variables: 
+		manager: 	a SessionManager
+		deferredStartupActions: 	an OrderedCollection([ self new activate ] [ self manag...etc...
+		id: 	nil
+		creationTime: 	2017-06-23T18:42:35.618374+02:00
+
+
+[ aBlock value: each ] in [ :each | 
+[ aBlock value: each ]
+	on: Exception
+	do: [ :error | self errorHandler handleError: error ] ] in WorkingSession>>runList:do:
+	Receiver: a WorkingSession
+	Arguments and temporary variables: 
+		aList: 	an Array(a ClassSessionHandler(GlobalIdentifier) a ClassSessionHandler(S...etc...
+		aBlock: 	[ :each | each startup: isImageStarting ]
+		each: 	a ClassSessionHandler(WorldMorph)
+	Receiver's instance variables: 
+		manager: 	a SessionManager
+		deferredStartupActions: 	an OrderedCollection([ self new activate ] [ self manag...etc...
+		id: 	nil
+		creationTime: 	2017-06-23T18:42:35.618374+02:00
+
+
+BlockClosure>>on:do:
+	Receiver: [ aBlock value: each ]
+	Arguments and temporary variables: 
+		exception: 	Exception
+		handlerAction: 	[ :error | self errorHandler handleError: error ]
+	Receiver's instance variables: 
+		outerContext: 	[ :each | 
+[ aBlock value: each ]
+	on: Exception
+	do: [ :error | ...etc...
+		startpc: 	41
+		numArgs: 	0
+
+
+[ :each | 
+[ aBlock value: each ]
+	on: Exception
+	do: [ :error | self errorHandler handleError: error ] ] in WorkingSession>>runList:do:
+	Receiver: a WorkingSession
+	Arguments and temporary variables: 
+		aList: 	an Array(a ClassSessionHandler(GlobalIdentifier) a ClassSessionHandler(S...etc...
+		aBlock: 	[ :each | each startup: isImageStarting ]
+		each: 	a ClassSessionHandler(WorldMorph)
+	Receiver's instance variables: 
+		manager: 	a SessionManager
+		deferredStartupActions: 	an OrderedCollection([ self new activate ] [ self manag...etc...
+		id: 	nil
+		creationTime: 	2017-06-23T18:42:35.618374+02:00
+
+
+Array(SequenceableCollection)>>do:
+	Receiver: an Array(a ClassSessionHandler(GlobalIdentifier) a ClassSessionHandler(SmallInteger) a Cla...etc...
+	Arguments and temporary variables: 
+		aBlock: 	[ :each | 
+[ aBlock value: each ]
+	on: Exception
+	do: [ :error | self e...etc...
+		index: 	49
+	Receiver's instance variables: 
+an Array(a ClassSessionHandler(GlobalIdentifier) a ClassSessionHandler(SmallInteger) a Cla...etc...
+
+WorkingSession>>runList:do:
+	Receiver: a WorkingSession
+	Arguments and temporary variables: 
+		aList: 	an Array(a ClassSessionHandler(GlobalIdentifier) a ClassSessionHandler(S...etc...
+		aBlock: 	[ :each | each startup: isImageStarting ]
+	Receiver's instance variables: 
+		manager: 	a SessionManager
+		deferredStartupActions: 	an OrderedCollection([ self new activate ] [ self manag...etc...
+		id: 	nil
+		creationTime: 	2017-06-23T18:42:35.618374+02:00
+
+
+WorkingSession>>runStartup:
+	Receiver: a WorkingSession
+	Arguments and temporary variables: 
+		isImageStarting: 	true
+	Receiver's instance variables: 
+		manager: 	a SessionManager
+		deferredStartupActions: 	an OrderedCollection([ self new activate ] [ self manag...etc...
+		id: 	nil
+		creationTime: 	2017-06-23T18:42:35.618374+02:00
+
+
+WorkingSession>>start:
+	Receiver: a WorkingSession
+	Arguments and temporary variables: 
+		isImageStarting: 	true
+	Receiver's instance variables: 
+		manager: 	a SessionManager
+		deferredStartupActions: 	an OrderedCollection([ self new activate ] [ self manag...etc...
+		id: 	nil
+		creationTime: 	2017-06-23T18:42:35.618374+02:00
+
+
+SessionManager>>snapshot:andQuit:
+	Receiver: a SessionManager
+	Arguments and temporary variables: 
+		save: 	true
+		quit: 	false
+		isImageStarting: 	true
+		snapshotResult: 	true
+	Receiver's instance variables: 
+		currentSession: 	a WorkingSession
+		categories: 	an OrderedCollection(a SessionCategory(System) a SessionCategory(Ne...etc...
+		guiCategory: 	a SessionCategory(Graphical User Interface)
+		toolsCategory: 	a SessionCategory(Tools)
+		networkCategory: 	a SessionCategory(Network)
+		systemCategory: 	a SessionCategory(System)
+		userCategory: 	a SessionCategory(User)
+
+
+
+--- The full stack ---
+Process>>terminate
+NECController>>stopCompletionDelay
+NECController>>closeMenu
+MessageSend>>value
+MessageSend>>cull:
+MessageSend>>cull:cull:
+[ action cull: anAnnouncement cull: announcer ] in AnnouncementSubscription>>deliver:
+BlockClosure>>on:do:
+BlockClosure>>on:fork:
+AnnouncementSubscription>>deliver:
+[ "Ensure delivery to remaining announcements" subscription deliver: anAnnouncement ] in SubscriptionRegistry>>deliver:to:startingAt:
+BlockClosure>>ifCurtailed:
+SubscriptionRegistry>>deliver:to:startingAt:
+SubscriptionRegistry>>deliver:to:
+SubscriptionRegistry>>deliver:
+Announcer>>announce:
+RubEditingArea(Morph)>>doAnnounce:
+RubEditingArea(Morph)>>announceKeyboardFocusChange:
+RubEditingArea(Morph)>>keyboardFocusChange:
+RubEditingArea(RubAbstractTextArea)>>keyboardFocusChange:
+HandMorph>>newKeyboardFocus:
+HandMorph>>releaseKeyboardFocus
+[ :hand | hand releaseKeyboardFocus ] in WorldMorph>>viewBox:
+Array(SequenceableCollection)>>do:
+WorldState>>handsDo:
+WorldMorph>>viewBox:
+WorldMorph(PasteUpMorph)>>restoreMorphicDisplay
+WorldMorph class>>startUp
+WorldMorph class(Behavior)>>startUp:
+ClassSessionHandler>>startup:
+[ :each | each startup: isImageStarting ] in WorkingSession>>runStartup:
+[ aBlock value: each ] in [ :each | 
+[ aBlock value: each ]
+	on: Exception
+	do: [ :error | self errorHandler handleError: error ] ] in WorkingSession>>runList:do:
+BlockClosure>>on:do:
+[ :each | 
+[ aBlock value: each ]
+	on: Exception
+	do: [ :error | self errorHandler handleError: error ] ] in WorkingSession>>runList:do:
+Array(SequenceableCollection)>>do:
+WorkingSession>>runList:do:
+WorkingSession>>runStartup:
+WorkingSession>>start:
+SessionManager>>snapshot:andQuit:
+ - - - - - - - - - - - - - - -  
+			- - - - - - - - - - - - - - - - - -
+[ ^ SessionManager default snapshot: save andQuit: quit ] in SmalltalkImage>>snapshot:andQuit:
+CurrentExecutionEnvironment class>>activate:for:
+DefaultExecutionEnvironment(ExecutionEnvironment)>>beActiveDuring:
+DefaultExecutionEnvironment class>>beActiveDuring:
+SmalltalkImage>>snapshot:andQuit:
+[ (Smalltalk snapshot: true andQuit: false)
+	ifFalse: [ UIManager default inform: 'Image saved' ] ] in ToolShortcutsCategory>>saveImage
+BlockClosure>>cull:
+BlockClosure>>cull:cull:
+BlockClosure>>cull:cull:cull:
+KMCategoryBinding>>completeMatch:buffer:
+[ :l | l completeMatch: self buffer: aBuffer ] in KMKeymap>>notifyCompleteMatchTo:buffer:
+Array(SequenceableCollection)>>do:
+KMKeymap>>notifyCompleteMatchTo:buffer:
+KMKeymap>>onMatchWith:notify:andDo:
+[ :entry | entry onMatchWith: anEventBuffer notify: aMatchListener andDo: aBlock ] in ToolShortcutsCategory(KMCategory)>>onMatchWith:notify:andDo:
+Set>>do:
+ToolShortcutsCategory(KMCategory)>>onMatchWith:notify:andDo:
+KMCategoryBinding>>verifyMatchWith:notifying:thenDoing:
+[ :aTarget | 
+"nice hack to stop in the first listener"
+aTarget
+	verifyMatchWith: anEventBuffer
+	notifying: self
+	thenDoing: [ ^ self ] ] in KMDispatcher>>dispatch:inCategories:
+OrderedCollection>>do:
+KMDispatcher>>dispatch:inCategories:
+KmGlobalDispatcher>>dispatch:
+[ :targetToDispatch | 
+targetToDispatch dispatch: KMBuffer uniqueInstance buffer copy.
+aKeyboardEvent wasHandled
+	ifTrue: [ ^ self ] ] in KMDispatchChain>>dispatch:
+KMDispatchChain>>do:
+KMDispatchChain>>dispatch:
+KMDispatcher>>dispatchKeystroke:
+RubEditingArea(Morph)>>dispatchKeystrokeForEvent:
+RubEditingArea(RubAbstractTextArea)>>handleKeystroke:
+KeyboardEvent>>sentTo:
+RubEditingArea(Morph)>>handleEvent:
+RubEditingArea(Morph)>>handleFocusEvent:
+[ ActiveHand := self.
+ActiveEvent := anEvent.
+result := focusHolder
+	handleFocusEvent: (anEvent transformedBy: (focusHolder transformedFrom: self)) ] in HandMorph>>sendFocusEvent:to:clear:
+BlockClosure>>on:do:
+WorldMorph(PasteUpMorph)>>becomeActiveDuring:
+HandMorph>>sendFocusEvent:to:clear:
+HandMorph>>sendEvent:focus:clear:
+HandMorph>>sendKeyboardEvent:
+HandMorph>>handleEvent:
+HandMorph>>processEventsFromQueue:
+HandMorph>>processEvents
+[ :h | 
+self activeHand: h.
+h processEvents.
+self activeHand: nil ] in WorldState>>doOneCycleNowFor:
+Array(SequenceableCollection)>>do:
+WorldState>>handsDo:
+WorldState>>doOneCycleNowFor:
+WorldState>>doOneCycleFor:
+WorldMorph>>doOneCycle
+WorldMorph class>>doOneCycle
+[ [ WorldMorph doOneCycle.
+Processor yield.
+false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess
+[ self value.
+Processor terminateActive ] in BlockClosure>>newProcess
+-------------------------------------------------------------------------------
+
+THERE_BE_DRAGONS_HERE
+Instance of SnakeModel did not understand #ifTrue:
+23 June 2017 7:14:06.311413 pm
+
+VM: unix - i686 - linux-gnu - CoInterpreter VMMaker.oscog-eem.2231 uuid: de62947a-7f40-4977-a232-e06a3a80c939 May 31 2017
+StackToRegisterMappingCogit VMMaker.oscog-eem.2227 uuid: 7ea146b4-39ce-4de7-afa3-a76ed1d1da35 May 31 2017
+VM: 201705310241 https://github.com/OpenSmalltalk/opensmalltalk-vm.git $ Date: Tue May 30 19:41:27 2017 -0700 $ Plugins: 201705310241 https://github.com/OpenSmalltalk/opensmalltalk-vm.git $
+
+Image: Pharo6.0 [Latest update: #60499]
+
+SnakeModel(Object)>>doesNotUnderstand: #ifTrue:
+	Receiver: <<error during printing>>
+	Arguments and temporary variables: 
+		aMessage: 	ifTrue: (arg1 namedTempAt: 5)
+		exception: 	MessageNotUnderstood: SnakeModel>>ifTrue:
+		resumeValue: 	nil
+	Receiver's instance variables: 
+		contents: 	nil
+		numberOfColumns: 	nil
+		numberOfRows: 	nil
+		board: 	a SnakeGame
+		blueCells: 	an OrderedCollection(a SnakeCell(937584384) a SnakeCell(623133440) a...etc...
+		redCells: 	an OrderedCollection(a SnakeCell(785209088) a SnakeCell(819474688) a ...etc...
+		blueDirection: 	#south
+		redDirection: 	#north
+		color: 	nil
+
+
+SnakeModel>>ExecuteUnOptimizedIn:
+	Receiver: <<error during printing>>
+	Arguments and temporary variables: 
+		arg1: 	SnakeModel>>moveNorth:
+	Receiver's instance variables: 
+		contents: 	nil
+		numberOfColumns: 	nil
+		numberOfRows: 	nil
+		board: 	a SnakeGame
+		blueCells: 	an OrderedCollection(a SnakeCell(937584384) a SnakeCell(623133440) a...etc...
+		redCells: 	an OrderedCollection(a SnakeCell(785209088) a SnakeCell(819474688) a ...etc...
+		blueDirection: 	#south
+		redDirection: 	#north
+		color: 	nil
+
+
+SnakeModel(Object)>>mustBeBooleanInMagic:
+	Receiver: <<error during printing>>
+	Arguments and temporary variables: 
+		context: 	SnakeModel>>moveNorth:
+		sendNode: 	RBMessageNode((self checkCollision: ordered col: playerColor = player...etc...
+		methodNode: 	ExecuteUnOptimizedIn: ThisContext
+	^ (self
+		checkCollision: (ThisC...etc...
+		method: 	SnakeModel>>#ExecuteUnOptimizedIn:
+	Receiver's instance variables: 
+		contents: 	nil
+		numberOfColumns: 	nil
+		numberOfRows: 	nil
+		board: 	a SnakeGame
+		blueCells: 	an OrderedCollection(a SnakeCell(810496256) a SnakeCell(521795328) a...etc...
+		redCells: 	an OrderedCollection(a SnakeCell(564601088) a SnakeCell(593987328) a ...etc...
+		blueDirection: 	#south
+		redDirection: 	#north
+		color: 	nil
+
+
+SnakeModel(Object)>>mustBeBoolean
+	Receiver: <<error during printing>>
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		contents: 	nil
+		numberOfColumns: 	nil
+		numberOfRows: 	nil
+		board: 	a SnakeGame
+		blueCells: 	an OrderedCollection(a SnakeCell(810496256) a SnakeCell(521795328) a...etc...
+		redCells: 	an OrderedCollection(a SnakeCell(564601088) a SnakeCell(593987328) a ...etc...
+		blueDirection: 	#south
+		redDirection: 	#north
+		color: 	nil
+
+
+SnakeModel>>moveNorth:
+	Receiver: <<error during printing>>
+	Arguments and temporary variables: 
+Cell(420353792) a...etc...
+		redCells: 	an OrderedCollection(a SnakeCell(738722048) a SnakeCell(24749824) a S...etc...
+		blueDirection: 	#south
+		redDirection: 	#north
+		color: 	nil
+
+
+SnakeModel>>ExecuteUnOptimizedIn:
+	Receiver: <<error during printing>>
+	Arguments and temporary variables: 
+		arg1: 	SnakeModel>>moveNorth:
+	Receiver's instance variables: 
+		contents: 	nil
+		numberOfColumns: 	nil
+		numberOfRows: 	nil
+		board: 	a SnakeGame
+		blueCells: 	an OrderedCollection(a SnakeCell(670961920) a SnakeCell(420353792) a...etc...
+		redCells: 	an OrderedCollection(a SnakeCell(738722048) a SnakeCell(24749824) a S...etc...
+		blueDirection: 	#south
+		redDirection: 	#north
+		color: 	nil
+
+
+SnakeModel(Object)>>mustBeBooleanInMagic:
+	Receiver: <<error during printing>>
+	Arguments and temporary variables: 
+		context: 	SnakeModel>>moveNorth:
+		sendNode: 	RBMessageNode((self checkCollision: ordered col: playerColor = player...etc...
+		methodNode: 	ExecuteUnOptimizedIn: ThisContext
+	^ (self
+		checkCollision: (ThisC...etc...
+		method: 	SnakeModel>>#ExecuteUnOptimizedIn:
+	Receiver's instance variables: 
+		contents: 	nil
+		numberOfColumns: 	nil
+		numberOfRows: 	nil
+		board: 	a SnakeGame
+		blueCells: 	an OrderedCollection(a SnakeCell(670961920) a SnakeCell(420353792) a...etc...
+		redCells: 	an OrderedCollection(a SnakeCell(738722048) a SnakeCell(24749824) a S...etc...
+		blueDirection: 	#south
+		redDirection: 	#north
+		color: 	nil
+
+
+SnakeModel(Object)>>mustBeBoolean
+	Receiver: <<error during printing>>
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		contents: 	nil
+		numberOfColumns: 	nil
+		numberOfRows: 	nil
+		board: 	a SnakeGame
+		blueCells: 	an OrderedCollection(a SnakeCell(670961920) a SnakeCell(420353792) a...etc...
+		redCells: 	an OrderedCollection(a SnakeCell(738722048) a SnakeCell(24749824) a S...etc...
+		blueDirection: 	#south
+		redDirection: 	#north
+		color: 	nil
+
+
+SnakeModel>>moveNorth:
+	Receiver: <<error during printing>>
+	Arguments and temporary variables: 
+		ordered: 	an OrderedCollection(a SnakeCell(738722048) a SnakeCell(24749824) a Sn...etc...
+		firstCell: 	a SnakeCell(738722048)
+		newCell: 	nil
+		lastCell: 	nil
+		playerColor: 	Color red
+	Receiver's instance variables: 
+		contents: 	nil
+		numberOfColumns: 	nil
+		numberOfRows: 	nil
+		board: 	a SnakeGame
+		blueCells: 	an OrderedCollection(a SnakeCell(670961920) a SnakeCell(420353792) a...etc...
+		redCells: 	an OrderedCollection(a SnakeCell(738722048) a SnakeCell(24749824) a S...etc...
+		blueDirection: 	#south
+		redDirection: 	#north
+		color: 	nil
+
+
+SnakeModel>>executeStep
+	Receiver: <<error during printing>>
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		contents: 	nil
+		numberOfColumns: 	nil
+		numberOfRows: 	nil
+		board: 	a SnakeGame
+		blueCells: 	an OrderedCollection(a SnakeCell(670961920) a SnakeCell(420353792) a...etc...
+		redCells: 	an OrderedCollection(a SnakeCell(738722048) a SnakeCell(24749824) a S...etc...
+		blueDirection: 	#south
+		redDirection: 	#north
+		color: 	nil
+
+
+[ [ winner isNil ]
+	whileTrue: [ | delay |
+		delay := Delay forMilliseconds: 200.
+		delay wait.
+		model executeStep.
+		winner := model checkWinner ] ] in SnakeGame>>start
+	Receiver: a SnakeGame
+	Arguments and temporary variables: 
+		redCell: 	nil
+		blueCell: 	nil
+		winner: 	nil
+		delay: 	a Delay(200 msecs)
+	Receiver's instance variables: 
+		container: 	a Morph(255841024)
+		model: 	<<error during printing>>
+
+[ self value.
+Processor terminateActive ] in BlockClosure>>newProcess
+	Receiver: [ [ winner isNil ]
+	whileTrue: [ | delay |
+		delay := Delay forMilliseconds: 200.
+		delay ...etc...
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		outerContext: 	SnakeGame>>start
+		startpc: 	201
+		numArgs: 	0
+
+
+
+--- The full stack ---
+SnakeModel(Object)>>doesNotUnderstand: #ifTrue:
+SnakeModel>>ExecuteUnOptimizedIn:
+SnakeModel(Object)>>mustBeBooleanInMagic:
+SnakeModel(Object)>>mustBeBoolean
+SnakeModel>>moveNorth:
+SnakeModel>>executeStep
+[ [ winner isNil ]
+	whileTrue: [ | delay |
+		delay := Delay forMilliseconds: 200.
+		delay wait.
+		model executeStep.
+		winner := model checkWinner ] ] in SnakeGame>>start
+[ self value.
+Processor terminateActive ] in BlockClosure>>newProcess
+-------------------------------------------------------------------------------
+
+THERE_BE_DRAGONS_HERE
+Instance of SnakeModel did not understand #ifTrue:
+23 June 2017 7:14:06.375068 pm
+
+VM: unix - i686 - linux-gnu - CoInterpreter VMMaker.oscog-eem.2231 uuid: de62947a-7f40-4977-a232-e06a3a80c939 May 31 2017
+StackToRegisterMappingCogit VMMaker.oscog-eem.2227 uuid: 7ea146b4-39ce-4de7-afa3-a76ed1d1da35 May 31 2017
+VM: 201705310241 https://github.com/OpenSmalltalk/opensmalltalk-vm.git $ Date: Tue May 30 19:41:27 2017 -0700 $ Plugins: 201705310241 https://github.com/OpenSmalltalk/opensmalltalk-vm.git $
+
+Image: Pharo6.0 [Latest update: #60499]
+
+SnakeModel(Object)>>doesNotUnderstand: #ifTrue:
+	Receiver: <<error during printing>>
+	Arguments and temporary variables: 
+		aMessage: 	ifTrue: (arg1 namedTempAt: 5)
+		exception: 	MessageNotUnderstood: SnakeModel>>ifTrue:
+		resumeValue: 	nil
+	Receiver's instance variables: 
+		contents: 	nil
+		numberOfColumns: 	nil
+		numberOfRows: 	nil
+		board: 	a SnakeGame
+		blueCells: 	an OrderedCollection(a SnakeCell(937584384) a SnakeCell(623133440) a...etc...
+		redCells: 	an OrderedCollection(a SnakeCell(785209088) a SnakeCell(819474688) a ...etc...
+		blueDirection: 	#south
+		redDirection: 	#north
+		color: 	nil
+
+
+SnakeModel>>ExecuteUnOptimizedIn:
+	Receiver: <<error during printing>>
+	Arguments and temporary variables: 
+		arg1: 	SnakeModel>>moveNorth:
+	Receiver's instance variables: 
+		contents: 	nil
+		numberOfColumns: 	nil
+		numberOfRows: 	nil
+		board: 	a SnakeGame
+		blueCells: 	an OrderedCollection(a SnakeCell(937584384) a SnakeCell(623133440) a...etc...
+		redCells: 	an OrderedCollection(a SnakeCell(785209088) a SnakeCell(819474688) a ...etc...
+		blueDirection: 	#south
+		redDirection: 	#north
+		color: 	nil
+
+
+SnakeModel(Object)>>mustBeBooleanInMagic:
+	Receiver: <<error during printing>>
+	Arguments and temporary variables: 
+		context: 	SnakeModel>>moveNorth:
+		sendNode: 	RBMessageNode((self checkCollision: ordered col: playerColor = player...etc...
+		methodNode: 	ExecuteUnOptimizedIn: ThisContext
+	^ (self
+		checkCollision: (ThisC...etc...
+		method: 	SnakeModel>>#ExecuteUnOptimizedIn:
+	Receiver's instance variables: 
+		contents: 	nil
+		numberOfColumns: 	nil
+		numberOfRows: 	nil
+		board: 	a SnakeGame
+		blueCells: 	an OrderedCollection(a SnakeCell(937584384) a SnakeCell(623133440) a...etc...
+		redCells: 	an OrderedCollection(a SnakeCell(785209088) a SnakeCell(819474688) a ...etc...
+		blueDirection: 	#south
+		redDirection: 	#north
+		color: 	nil
+
+
+SnakeModel(Object)>>mustBeBoolean
+	Receiver: <<error during printing>>
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		contents: 	nil
+		numberOfColumns: 	nil
+		numberOfRows: 	nil
+		board: 	a SnakeGame
+		blueCells: 	an OrderedCollection(a SnakeCell(937584384) a SnakeCell(623133440) a...etc...
+		redCells: 	an OrderedCollection(a SnakeCell(785209088) a SnakeCell(819474688) a ...etc...
+		blueDirection: 	#south
+		redDirection: 	#north
+		color: 	nil
+
+
+SnakeModel>>moveNorth:
+	Receiver: <<error during printing>>
+	Arguments and temporary variables: 
+		ordered: 	an OrderedCollection(a SnakeCell(785209088) a SnakeCell(819474688) a S...etc...
+		firstCell: 	a SnakeCell(785209088)
+		newCell: 	nil
+		lastCell: 	nil
+		playerColor: 	Color red
+	Receiver's instance variables: 
+		contents: 	nil
+		numberOfColumns: 	nil
+		numberOfRows: 	nil
+		board: 	a SnakeGame
+		blueCells: 	an OrderedCollection(a SnakeCell(937584384) a SnakeCell(623133440) a...etc...
+		redCells: 	an OrderedCollection(a SnakeCell(785209088) a SnakeCell(819474688) a ...etc...
+		blueDirection: 	#south
+		redDirection: 	#north
+		color: 	nil
+
+
+SnakeModel>>executeStep
+	Receiver: <<error during printing>>
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		contents: 	nil
+		numberOfColumns: 	nil
+		numberOfRows: 	nil
+		board: 	a SnakeGame
+		blueCells: 	an OrderedCollection(a SnakeCell(937584384) a SnakeCell(623133440) a...etc...
+		redCells: 	an OrderedCollection(a SnakeCell(785209088) a SnakeCell(819474688) a ...etc...
+		blueDirection: 	#south
+		redDirection: 	#north
+		color: 	nil
+
+
+[ [ winner isNil ]
+	whileTrue: [ | delay |
+		delay := Delay forMilliseconds: 200.
+		delay wait.
+		model executeStep.
+		winner := model checkWinner ] ] in SnakeGame>>start
+	Receiver: a SnakeGame
+	Arguments and temporary variables: 
+		redCell: 	nil
+		blueCell: 	nil
+		winner: 	nil
+		delay: 	a Delay(200 msecs)
+	Receiver's instance variables: 
+		container: 	a Morph(1038680320)
+		model: 	<<error during printing>>
+
+[ self value.
+Processor terminateActive ] in BlockClosure>>newProcess
+	Receiver: [ [ winner isNil ]
+	whileTrue: [ | delay |
+		delay := Delay forMilliseconds: 200.
+		delay ...etc...
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		outerContext: 	SnakeGame>>start
+		startpc: 	201
+		numArgs: 	0
+
+
+
+--- The full stack ---
+SnakeModel(Object)>>doesNotUnderstand: #ifTrue:
+SnakeModel>>ExecuteUnOptimizedIn:
+SnakeModel(Object)>>mustBeBooleanInMagic:
+SnakeModel(Object)>>mustBeBoolean
+SnakeModel>>moveNorth:
+SnakeModel>>executeStep
+[ [ winner isNil ]
+	whileTrue: [ | delay |
+		delay := Delay forMilliseconds: 200.
+		delay wait.
+		model executeStep.
+		winner := model checkWinner ] ] in SnakeGame>>start
+[ self value.
+Processor terminateActive ] in BlockClosure>>newProcess
+-------------------------------------------------------------------------------
+
+	#north
+		color: 	nil
+
+
+SnakeModel(Object)>>mustBeBoolean
+	Receiver: <<error during printing>>
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		contents: 	nil
+		numberOfColumns: 	nil
+		numberOfRows: 	nil
+		board: 	a SnakeGame
+		blueCells: 	an OrderedCollection(a SnakeCell(725463296) a SnakeCell(523204352) a...etc...
+		redCells: 	an OrderedCollection(a SnakeCell(623747328) a SnakeCell(379913984) a ...etc...
+		blueDirection: 	#south
+		redDirection: 	#north
+		color: 	nil
+
+
+SnakeModel>>moveNorth:
+	Receiver: <<error during printing>>
+	Arguments and temporary variables: 
+		ordered: 	an OrderedCollection(a SnakeCell(623747328) a SnakeCell(379913984) a S...etc...
+		firstCell: 	a SnakeCell(623747328)
+		newCell: 	nil
+		lastCell: 	nil
+		playerColor: 	Color red
+	Receiver's instance variables: 
+		contents: 	nil
+		numberOfColumns: 	nil
+		numberOfRows: 	nil
+		board: 	a SnakeGame
+		blueCells: 	an OrderedCollection(a SnakeCell(725463296) a SnakeCell(523204352) a...etc...
+		redCells: 	an OrderedCollection(a SnakeCell(623747328) a SnakeCell(379913984) a ...etc...
+		blueDirection: 	#south
+		redDirection: 	#north
+		color: 	nil
+
+
+SnakeModel>>executeStep
+	Receiver: <<error during printing>>
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		contents: 	nil
+		numberOfColumns: 	nil
+		numberOfRows: 	nil
+		board: 	a SnakeGame
+		blueCells: 	an OrderedCollection(a SnakeCell(725463296) a SnakeCell(523204352) a...etc...
+		redCells: 	an OrderedCollection(a SnakeCell(623747328) a SnakeCell(379913984) a ...etc...
+		blueDirection: 	#south
+		redDirection: 	#north
+		color: 	nil
+
+
+[ [ winner isNil ]
+	whileTrue: [ | delay |
+		delay := Delay forMilliseconds: 200.
+		delay wait.
+		model executeStep.
+		winner := model checkWinner ] ] in SnakeGame>>start
+	Receiver: a SnakeGame
+	Arguments and temporary variables: 
+		redCell: 	nil
+		blueCell: 	nil
+		winner: 	nil
+		delay: 	a Delay(200 msecs)
+	Receiver's instance variables: 
+		container: 	a Morph(710441216)
+		model: 	<<error during printing>>
+
+[ self value.
+Processor terminateActive ] in BlockClosure>>newProcess
+	Receiver: [ [ winner isNil ]
+	whileTrue: [ | delay |
+		delay := Delay forMilliseconds: 200.
+		delay ...etc...
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		outerContext: 	SnakeGame>>start
+		startpc: 	201
+		numArgs: 	0
+
+
+
+--- The full stack ---
+SnakeModel(Object)>>doesNotUnderstand: #ifTrue:
+SnakeModel>>ExecuteUnOptimizedIn:
+SnakeModel(Object)>>mustBeBooleanInMagic:
+SnakeModel(Object)>>mustBeBoolean
+SnakeModel>>moveNorth:
+SnakeModel>>executeStep
+[ [ winner isNil ]
+	whileTrue: [ | delay |
+		delay := Delay forMilliseconds: 200.
+		delay wait.
+		model executeStep.
+		winner := model checkWinner ] ] in SnakeGame>>start
+[ self value.
+Processor terminateActive ] in BlockClosure>>newProcess
+-------------------------------------------------------------------------------
+
+THERE_BE_DRAGONS_HERE
+Instance of SnakeModel did not understand #ifTrue:
+23 June 2017 7:14:06.761715 pm
+
+VM: unix - i686 - linux-gnu - CoInterpreter VMMaker.oscog-eem.2231 uuid: de62947a-7f40-4977-a232-e06a3a80c939 May 31 2017
+StackToRegisterMappingCogit VMMaker.oscog-eem.2227 uuid: 7ea146b4-39ce-4de7-afa3-a76ed1d1da35 May 31 2017
+VM: 201705310241 https://github.com/OpenSmalltalk/opensmalltalk-vm.git $ Date: Tue May 30 19:41:27 2017 -0700 $ Plugins: 201705310241 https://github.com/OpenSmalltalk/opensmalltalk-vm.git $
+
+Image: Pharo6.0 [Latest update: #60499]
+
+SnakeModel(Object)>>doesNotUnderstand: #ifTrue:
+	Receiver: <<error during printing>>
+	Arguments and temporary variables: 
+		aMessage: 	ifTrue: (arg1 namedTempAt: 5)
+		exception: 	MessageNotUnderstood: SnakeModel>>ifTrue:
+		resumeValue: 	nil
+	Receiver's instance variables: 
+		contents: 	nil
+		numberOfColumns: 	nil
+		numberOfRows: 	nil
+		board: 	a SnakeGame
+		blueCells: 	an OrderedCollection(a SnakeCell(1073312000) a SnakeCell(292140800) ...etc...
+		redCells: 	an OrderedCollection(a SnakeCell(862806272) a SnakeCell(301680384) a ...etc...
+		blueDirection: 	#south
+		redDirection: 	#north
+		color: 	nil
+
+
+SnakeModel>>ExecuteUnOptimizedIn:
+	Receiver: <<error during printing>>
+	Arguments and temporary variables: 
+		arg1: 	SnakeModel>>moveNorth:
+	Receiver's instance variables: 
+		contents: 	nil
+		numberOfColumns: 	nil
+		numberOfRows: 	nil
+		board: 	a SnakeGame
+		blueCells: 	an OrderedCollection(a SnakeCell(1073312000) a SnakeCell(292140800) ...etc...
+		redCells: 	an OrderedCollection(a SnakeCell(862806272) a SnakeCell(301680384) a ...etc...
+		blueDirection: 	#south
+		redDirection: 	#north
+		color: 	nil
+
+
+SnakeModel(Object)>>mustBeBooleanInMagic:
+	Receiver: <<error during printing>>
+	Arguments and temporary variables: 
+		context: 	SnakeModel>>moveNorth:
+		sendNode: 	RBMessageNode((self checkCollision: ordered col: playerColor = player...etc...
+		methodNode: 	ExecuteUnOptimizedIn: ThisContext
+	^ (self
+		checkCollision: (ThisC...etc...
+		method: 	SnakeModel>>#ExecuteUnOptimizedIn:
+	Receiver's instance variables: 
+		contents: 	nil
+		numberOfColumns: 	nil
+		numberOfRows: 	nil
+		board: 	a SnakeGame
+		blueCells: 	an OrderedCollection(a SnakeCell(1073312000) a SnakeCell(292140800) ...etc...
+		redCells: 	an OrderedCollection(a SnakeCell(862806272) a SnakeCell(301680384) a ...etc...
+		blueDirection: 	#south
+		redDirection: 	#north
+		color: 	nil
+
+
+SnakeModel(Object)>>mustBeBoolean
+	Receiver: <<error during printing>>
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		contents: 	nil
+		numberOfColumns: 	nil
+		numberOfRows: 	nil
+		board: 	a SnakeGame
+		blueCells: 	an OrderedCollection(a SnakeCell(1073312000) a SnakeCell(292140800) ...etc...
+		redCells: 	an OrderedCollection(a SnakeCell(862806272) a SnakeCell(301680384) a ...etc...
+		blueDirection: 	#south
+		redDirection: 	#north
+		color: 	nil
+
+
+SnakeModel>>moveNorth:
+	Receiver: <<error during printing>>
+	Arguments and temporary variables: 
+		ordered: 	an OrderedCollection(a SnakeCell(862806272) a SnakeCell(301680384) a S...etc...
+		firstCell: 	a SnakeCell(862806272)
+		newCell: 	nil
+		lastCell: 	nil
+		playerColor: 	Color red
+	Receiver's instance variables: 
+		contents: 	nil
+		numberOfColumns: 	nil
+		numberOfRows: 	nil
+		board: 	a SnakeGame
+		blueCells: 	an OrderedCollection(a SnakeCell(1073312000) a SnakeCell(292140800) ...etc...
+		redCells: 	an OrderedCollection(a SnakeCell(862806272) a SnakeCell(301680384) a ...etc...
+		blueDirection: 	#south
+		redDirection: 	#north
+		color: 	nil
+
+
+SnakeModel>>executeStep
+	Receiver: <<error during printing>>
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		contents: 	nil
+		numberOfColumns: 	nil
+		numberOfRows: 	nil
+		board: 	a SnakeGame
+		blueCells: 	an OrderedCollection(a SnakeCell(1073312000) a SnakeCell(292140800) ...etc...
+		redCells: 	an OrderedCollection(a SnakeCell(862806272) a SnakeCell(301680384) a ...etc...
+		blueDirection: 	#south
+		redDirection: 	#north
+		color: 	nil
+
+
+[ [ winner isNil ]
+	whileTrue: [ | delay |
+		delay := Delay forMilliseconds: 200.
+		delay wait.
+		model executeStep.
+		winner := model checkWinner ] ] in SnakeGame>>start
+	Receiver: a SnakeGame
+	Arguments and temporary variables: 
+		redCell: 	nil
+		blueCell: 	nil
+		winner: 	nil
+		delay: 	a Delay(200 msecs)
+	Receiver's instance variables: 
+		container: 	a Morph(465694976)
+		model: 	<<error during printing>>
+
+[ self value.
+Processor terminateActive ] in BlockClosure>>newProcess
+	Receiver: [ [ winner isNil ]
+	whileTrue: [ | delay |
+		delay := Delay forMilliseconds: 200.
+		delay ...etc...
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		outerContext: 	SnakeGame>>start
+		startpc: 	201
+		numArgs: 	0
+
+
+
+--- The full stack ---
+SnakeModel(Object)>>doesNotUnderstand: #ifTrue:
+SnakeModel>>ExecuteUnOptimizedIn:
+SnakeModel(Object)>>mustBeBooleanInMagic:
+SnakeModel(Object)>>mustBeBoolean
+SnakeModel>>moveNorth:
+SnakeModel>>executeStep
+[ [ winner isNil ]
+	whileTrue: [ | delay |
+		delay := Delay forMilliseconds: 200.
+		delay wait.
+		model executeStep.
+		winner := model checkWinner ] ] in SnakeGame>>start
+[ self value.
+Processor terminateActive ] in BlockClosure>>newProcess
+-------------------------------------------------------------------------------
+
+THERE_BE_DRAGONS_HERE
+Instance of SnakeModel did not understand #ifTrue:
+23 June 2017 7:14:48.071976 pm
+
+VM: unix - i686 - linux-gnu - CoInterpreter VMMaker.oscog-eem.2231 uuid: de62947a-7f40-4977-a232-e06a3a80c939 May 31 2017
+StackToRegisterMappingCogit VMMaker.oscog-eem.2227 uuid: 7ea146b4-39ce-4de7-afa3-a76ed1d1da35 May 31 2017
+VM: 201705310241 https://github.com/OpenSmalltalk/opensmalltalk-vm.git $ Date: Tue May 30 19:41:27 2017 -0700 $ Plugins: 201705310241 https://github.com/OpenSmalltalk/opensmalltalk-vm.git $
+
+Image: Pharo6.0 [Latest update: #60499]
+
+SnakeModel(Object)>>doesNotUnderstand: #ifTrue:
+	Receiver: <<error during printing>>
+	Arguments and temporary variables: 
+		aMessage: 	ifTrue: (arg1 namedTempAt: 5)
+		exception: 	MessageNotUnderstood: SnakeModel>>ifTrue:
+		resumeValue: 	nil
+	Receiver's instance variables: 
+		contents: 	nil
+		numberOfColumns: 	nil
+		numberOfRows: 	nil
+		board: 	a SnakeGame
+		blueCells: 	an OrderedCollection(a SnakeCell(175064832) a SnakeCell(262033664) a...etc...
+		redCells: 	an OrderedCollection(a SnakeCell(584570624) a SnakeCell(140787968) a ...etc...
+		blueDirection: 	#south
+		redDirection: 	#north
+		color: 	nil
+
+
+SnakeModel>>ExecuteUnOptimizedIn:
+	Receiver: <<error during printing>>
+	Arguments and temporary variables: 
+		arg1: 	SnakeModel>>moveSouth:
+	Receiver's instance variables: 
+		contents: 	nil
+		numberOfColumns: 	nil
+		numberOfRows: 	nil
+		board: 	a SnakeGame
+		blueCells: 	an OrderedCollection(a SnakeCell(175064832) a SnakeCell(262033664) a...etc...
+		redCells: 	an OrderedCollection(a SnakeCell(584570624) a SnakeCell(140787968) a ...etc...
+		blueDirection: 	#south
+		redDirection: 	#north
+		color: 	nil
+
+
+SnakeModel(Object)>>mustBeBooleanInMagic:
+	Receiver: <<error during printing>>
+	Arguments and temporary variables: 
+		context: 	SnakeModel>>moveSouth:
+		sendNode: 	RBMessageNode((self checkCollision: ordered col: playerColor = player...etc...
+		methodNode: 	ExecuteUnOptimizedIn: ThisContext
+	^ (self
+		checkCollision: (ThisC...etc...
+		method: 	SnakeModel>>#ExecuteUnOptimizedIn:
+	Receiver's instance variables: 
+		contents: 	nil
+		numberOfColumns: 	nil
+		numberOfRows: 	nil
+		board: 	a SnakeGame
+		blueCells: 	an OrderedCollection(a SnakeCell(175064832) a SnakeCell(262033664) a...etc...
+		redCells: 	an OrderedCollection(a SnakeCell(584570624) a SnakeCell(140787968) a ...etc...
+		blueDirection: 	#south
+		redDirection: 	#north
+		color: 	nil
+
+
+SnakeModel(Object)>>mustBeBoolean
+	Receiver: <<error during printing>>
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		contents: 	nil
+		numberOfColumns: 	nil
+		numberOfRows: 	nil
+		board: 	a SnakeGame
+		blueCells: 	an OrderedCollection(a SnakeCell(175064832) a SnakeCell(262033664) a...etc...
+		redCells: 	an OrderedCollection(a SnakeCell(584570624) a SnakeCell(140787968) a ...etc...
+		blueDirection: 	#south
+		redDirection: 	#north
+		color: 	nil
+
+
+SnakeModel>>moveSouth:
+	Receiver: <<error during printing>>
+	Arguments and temporary variables: 
+		ordered: 	an OrderedCollection(a SnakeCell(175064832) a SnakeCell(262033664) a S...etc...
+		firstCell: 	a SnakeCell(175064832)
+		newCell: 	nil
+		lastCell: 	nil
+		playerColor: 	Color lightGray
+	Receiver's instance variables: 
+		contents: 	nil
+		numberOfColumns: 	nil
+		numberOfRows: 	nil
+		board: 	a SnakeGame
+		blueCells: 	an OrderedCollection(a SnakeCell(175064832) a SnakeCell(262033664) a...etc...
+		redCells: 	an OrderedCollection(a SnakeCell(584570624) a SnakeCell(140787968) a ...etc...
+		blueDirection: 	#south
+		redDirection: 	#north
+		color: 	nil
+
+
+SnakeModel>>executeStep
+	Receiver: <<error during printing>>
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		contents: 	nil
+		numberOfColumns: 	nil
+		numberOfRows: 	nil
+		board: 	a SnakeGame
+		blueCells: 	an OrderedCollection(a SnakeCell(175064832) a SnakeCell(262033664) a...etc...
+		redCells: 	an OrderedCollection(a SnakeCell(584570624) a SnakeCell(140787968) a ...etc...
+		blueDirection: 	#south
+		redDirection: 	#north
+		color: 	nil
+
+
+[ [ winner isNil ]
+	whileTrue: [ | delay |
+		delay := Delay forMilliseconds: 200.
+		delay wait.
+		model executeStep.
+		winner := model checkWinner ] ] in SnakeGame>>start
+	Receiver: a SnakeGame
+	Arguments and temporary variables: 
+		redCell: 	nil
+		blueCell: 	nil
+		winner: 	nil
+		delay: 	a Delay(200 msecs)
+	Receiver's instance variables: 
+		container: 	a Morph(123863808)
+		model: 	<<error during printing>>
+
+[ self value.
+Processor terminateActive ] in BlockClosure>>newProcess
+	Receiver: [ [ winner isNil ]
+	whileTrue: [ | delay |
+		delay := Delay forMilliseconds: 200.
+		delay ...etc...
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		outerContext: 	SnakeGame>>start
+		startpc: 	201
+		numArgs: 	0
+
+
+
+--- The full stack ---
+SnakeModel(Object)>>doesNotUnderstand: #ifTrue:
+SnakeModel>>ExecuteUnOptimizedIn:
+SnakeModel(Object)>>mustBeBooleanInMagic:
+SnakeModel(Object)>>mustBeBoolean
+SnakeModel>>moveSouth:
+SnakeModel>>executeStep
+[ [ winner isNil ]
+	whileTrue: [ | delay |
+		delay := Delay forMilliseconds: 200.
+		delay wait.
+		model executeStep.
+		winner := model checkWinner ] ] in SnakeGame>>start
+[ self value.
+Processor terminateActive ] in BlockClosure>>newProcess
+-------------------------------------------------------------------------------
+
+THERE_BE_DRAGONS_HERE
+Instance of SnakeModel did not understand #ifTrue:
+23 June 2017 7:14:48.18923 pm
+
+VM: unix - i686 - linux-gnu - CoInterpreter VMMaker.oscog-eem.2231 uuid: de62947a-7f40-4977-a232-e06a3a80c939 May 31 2017
+StackToRegisterMappingCogit VMMaker.oscog-eem.2227 uuid: 7ea146b4-39ce-4de7-afa3-a76ed1d1da35 May 31 2017
+VM: 201705310241 https://github.com/OpenSmalltalk/opensmalltalk-vm.git $ Date: Tue May 30 19:41:27 2017 -0700 $ Plugins: 201705310241 https://github.com/OpenSmalltalk/opensmalltalk-vm.git $
+
+Image: Pharo6.0 [Latest update: #60499]
+
+SnakeModel(Object)>>doesNotUnderstand: #ifTrue:
+	Receiver: <<error during printing>>
+	Arguments and temporary variables: 
+		aMessage: 	ifTrue: (arg1 namedTempAt: 5)
+		exception: 	MessageNotUnderstood: SnakeModel>>ifTrue:
+		resumeValue: 	nil
+	Receiver's instance variables: 
+		contents: 	nil
+		numberOfColumns: 	nil
+		numberOfRows: 	nil
+		board: 	a SnakeGame
+		blueCells: 	an OrderedCollection(a SnakeCell(599232768) a SnakeCell(680564480) a...etc...
+		redCells: 	an OrderedCollection(a SnakeCell(749306112) a SnakeCell(743712512) a ...etc...
+		blueDirection: 	#south
+		redDirection: 	#north
+		color: 	nil
+
+
+SnakeModel>>ExecuteUnOptimizedIn:
+	Receiver: <<error during printing>>
+	Arguments and temporary variables: 
+		arg1: 	SnakeModel>>moveSouth:
+	Receiver's instance variables: 
+		contents: 	nil
+		numberOfColumns: 	nil
+		numberOfRows: 	nil
+		board: 	a SnakeGame
+		blueCells: 	an OrderedCollection(a SnakeCell(599232768) a SnakeCell(680564480) a...etc...
+		redCells: 	an OrderedCollection(a SnakeCell(749306112) a SnakeCell(743712512) a ...etc...
+		blueDirection: 	#south
+		redDirection: 	#north
+		color: 	nil
+
+
+SnakeModel(Object)>>mustBeBooleanInMagic:
+	Receiver: <<error during printing>>
+	Arguments and temporary variables: 
+		context: 	SnakeModel>>moveSouth:
+		sendNode: 	RBMessageNode((self checkCollision: ordered col: playerColor = player...etc...
+		methodNode: 	ExecuteUnOptimizedIn: ThisContext
+	^ (self
+		checkCollision: (ThisC...etc...
+		method: 	SnakeModel>>#ExecuteUnOptimizedIn:
+	Receiver's instance variables: 
+		contents: 	nil
+		numberOfColumns: 	nil
+		numberOfRows: 	nil
+		board: 	a SnakeGame
+		blueCells: 	an OrderedCollection(a SnakeCell(599232768) a SnakeCell(680564480) a...etc...
+		redCells: 	an OrderedCollection(a SnakeCell(749306112) a SnakeCell(743712512) a ...etc...
+		blueDirection: 	#south
+		redDirection: 	#north
+		color: 	nil
+
+
+SnakeModel(Object)>>mustBeBoolean
+	Receiver: <<error during printing>>
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		contents: 	nil
+		numberOfColumns: 	nil
+		numberOfRows: 	nil
+		board: 	a SnakeGame
+		blueCells: 	an OrderedCollection(a SnakeCell(599232768) a SnakeCell(680564480) a...etc...
+		redCells: 	an OrderedCollection(a SnakeCell(749306112) a SnakeCell(743712512) a ...etc...
+		blueDirection: 	#south
+		redDirection: 	#north
+		color: 	nil
+
+
+SnakeModel>>moveSouth:
+	Receiver: <<error during printing>>
+	Arguments and temporary variables: 
+		ordered: 	an OrderedCollection(a SnakeCell(599232768) a SnakeCell(680564480) a S...etc...
+		firstCell: 	a SnakeCell(599232768)
+		newCell: 	nil
+		lastCell: 	nil
+		playerColor: 	Color lightGray
+	Receiver's instance variables: 
+		contents: 	nil
+		numberOfColumns: 	nil
+		numberOfRows: 	nil
+		board: 	a SnakeGame
+		blueCells: 	an OrderedCollection(a SnakeCell(599232768) a SnakeCell(680564480) a...etc...
+		redCells: 	an OrderedCollection(a SnakeCell(749306112) a SnakeCell(743712512) a ...etc...
+		blueDirection: 	#south
+		redDirection: 	#north
+		color: 	nil
+
+
+SnakeModel>>executeStep
+	Receiver: <<error during printing>>
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		contents: 	nil
+		numberOfColumns: 	nil
+		numberOfRows: 	nil
+		board: 	a SnakeGame
+		blueCells: 	an OrderedCollection(a SnakeCell(599232768) a SnakeCell(680564480) a...etc...
+		redCells: 	an OrderedCollection(a SnakeCell(749306112) a SnakeCell(743712512) a ...etc...
+		blueDirection: 	#south
+		redDirection: 	#north
+		color: 	nil
+
+
+[ [ winner isNil ]
+	whileTrue: [ | delay |
+		delay := Delay forMilliseconds: 200.
+		delay wait.
+		model executeStep.
+		winner := model checkWinner ] ] in SnakeGame>>start
+	Receiver: a SnakeGame
+	Arguments and temporary variables: 
+		redCell: 	nil
+		blueCell: 	nil
+		winner: 	nil
+		delay: 	a Delay(200 msecs)
+	Receiver's instance variables: 
+		container: 	a Morph(462910720)
+		model: 	<<error during printing>>
+
+[ self value.
+Processor terminateActive ] in BlockClosure>>newProcess
+	Receiver: [ [ winner isNil ]
+	whileTrue: [ | delay |
+		delay := Delay forMilliseconds: 200.
+		delay ...etc...
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		outerContext: 	SnakeGame>>start
+		startpc: 	201
+		numArgs: 	0
+
+
+
+--- The full stack ---
+SnakeModel(Object)>>doesNotUnderstand: #ifTrue:
+SnakeModel>>ExecuteUnOptimizedIn:
+SnakeModel(Object)>>mustBeBooleanInMagic:
+SnakeModel(Object)>>mustBeBoolean
+SnakeModel>>moveSouth:
+SnakeModel>>executeStep
+[ [ winner isNil ]
+	whileTrue: [ | delay |
+		delay := Delay forMilliseconds: 200.
+		delay wait.
+		model executeStep.
+		winner := model checkWinner ] ] in SnakeGame>>start
+[ self value.
+Processor terminateActive ] in BlockClosure>>newProcess
+-------------------------------------------------------------------------------
+
+THERE_BE_DRAGONS_HERE
+Instance of SnakeModel did not understand #ifTrue:
+23 June 2017 7:14:48.204429 pm
+
+VM: unix - i686 - linux-gnu - CoInterpreter VMMaker.oscog-eem.2231 uuid: de62947a-7f40-4977-a232-e06a3a80c939 May 31 2017
+StackToRegisterMappingCogit VMMaker.oscog-eem.2227 uuid: 7ea146b4-39ce-4de7-afa3-a76ed1d1da35 May 31 2017
+VM: 201705310241 https://github.com/OpenSmalltalk/opensmalltalk-vm.git $ Date: Tue May 30 19:41:27 2017 -0700 $ Plugins: 201705310241 https://github.com/OpenSmalltalk/opensmalltalk-vm.git $
+
+Image: Pharo6.0 [Latest update: #60499]
+
+SnakeModel(Object)>>doesNotUnderstand: #ifTrue:
+	Receiver: <<error during printing>>
+	Arguments and temporary variables: 
+		aMessage: 	ifTrue: (arg1 namedTempAt: 5)
+		exception: 	MessageNotUnderstood: SnakeModel>>ifTrue:
+		resumeValue: 	nil
+	Receiver's instance variables: 
+		contents: 	nil
+		numberOfColumns: 	nil
+		numberOfRows: 	nil
+		board: 	a SnakeGame
+		blueCells: 	an OrderedCollection(a SnakeCell(141395712) a SnakeCell(247075072) a...etc...
+		redCells: 	an OrderedCollection(a SnakeCell(431101696) a SnakeCell(990118144) a ...etc...
+		blueDirection: 	#south
+		redDirection: 	#north
+		color: 	nil
+
+
+SnakeModel>>ExecuteUnOptimizedIn:
+	Receiver: <<error during printing>>
+	Arguments and temporary variables: 
+		arg1: 	SnakeModel>>moveSouth:
+	Receiver's instance variables: 
+		contents: 	nil
+		numberOfColumns: 	nil
+		numberOfRows: 	nil
+		board: 	a SnakeGame
+		blueCells: 	an OrderedCollection(a SnakeCell(141395712) a SnakeCell(247075072) a...etc...
+		redCells: 	an OrderedCollection(a SnakeCell(431101696) a SnakeCell(990118144) a ...etc...
+		blueDirection: 	#south
+		redDirection: 	#north
+		color: 	nil
+
+
+SnakeModel(Object)>>mustBeBooleanInMagic:
+	Receiver: <<error during printing>>
+	Arguments and temporary variables: 
+		context: 	SnakeModel>>moveSouth:
+		sendNode: 	RBMessageNode((self checkCollision: ordered col: playerColor = player...etc...
+		methodNode: 	ExecuteUnOptimizedIn: ThisContext
+	^ (self
+		checkCollision: (ThisC...etc...
+		method: 	SnakeModel>>#ExecuteUnOptimizedIn:
+	Receiver's instance variables: 
+		contents: 	nil
+		numberOfColumns: 	nil
+		numberOfRows: 	nil
+		board: 	a SnakeGame
+		blueCells: 	an OrderedCollection(a SnakeCell(141395712) a SnakeCell(247075072) a...etc...
+		redCells: 	an OrderedCollection(a SnakeCell(431101696) a SnakeCell(990118144) a ...etc...
+		blueDirection: 	#south
+		redDirection: 	#north
+		color: 	nil
+
+
+SnakeModel(Object)>>mustBeBoolean
+	Receiver: <<error during printing>>
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		contents: 	nil
+		numberOfColumns: 	nil
+		numberOfRows: 	nil
+		board: 	a SnakeGame
+		blueCells: 	an OrderedCollection(a SnakeCell(141395712) a SnakeCell(247075072) a...etc...
+		redCells: 	an OrderedCollection(a SnakeCell(431101696) a SnakeCell(990118144) a ...etc...
+		blueDirection: 	#south
+		redDirection: 	#north
+		color: 	nil
+
+
+SnakeModel>>moveSouth:
+	Receiver: <<error during printing>>
+	Arguments and temporary variables: 
+		ordered: 	an OrderedCollection(a SnakeCell(141395712) a SnakeCell(247075072) a S...etc...
+		firstCell: 	a SnakeCell(141395712)
+		newCell: 	nil
+		lastCell: 	nil
+		playerColor: 	Color lightGray
+	Receiver's instance variables: 
+		contents: 	nil
+		numberOfColumns: 	nil
+		numberOfRows: 	nil
+		board: 	a SnakeGame
+		blueCells: 	an OrderedCollection(a SnakeCell(141395712) a SnakeCell(247075072) a...etc...
+		redCells: 	an OrderedCollection(a SnakeCell(431101696) a SnakeCell(990118144) a ...etc...
+		blueDirection: 	#south
+		redDirection: 	#north
+		color: 	nil
+
+
+SnakeModel>>executeStep
+	Receiver: <<error during printing>>
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		contents: 	nil
+		numberOfColumns: 	nil
+		numberOfRows: 	nil
+		board: 	a SnakeGame
+		blueCells: 	an OrderedCollection(a SnakeCell(141395712) a SnakeCell(247075072) a...etc...
+		redCells: 	an OrderedCollection(a SnakeCell(431101696) a SnakeCell(990118144) a ...etc...
+		blueDirection: 	#south
+		redDirection: 	#north
+		color: 	nil
+
+
+[ [ winner isNil ]
+	whileTrue: [ | delay |
+		delay := Delay forMilliseconds: 200.
+		delay wait.
+		model executeStep.
+		winner := model checkWinner ] ] in SnakeGame>>start
+	Receiver: a SnakeGame
+	Arguments and temporary variables: 
