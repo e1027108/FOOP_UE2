@@ -29,459 +29,439 @@ WorldMorph(PasteUpMorph)>>restoreMorphicDisplay
 WorldMorph class>>startUp
 WorldMorph class(Behavior)>>startUp:
 ClassSessionHandler>>startup:
-[0m[31mInstance of KeyListener did not understand #newKeyboardFocus:
-[0mKeyListener(Object)>>doesNotUnderstand: #newKeyboardFocus:
-SnakeGame>>start
-[ self start ] in SnakeGame>>addControls in Block: [ self start ]
-MorphEventSubscription>>notify:from:
-[ :s | result := result | ((s notify: anEvent from: sourceMorph) == true) ] in MorphicEventHandler>>notifyMorphsOfEvent:ofType:from: in Block: [ :s | result := result | ((s notify: anEvent from...etc...
-Set>>do:
-MorphicEventHandler>>notifyMorphsOfEvent:ofType:from:
-MorphicEventHandler>>click:fromMorph:
-SimpleButtonMorph(Morph)>>click:
-MouseClickState>>click
-MouseClickState>>handleEvent:from:
-HandMorph>>handleEvent:
-HandMorph>>processEventsFromQueue:
-HandMorph>>processEvents
-[ :h | 
-self activeHand: h.
-h processEvents.
-self activeHand: nil ] in WorldState>>doOneCycleNowFor: in Block: [ :h | ...
-Array(SequenceableCollection)>>do:
-WorldState>>handsDo:
-WorldState>>doOneCycleNowFor:
-WorldState>>doOneCycleFor:
-WorldMorph>>doOneCycle
-WorldMorph class>>doOneCycle
-[ [ WorldMorph doOneCycle.
-Processor yield.
-false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
-[ self value.
-Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
-[0m[31mInstance of KeyListener did not understand #newKeyboardFocus:
-[0mKeyListener(Object)>>doesNotUnderstand: #newKeyboardFocus:
-SnakeGame>>start
-[ self start ] in SnakeGame>>addControls in Block: [ self start ]
-MorphEventSubscription>>notify:from:
-[ :s | result := result | ((s notify: anEvent from: sourceMorph) == true) ] in MorphicEventHandler>>notifyMorphsOfEvent:ofType:from: in Block: [ :s | result := result | ((s notify: anEvent from...etc...
-Set>>do:
-MorphicEventHandler>>notifyMorphsOfEvent:ofType:from:
-MorphicEventHandler>>click:fromMorph:
-SimpleButtonMorph(Morph)>>click:
-MouseClickState>>click
-MouseClickState>>handleEvent:from:
-HandMorph>>handleEvent:
-HandMorph>>processEventsFromQueue:
-HandMorph>>processEvents
-[ :h | 
-self activeHand: h.
-h processEvents.
-self activeHand: nil ] in WorldState>>doOneCycleNowFor: in Block: [ :h | ...
-Array(SequenceableCollection)>>do:
-WorldState>>handsDo:
-WorldState>>doOneCycleNowFor:
-WorldState>>doOneCycleFor:
-WorldMorph>>doOneCycle
-WorldMorph class>>doOneCycle
-[ [ WorldMorph doOneCycle.
-Processor yield.
-false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
-[ self value.
-Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
-[0m[31mInstance of KeyListener did not understand #newKeyboardFocus:
-[0mKeyListener(Object)>>doesNotUnderstand: #newKeyboardFocus:
-SnakeGame>>start
-[ self start ] in SnakeGame>>addControls in Block: [ self start ]
-MorphEventSubscription>>notify:from:
-[ :s | result := result | ((s notify: anEvent from: sourceMorph) == true) ] in MorphicEventHandler>>notifyMorphsOfEvent:ofType:from: in Block: [ :s | result := result | ((s notify: anEvent from...etc...
-Set>>do:
-MorphicEventHandler>>notifyMorphsOfEvent:ofType:from:
-MorphicEventHandler>>click:fromMorph:
-SimpleButtonMorph(Morph)>>click:
-MouseClickState>>click
-MouseClickState>>handleEvent:from:
-HandMorph>>handleEvent:
-HandMorph>>processEventsFromQueue:
-HandMorph>>processEvents
-[ :h | 
-self activeHand: h.
-h processEvents.
-self activeHand: nil ] in WorldState>>doOneCycleNowFor: in Block: [ :h | ...
-Array(SequenceableCollection)>>do:
-WorldState>>handsDo:
-WorldState>>doOneCycleNowFor:
-WorldState>>doOneCycleFor:
-WorldMorph>>doOneCycle
-WorldMorph class>>doOneCycle
-[ [ WorldMorph doOneCycle.
-Processor yield.
-false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
-[ self value.
-Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
-[0m[31mInstance of KeyListener did not understand #newKeyboardFocus:
-[0mKeyListener(Object)>>doesNotUnderstand: #newKeyboardFocus:
-SnakeGame>>start
-[ self start ] in SnakeGame>>addControls in Block: [ self start ]
-MorphEventSubscription>>notify:from:
-[ :s | result := result | ((s notify: anEvent from: sourceMorph) == true) ] in MorphicEventHandler>>notifyMorphsOfEvent:ofType:from: in Block: [ :s | result := result | ((s notify: anEvent from...etc...
-Set>>do:
-MorphicEventHandler>>notifyMorphsOfEvent:ofType:from:
-MorphicEventHandler>>click:fromMorph:
-SimpleButtonMorph(Morph)>>click:
-MouseClickState>>click
-MouseClickState>>handleEvent:from:
-HandMorph>>handleEvent:
-HandMorph>>processEventsFromQueue:
-HandMorph>>processEvents
-[ :h | 
-self activeHand: h.
-h processEvents.
-self activeHand: nil ] in WorldState>>doOneCycleNowFor: in Block: [ :h | ...
-Array(SequenceableCollection)>>do:
-WorldState>>handsDo:
-WorldState>>doOneCycleNowFor:
-WorldState>>doOneCycleFor:
-WorldMorph>>doOneCycle
-WorldMorph class>>doOneCycle
-[ [ WorldMorph doOneCycle.
-Processor yield.
-false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
-[ self value.
-Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
-[0m[31mInstance of KeyListener did not understand #ifTrue:ifFalse:
-[0mKeyListener(Object)>>doesNotUnderstand: #ifTrue:ifFalse:
-Morph>>ExecuteUnOptimizedIn:
-KeyListener(Object)>>mustBeBooleanInMagic:
-KeyListener(Object)>>mustBeBoolean
-Morph>>announceKeyboardFocusChange:
-Morph>>keyboardFocusChange:
-SnakeGame>>start
-[ self start ] in SnakeGame>>addControls in Block: [ self start ]
-MorphEventSubscription>>notify:from:
-[ :s | result := result | ((s notify: anEvent from: sourceMorph) == true) ] in MorphicEventHandler>>notifyMorphsOfEvent:ofType:from: in Block: [ :s | result := result | ((s notify: anEvent from...etc...
-Set>>do:
-MorphicEventHandler>>notifyMorphsOfEvent:ofType:from:
-MorphicEventHandler>>click:fromMorph:
-SimpleButtonMorph(Morph)>>click:
-MouseClickState>>click
-MouseClickState>>handleEvent:from:
-HandMorph>>handleEvent:
-HandMorph>>processEventsFromQueue:
-HandMorph>>processEvents
-[ :h | 
-self activeHand: h.
-h processEvents.
-self activeHand: nil ] in WorldState>>doOneCycleNowFor: in Block: [ :h | ...
-Array(SequenceableCollection)>>do:
-WorldState>>handsDo:
-WorldState>>doOneCycleNowFor:
-WorldState>>doOneCycleFor:
-WorldMorph>>doOneCycle
-WorldMorph class>>doOneCycle
-[ [ WorldMorph doOneCycle.
-Processor yield.
-false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
-[ self value.
-Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
-[0m[31mInstance of KeyListener did not understand #ifTrue:ifFalse:
-[0mKeyListener(Object)>>doesNotUnderstand: #ifTrue:ifFalse:
-Morph>>ExecuteUnOptimizedIn:
-KeyListener(Object)>>mustBeBooleanInMagic:
-KeyListener(Object)>>mustBeBoolean
-Morph>>announceKeyboardFocusChange:
-Morph>>keyboardFocusChange:
-SnakeGame>>start
-[ self start ] in SnakeGame>>addControls in Block: [ self start ]
-MorphEventSubscription>>notify:from:
-[ :s | result := result | ((s notify: anEvent from: sourceMorph) == true) ] in MorphicEventHandler>>notifyMorphsOfEvent:ofType:from: in Block: [ :s | result := result | ((s notify: anEvent from...etc...
-Set>>do:
-MorphicEventHandler>>notifyMorphsOfEvent:ofType:from:
-MorphicEventHandler>>click:fromMorph:
-SimpleButtonMorph(Morph)>>click:
-MouseClickState>>click
-MouseClickState>>handleEvent:from:
-HandMorph>>handleEvent:
-HandMorph>>processEventsFromQueue:
-HandMorph>>processEvents
-[ :h | 
-self activeHand: h.
-h processEvents.
-self activeHand: nil ] in WorldState>>doOneCycleNowFor: in Block: [ :h | ...
-Array(SequenceableCollection)>>do:
-WorldState>>handsDo:
-WorldState>>doOneCycleNowFor:
-WorldState>>doOneCycleFor:
-WorldMorph>>doOneCycle
-WorldMorph class>>doOneCycle
-[ [ WorldMorph doOneCycle.
-Processor yield.
-false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
-[ self value.
-Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
-[0m[31mInstance of KeyListener did not understand #fillRectangle:fillStyle:borderStyle:
-[0mKeyListener(Object)>>doesNotUnderstand: #fillRectangle:fillStyle:borderStyle:
-BorderedMorph(Morph)>>drawOn:
-Morph>>drawKeyboardFocusOn:
-SnakeGame>>start
-[ self start ] in SnakeGame>>addControls in Block: [ self start ]
-MorphEventSubscription>>notify:from:
-[ :s | result := result | ((s notify: anEvent from: sourceMorph) == true) ] in MorphicEventHandler>>notifyMorphsOfEvent:ofType:from: in Block: [ :s | result := result | ((s notify: anEvent from...etc...
-Set>>do:
-MorphicEventHandler>>notifyMorphsOfEvent:ofType:from:
-MorphicEventHandler>>click:fromMorph:
-SimpleButtonMorph(Morph)>>click:
-MouseClickState>>click
-MouseClickState>>handleEvent:from:
-HandMorph>>handleEvent:
-HandMorph>>processEventsFromQueue:
-HandMorph>>processEvents
-[ :h | 
-self activeHand: h.
-h processEvents.
-self activeHand: nil ] in WorldState>>doOneCycleNowFor: in Block: [ :h | ...
-Array(SequenceableCollection)>>do:
-WorldState>>handsDo:
-WorldState>>doOneCycleNowFor:
-WorldState>>doOneCycleFor:
-WorldMorph>>doOneCycle
-WorldMorph class>>doOneCycle
-[ [ WorldMorph doOneCycle.
-Processor yield.
-false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
-[ self value.
-Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
-[0m[31mInstance of KeyListener did not understand #fillRectangle:fillStyle:borderStyle:
-[0mKeyListener(Object)>>doesNotUnderstand: #fillRectangle:fillStyle:borderStyle:
-BorderedMorph(Morph)>>drawOn:
-Morph>>drawKeyboardFocusOn:
-SnakeGame>>start
-[ self start ] in SnakeGame>>addControls in Block: [ self start ]
-MorphEventSubscription>>notify:from:
-[ :s | result := result | ((s notify: anEvent from: sourceMorph) == true) ] in MorphicEventHandler>>notifyMorphsOfEvent:ofType:from: in Block: [ :s | result := result | ((s notify: anEvent from...etc...
-Set>>do:
-MorphicEventHandler>>notifyMorphsOfEvent:ofType:from:
-MorphicEventHandler>>click:fromMorph:
-SimpleButtonMorph(Morph)>>click:
-MouseClickState>>click
-MouseClickState>>handleEvent:from:
-HandMorph>>handleEvent:
-HandMorph>>processEventsFromQueue:
-HandMorph>>processEvents
-[ :h | 
-self activeHand: h.
-h processEvents.
-self activeHand: nil ] in WorldState>>doOneCycleNowFor: in Block: [ :h | ...
-Array(SequenceableCollection)>>do:
-WorldState>>handsDo:
-WorldState>>doOneCycleNowFor:
-WorldState>>doOneCycleFor:
-WorldMorph>>doOneCycle
-WorldMorph class>>doOneCycle
-[ [ WorldMorph doOneCycle.
-Processor yield.
-false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
-[ self value.
-Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
-[0m[31mInstance of True did not understand #<
-[0mTrue(Object)>>doesNotUnderstand: #<
-KeyListener>>handleKeystroke:
-KeyboardEvent>>sentTo:
-KeyListener(Morph)>>handleEvent:
-KeyListener(Morph)>>handleFocusEvent:
-[ ActiveHand := self.
-ActiveEvent := anEvent.
-result := focusHolder
-	handleFocusEvent: (anEvent transformedBy: (focusHolder transformedFrom: self)) ] in HandMorph>>sendFocusEvent:to:clear: in Block: [ ActiveHand := self....
+[0m[31m
+[0mProcess>>terminate
+NECController>>stopCompletionDelay
+NECController>>closeMenu
+MessageSend>>value
+MessageSend>>cull:
+MessageSend>>cull:cull:
+[ action cull: anAnnouncement cull: announcer ] in AnnouncementSubscription>>deliver: in Block: [ action cull: anAnnouncement cull: announcer ]
 BlockClosure>>on:do:
-WorldMorph(PasteUpMorph)>>becomeActiveDuring:
-HandMorph>>sendFocusEvent:to:clear:
-HandMorph>>sendEvent:focus:clear:
-HandMorph>>sendKeyboardEvent:
-HandMorph>>handleEvent:
-HandMorph>>processEventsFromQueue:
-HandMorph>>processEvents
-[ :h | 
-self activeHand: h.
-h processEvents.
-self activeHand: nil ] in WorldState>>doOneCycleNowFor: in Block: [ :h | ...
+BlockClosure>>on:fork:
+AnnouncementSubscription>>deliver:
+[ "Ensure delivery to remaining announcements" subscription deliver: anAnnouncement ] in SubscriptionRegistry>>deliver:to:startingAt: in Block: [ "Ensure delivery to remaining announcements" sub...etc...
+BlockClosure>>ifCurtailed:
+SubscriptionRegistry>>deliver:to:startingAt:
+SubscriptionRegistry>>deliver:to:
+SubscriptionRegistry>>deliver:
+Announcer>>announce:
+RubEditingArea(Morph)>>doAnnounce:
+RubEditingArea(Morph)>>announceKeyboardFocusChange:
+RubEditingArea(Morph)>>keyboardFocusChange:
+RubEditingArea(RubAbstractTextArea)>>keyboardFocusChange:
+HandMorph>>newKeyboardFocus:
+HandMorph>>releaseKeyboardFocus
+[ :hand | hand releaseKeyboardFocus ] in WorldMorph>>viewBox: in Block: [ :hand | hand releaseKeyboardFocus ]
 Array(SequenceableCollection)>>do:
 WorldState>>handsDo:
-WorldState>>doOneCycleNowFor:
-WorldState>>doOneCycleFor:
-WorldMorph>>doOneCycle
-WorldMorph class>>doOneCycle
-[ [ WorldMorph doOneCycle.
-Processor yield.
-false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
+WorldMorph>>viewBox:
+WorldMorph(PasteUpMorph)>>restoreMorphicDisplay
+WorldMorph class>>startUp
+WorldMorph class(Behavior)>>startUp:
+ClassSessionHandler>>startup:
+[0m[31m
+[0mProcess>>terminate
+NECController>>stopCompletionDelay
+NECController>>closeMenu
+MessageSend>>value
+MessageSend>>cull:
+MessageSend>>cull:cull:
+[ action cull: anAnnouncement cull: announcer ] in AnnouncementSubscription>>deliver: in Block: [ action cull: anAnnouncement cull: announcer ]
+BlockClosure>>on:do:
+BlockClosure>>on:fork:
+AnnouncementSubscription>>deliver:
+[ "Ensure delivery to remaining announcements" subscription deliver: anAnnouncement ] in SubscriptionRegistry>>deliver:to:startingAt: in Block: [ "Ensure delivery to remaining announcements" sub...etc...
+BlockClosure>>ifCurtailed:
+SubscriptionRegistry>>deliver:to:startingAt:
+SubscriptionRegistry>>deliver:to:
+SubscriptionRegistry>>deliver:
+Announcer>>announce:
+RubEditingArea(Morph)>>doAnnounce:
+RubEditingArea(Morph)>>announceKeyboardFocusChange:
+RubEditingArea(Morph)>>keyboardFocusChange:
+RubEditingArea(RubAbstractTextArea)>>keyboardFocusChange:
+HandMorph>>newKeyboardFocus:
+HandMorph>>releaseKeyboardFocus
+[ :hand | hand releaseKeyboardFocus ] in WorldMorph>>viewBox: in Block: [ :hand | hand releaseKeyboardFocus ]
+Array(SequenceableCollection)>>do:
+WorldState>>handsDo:
+WorldMorph>>viewBox:
+WorldMorph(PasteUpMorph)>>restoreMorphicDisplay
+WorldMorph class>>startUp
+WorldMorph class(Behavior)>>startUp:
+ClassSessionHandler>>startup:
+[0m[31m
+[0mProcess>>terminate
+NECController>>stopCompletionDelay
+NECController>>closeMenu
+MessageSend>>value
+MessageSend>>cull:
+MessageSend>>cull:cull:
+[ action cull: anAnnouncement cull: announcer ] in AnnouncementSubscription>>deliver: in Block: [ action cull: anAnnouncement cull: announcer ]
+BlockClosure>>on:do:
+BlockClosure>>on:fork:
+AnnouncementSubscription>>deliver:
+[ "Ensure delivery to remaining announcements" subscription deliver: anAnnouncement ] in SubscriptionRegistry>>deliver:to:startingAt: in Block: [ "Ensure delivery to remaining announcements" sub...etc...
+BlockClosure>>ifCurtailed:
+SubscriptionRegistry>>deliver:to:startingAt:
+SubscriptionRegistry>>deliver:to:
+SubscriptionRegistry>>deliver:
+Announcer>>announce:
+RubEditingArea(Morph)>>doAnnounce:
+RubEditingArea(Morph)>>announceKeyboardFocusChange:
+RubEditingArea(Morph)>>keyboardFocusChange:
+RubEditingArea(RubAbstractTextArea)>>keyboardFocusChange:
+HandMorph>>newKeyboardFocus:
+HandMorph>>releaseKeyboardFocus
+[ :hand | hand releaseKeyboardFocus ] in WorldMorph>>viewBox: in Block: [ :hand | hand releaseKeyboardFocus ]
+Array(SequenceableCollection)>>do:
+WorldState>>handsDo:
+WorldMorph>>viewBox:
+WorldMorph(PasteUpMorph)>>restoreMorphicDisplay
+WorldMorph class>>startUp
+WorldMorph class(Behavior)>>startUp:
+ClassSessionHandler>>startup:
+[0m[31m
+[0mProcess>>terminate
+NECController>>stopCompletionDelay
+NECController>>closeMenu
+MessageSend>>value
+MessageSend>>cull:
+MessageSend>>cull:cull:
+[ action cull: anAnnouncement cull: announcer ] in AnnouncementSubscription>>deliver: in Block: [ action cull: anAnnouncement cull: announcer ]
+BlockClosure>>on:do:
+BlockClosure>>on:fork:
+AnnouncementSubscription>>deliver:
+[ "Ensure delivery to remaining announcements" subscription deliver: anAnnouncement ] in SubscriptionRegistry>>deliver:to:startingAt: in Block: [ "Ensure delivery to remaining announcements" sub...etc...
+BlockClosure>>ifCurtailed:
+SubscriptionRegistry>>deliver:to:startingAt:
+SubscriptionRegistry>>deliver:to:
+SubscriptionRegistry>>deliver:
+Announcer>>announce:
+RubEditingArea(Morph)>>doAnnounce:
+RubEditingArea(Morph)>>announceKeyboardFocusChange:
+RubEditingArea(Morph)>>keyboardFocusChange:
+RubEditingArea(RubAbstractTextArea)>>keyboardFocusChange:
+HandMorph>>newKeyboardFocus:
+HandMorph>>releaseKeyboardFocus
+[ :hand | hand releaseKeyboardFocus ] in WorldMorph>>viewBox: in Block: [ :hand | hand releaseKeyboardFocus ]
+Array(SequenceableCollection)>>do:
+WorldState>>handsDo:
+WorldMorph>>viewBox:
+WorldMorph(PasteUpMorph)>>restoreMorphicDisplay
+WorldMorph class>>startUp
+WorldMorph class(Behavior)>>startUp:
+ClassSessionHandler>>startup:
+[0m[31m
+[0mProcess>>terminate
+NECController>>stopCompletionDelay
+NECController>>closeMenu
+MessageSend>>value
+MessageSend>>cull:
+MessageSend>>cull:cull:
+[ action cull: anAnnouncement cull: announcer ] in AnnouncementSubscription>>deliver: in Block: [ action cull: anAnnouncement cull: announcer ]
+BlockClosure>>on:do:
+BlockClosure>>on:fork:
+AnnouncementSubscription>>deliver:
+[ "Ensure delivery to remaining announcements" subscription deliver: anAnnouncement ] in SubscriptionRegistry>>deliver:to:startingAt: in Block: [ "Ensure delivery to remaining announcements" sub...etc...
+BlockClosure>>ifCurtailed:
+SubscriptionRegistry>>deliver:to:startingAt:
+SubscriptionRegistry>>deliver:to:
+SubscriptionRegistry>>deliver:
+Announcer>>announce:
+RubEditingArea(Morph)>>doAnnounce:
+RubEditingArea(Morph)>>announceKeyboardFocusChange:
+RubEditingArea(Morph)>>keyboardFocusChange:
+RubEditingArea(RubAbstractTextArea)>>keyboardFocusChange:
+HandMorph>>newKeyboardFocus:
+HandMorph>>releaseKeyboardFocus
+[ :hand | hand releaseKeyboardFocus ] in WorldMorph>>viewBox: in Block: [ :hand | hand releaseKeyboardFocus ]
+Array(SequenceableCollection)>>do:
+WorldState>>handsDo:
+WorldMorph>>viewBox:
+WorldMorph(PasteUpMorph)>>restoreMorphicDisplay
+WorldMorph class>>startUp
+WorldMorph class(Behavior)>>startUp:
+ClassSessionHandler>>startup:
+[0m[31m
+[0mProcess>>terminate
+NECController>>stopCompletionDelay
+NECController>>closeMenu
+MessageSend>>value
+MessageSend>>cull:
+MessageSend>>cull:cull:
+[ action cull: anAnnouncement cull: announcer ] in AnnouncementSubscription>>deliver: in Block: [ action cull: anAnnouncement cull: announcer ]
+BlockClosure>>on:do:
+BlockClosure>>on:fork:
+AnnouncementSubscription>>deliver:
+[ "Ensure delivery to remaining announcements" subscription deliver: anAnnouncement ] in SubscriptionRegistry>>deliver:to:startingAt: in Block: [ "Ensure delivery to remaining announcements" sub...etc...
+BlockClosure>>ifCurtailed:
+SubscriptionRegistry>>deliver:to:startingAt:
+SubscriptionRegistry>>deliver:to:
+SubscriptionRegistry>>deliver:
+Announcer>>announce:
+RubEditingArea(Morph)>>doAnnounce:
+RubEditingArea(Morph)>>announceKeyboardFocusChange:
+RubEditingArea(Morph)>>keyboardFocusChange:
+RubEditingArea(RubAbstractTextArea)>>keyboardFocusChange:
+HandMorph>>newKeyboardFocus:
+HandMorph>>releaseKeyboardFocus
+[ :hand | hand releaseKeyboardFocus ] in WorldMorph>>viewBox: in Block: [ :hand | hand releaseKeyboardFocus ]
+Array(SequenceableCollection)>>do:
+WorldState>>handsDo:
+WorldMorph>>viewBox:
+WorldMorph(PasteUpMorph)>>restoreMorphicDisplay
+WorldMorph class>>startUp
+WorldMorph class(Behavior)>>startUp:
+ClassSessionHandler>>startup:
+[0m[31m
+[0mProcess>>terminate
+NECController>>stopCompletionDelay
+NECController>>closeMenu
+MessageSend>>value
+MessageSend>>cull:
+MessageSend>>cull:cull:
+[ action cull: anAnnouncement cull: announcer ] in AnnouncementSubscription>>deliver: in Block: [ action cull: anAnnouncement cull: announcer ]
+BlockClosure>>on:do:
+BlockClosure>>on:fork:
+AnnouncementSubscription>>deliver:
+[ "Ensure delivery to remaining announcements" subscription deliver: anAnnouncement ] in SubscriptionRegistry>>deliver:to:startingAt: in Block: [ "Ensure delivery to remaining announcements" sub...etc...
+BlockClosure>>ifCurtailed:
+SubscriptionRegistry>>deliver:to:startingAt:
+SubscriptionRegistry>>deliver:to:
+SubscriptionRegistry>>deliver:
+Announcer>>announce:
+RubEditingArea(Morph)>>doAnnounce:
+RubEditingArea(Morph)>>announceKeyboardFocusChange:
+RubEditingArea(Morph)>>keyboardFocusChange:
+RubEditingArea(RubAbstractTextArea)>>keyboardFocusChange:
+HandMorph>>newKeyboardFocus:
+HandMorph>>releaseKeyboardFocus
+[ :hand | hand releaseKeyboardFocus ] in WorldMorph>>viewBox: in Block: [ :hand | hand releaseKeyboardFocus ]
+Array(SequenceableCollection)>>do:
+WorldState>>handsDo:
+WorldMorph>>viewBox:
+WorldMorph(PasteUpMorph)>>restoreMorphicDisplay
+WorldMorph class>>startUp
+WorldMorph class(Behavior)>>startUp:
+ClassSessionHandler>>startup:
+[0m[31m
+[0mProcess>>terminate
+NECController>>stopCompletionDelay
+NECController>>closeMenu
+MessageSend>>value
+MessageSend>>cull:
+MessageSend>>cull:cull:
+[ action cull: anAnnouncement cull: announcer ] in AnnouncementSubscription>>deliver: in Block: [ action cull: anAnnouncement cull: announcer ]
+BlockClosure>>on:do:
+BlockClosure>>on:fork:
+AnnouncementSubscription>>deliver:
+[ "Ensure delivery to remaining announcements" subscription deliver: anAnnouncement ] in SubscriptionRegistry>>deliver:to:startingAt: in Block: [ "Ensure delivery to remaining announcements" sub...etc...
+BlockClosure>>ifCurtailed:
+SubscriptionRegistry>>deliver:to:startingAt:
+SubscriptionRegistry>>deliver:to:
+SubscriptionRegistry>>deliver:
+Announcer>>announce:
+RubEditingArea(Morph)>>doAnnounce:
+RubEditingArea(Morph)>>announceKeyboardFocusChange:
+RubEditingArea(Morph)>>keyboardFocusChange:
+RubEditingArea(RubAbstractTextArea)>>keyboardFocusChange:
+HandMorph>>newKeyboardFocus:
+HandMorph>>releaseKeyboardFocus
+[ :hand | hand releaseKeyboardFocus ] in WorldMorph>>viewBox: in Block: [ :hand | hand releaseKeyboardFocus ]
+Array(SequenceableCollection)>>do:
+WorldState>>handsDo:
+WorldMorph>>viewBox:
+WorldMorph(PasteUpMorph)>>restoreMorphicDisplay
+WorldMorph class>>startUp
+WorldMorph class(Behavior)>>startUp:
+ClassSessionHandler>>startup:
+[0m[31m
+[0mProcess>>terminate
+NECController>>stopCompletionDelay
+NECController>>closeMenu
+MessageSend>>value
+MessageSend>>cull:
+MessageSend>>cull:cull:
+[ action cull: anAnnouncement cull: announcer ] in AnnouncementSubscription>>deliver: in Block: [ action cull: anAnnouncement cull: announcer ]
+BlockClosure>>on:do:
+BlockClosure>>on:fork:
+AnnouncementSubscription>>deliver:
+[ "Ensure delivery to remaining announcements" subscription deliver: anAnnouncement ] in SubscriptionRegistry>>deliver:to:startingAt: in Block: [ "Ensure delivery to remaining announcements" sub...etc...
+BlockClosure>>ifCurtailed:
+SubscriptionRegistry>>deliver:to:startingAt:
+SubscriptionRegistry>>deliver:to:
+SubscriptionRegistry>>deliver:
+Announcer>>announce:
+RubEditingArea(Morph)>>doAnnounce:
+RubEditingArea(Morph)>>announceKeyboardFocusChange:
+RubEditingArea(Morph)>>keyboardFocusChange:
+RubEditingArea(RubAbstractTextArea)>>keyboardFocusChange:
+HandMorph>>newKeyboardFocus:
+HandMorph>>releaseKeyboardFocus
+[ :hand | hand releaseKeyboardFocus ] in WorldMorph>>viewBox: in Block: [ :hand | hand releaseKeyboardFocus ]
+Array(SequenceableCollection)>>do:
+WorldState>>handsDo:
+WorldMorph>>viewBox:
+WorldMorph(PasteUpMorph)>>restoreMorphicDisplay
+WorldMorph class>>startUp
+WorldMorph class(Behavior)>>startUp:
+ClassSessionHandler>>startup:
+[0m[31m
+[0mProcess>>terminate
+NECController>>stopCompletionDelay
+NECController>>closeMenu
+MessageSend>>value
+MessageSend>>cull:
+MessageSend>>cull:cull:
+[ action cull: anAnnouncement cull: announcer ] in AnnouncementSubscription>>deliver: in Block: [ action cull: anAnnouncement cull: announcer ]
+BlockClosure>>on:do:
+BlockClosure>>on:fork:
+AnnouncementSubscription>>deliver:
+[ "Ensure delivery to remaining announcements" subscription deliver: anAnnouncement ] in SubscriptionRegistry>>deliver:to:startingAt: in Block: [ "Ensure delivery to remaining announcements" sub...etc...
+BlockClosure>>ifCurtailed:
+SubscriptionRegistry>>deliver:to:startingAt:
+SubscriptionRegistry>>deliver:to:
+SubscriptionRegistry>>deliver:
+Announcer>>announce:
+RubEditingArea(Morph)>>doAnnounce:
+RubEditingArea(Morph)>>announceKeyboardFocusChange:
+RubEditingArea(Morph)>>keyboardFocusChange:
+RubEditingArea(RubAbstractTextArea)>>keyboardFocusChange:
+HandMorph>>newKeyboardFocus:
+HandMorph>>releaseKeyboardFocus
+[ :hand | hand releaseKeyboardFocus ] in WorldMorph>>viewBox: in Block: [ :hand | hand releaseKeyboardFocus ]
+Array(SequenceableCollection)>>do:
+WorldState>>handsDo:
+WorldMorph>>viewBox:
+WorldMorph(PasteUpMorph)>>restoreMorphicDisplay
+WorldMorph class>>startUp
+WorldMorph class(Behavior)>>startUp:
+ClassSessionHandler>>startup:
+[0m[31m
+[0mProcess>>terminate
+NECController>>stopCompletionDelay
+NECController>>closeMenu
+MessageSend>>value
+MessageSend>>cull:
+MessageSend>>cull:cull:
+[ action cull: anAnnouncement cull: announcer ] in AnnouncementSubscription>>deliver: in Block: [ action cull: anAnnouncement cull: announcer ]
+BlockClosure>>on:do:
+BlockClosure>>on:fork:
+AnnouncementSubscription>>deliver:
+[ "Ensure delivery to remaining announcements" subscription deliver: anAnnouncement ] in SubscriptionRegistry>>deliver:to:startingAt: in Block: [ "Ensure delivery to remaining announcements" sub...etc...
+BlockClosure>>ifCurtailed:
+SubscriptionRegistry>>deliver:to:startingAt:
+SubscriptionRegistry>>deliver:to:
+SubscriptionRegistry>>deliver:
+Announcer>>announce:
+RubEditingArea(Morph)>>doAnnounce:
+RubEditingArea(Morph)>>announceKeyboardFocusChange:
+RubEditingArea(Morph)>>keyboardFocusChange:
+RubEditingArea(RubAbstractTextArea)>>keyboardFocusChange:
+HandMorph>>newKeyboardFocus:
+HandMorph>>releaseKeyboardFocus
+[ :hand | hand releaseKeyboardFocus ] in WorldMorph>>viewBox: in Block: [ :hand | hand releaseKeyboardFocus ]
+Array(SequenceableCollection)>>do:
+WorldState>>handsDo:
+WorldMorph>>viewBox:
+WorldMorph(PasteUpMorph)>>restoreMorphicDisplay
+WorldMorph class>>startUp
+WorldMorph class(Behavior)>>startUp:
+ClassSessionHandler>>startup:
+[0m[31m
+[0mProcess>>terminate
+NECController>>stopCompletionDelay
+NECController>>closeMenu
+MessageSend>>value
+MessageSend>>cull:
+MessageSend>>cull:cull:
+[ action cull: anAnnouncement cull: announcer ] in AnnouncementSubscription>>deliver: in Block: [ action cull: anAnnouncement cull: announcer ]
+BlockClosure>>on:do:
+BlockClosure>>on:fork:
+AnnouncementSubscription>>deliver:
+[ "Ensure delivery to remaining announcements" subscription deliver: anAnnouncement ] in SubscriptionRegistry>>deliver:to:startingAt: in Block: [ "Ensure delivery to remaining announcements" sub...etc...
+BlockClosure>>ifCurtailed:
+SubscriptionRegistry>>deliver:to:startingAt:
+SubscriptionRegistry>>deliver:to:
+SubscriptionRegistry>>deliver:
+Announcer>>announce:
+RubEditingArea(Morph)>>doAnnounce:
+RubEditingArea(Morph)>>announceKeyboardFocusChange:
+RubEditingArea(Morph)>>keyboardFocusChange:
+RubEditingArea(RubAbstractTextArea)>>keyboardFocusChange:
+HandMorph>>newKeyboardFocus:
+HandMorph>>releaseKeyboardFocus
+[ :hand | hand releaseKeyboardFocus ] in WorldMorph>>viewBox: in Block: [ :hand | hand releaseKeyboardFocus ]
+Array(SequenceableCollection)>>do:
+WorldState>>handsDo:
+WorldMorph>>viewBox:
+WorldMorph(PasteUpMorph)>>restoreMorphicDisplay
+WorldMorph class>>startUp
+WorldMorph class(Behavior)>>startUp:
+ClassSessionHandler>>startup:
+[0m[31m
+[0mProcess>>terminate
+NECController>>stopCompletionDelay
+NECController>>closeMenu
+MessageSend>>value
+MessageSend>>cull:
+MessageSend>>cull:cull:
+[ action cull: anAnnouncement cull: announcer ] in AnnouncementSubscription>>deliver: in Block: [ action cull: anAnnouncement cull: announcer ]
+BlockClosure>>on:do:
+BlockClosure>>on:fork:
+AnnouncementSubscription>>deliver:
+[ "Ensure delivery to remaining announcements" subscription deliver: anAnnouncement ] in SubscriptionRegistry>>deliver:to:startingAt: in Block: [ "Ensure delivery to remaining announcements" sub...etc...
+BlockClosure>>ifCurtailed:
+SubscriptionRegistry>>deliver:to:startingAt:
+SubscriptionRegistry>>deliver:to:
+SubscriptionRegistry>>deliver:
+Announcer>>announce:
+RubEditingArea(Morph)>>doAnnounce:
+RubEditingArea(Morph)>>announceKeyboardFocusChange:
+RubEditingArea(Morph)>>keyboardFocusChange:
+RubEditingArea(RubAbstractTextArea)>>keyboardFocusChange:
+HandMorph>>newKeyboardFocus:
+HandMorph>>releaseKeyboardFocus
+[ :hand | hand releaseKeyboardFocus ] in WorldMorph>>viewBox: in Block: [ :hand | hand releaseKeyboardFocus ]
+Array(SequenceableCollection)>>do:
+WorldState>>handsDo:
+WorldMorph>>viewBox:
+WorldMorph(PasteUpMorph)>>restoreMorphicDisplay
+WorldMorph class>>startUp
+WorldMorph class(Behavior)>>startUp:
+ClassSessionHandler>>startup:
+[0m[31mSubscriptOutOfBounds: 26
+[0mArray(Object)>>errorSubscriptBounds:
+Array(Object)>>at:
+SnakeModel>>respawn:
+SnakeModel>>moveSouth:
+SnakeModel>>executeStep
+[ [ winner isNil ]
+	whileTrue: [ | delay |
+		delay := Delay forMilliseconds: 200.
+		delay wait.
+		model executeStep.
+		winner := model checkWinner.
+		winner notNil
+			ifTrue: [ messageArea contents: winner , ' wins!' ] ] ] in SnakeGame>>start in Block: [ [ winner isNil ]...
 [ self value.
 Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
-[0m[31mInstance of True did not understand #<
-[0mTrue(Object)>>doesNotUnderstand: #<
-KeyListener>>handleKeystroke:
-KeyboardEvent>>sentTo:
-KeyListener(Morph)>>handleEvent:
-KeyListener(Morph)>>handleFocusEvent:
-[ ActiveHand := self.
-ActiveEvent := anEvent.
-result := focusHolder
-	handleFocusEvent: (anEvent transformedBy: (focusHolder transformedFrom: self)) ] in HandMorph>>sendFocusEvent:to:clear: in Block: [ ActiveHand := self....
-BlockClosure>>on:do:
-WorldMorph(PasteUpMorph)>>becomeActiveDuring:
-HandMorph>>sendFocusEvent:to:clear:
-HandMorph>>sendEvent:focus:clear:
-HandMorph>>sendKeyboardEvent:
-HandMorph>>handleEvent:
-HandMorph>>processEventsFromQueue:
-HandMorph>>processEvents
-[ :h | 
-self activeHand: h.
-h processEvents.
-self activeHand: nil ] in WorldState>>doOneCycleNowFor: in Block: [ :h | ...
-Array(SequenceableCollection)>>do:
-WorldState>>handsDo:
-WorldState>>doOneCycleNowFor:
-WorldState>>doOneCycleFor:
-WorldMorph>>doOneCycle
-WorldMorph class>>doOneCycle
-[ [ WorldMorph doOneCycle.
-Processor yield.
-false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
-[ self value.
-Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
-[0m[31mInstance of True did not understand #<
-[0mTrue(Object)>>doesNotUnderstand: #<
-KeyListener>>handleKeystroke:
-KeyboardEvent>>sentTo:
-KeyListener(Morph)>>handleEvent:
-KeyListener(Morph)>>handleFocusEvent:
-[ ActiveHand := self.
-ActiveEvent := anEvent.
-result := focusHolder
-	handleFocusEvent: (anEvent transformedBy: (focusHolder transformedFrom: self)) ] in HandMorph>>sendFocusEvent:to:clear: in Block: [ ActiveHand := self....
-BlockClosure>>on:do:
-WorldMorph(PasteUpMorph)>>becomeActiveDuring:
-HandMorph>>sendFocusEvent:to:clear:
-HandMorph>>sendEvent:focus:clear:
-HandMorph>>sendKeyboardEvent:
-HandMorph>>handleEvent:
-HandMorph>>processEventsFromQueue:
-HandMorph>>processEvents
-[ :h | 
-self activeHand: h.
-h processEvents.
-self activeHand: nil ] in WorldState>>doOneCycleNowFor: in Block: [ :h | ...
-Array(SequenceableCollection)>>do:
-WorldState>>handsDo:
-WorldState>>doOneCycleNowFor:
-WorldState>>doOneCycleFor:
-WorldMorph>>doOneCycle
-WorldMorph class>>doOneCycle
-[ [ WorldMorph doOneCycle.
-Processor yield.
-false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
-[ self value.
-Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
-[0m[31mInstance of SmallInteger did not understand #,
-[0mSmallInteger(Object)>>doesNotUnderstand: #,
-KeyListener>>handleKeystroke:
-KeyboardEvent>>sentTo:
-KeyListener(Morph)>>handleEvent:
-KeyListener(Morph)>>handleFocusEvent:
-[ ActiveHand := self.
-ActiveEvent := anEvent.
-result := focusHolder
-	handleFocusEvent: (anEvent transformedBy: (focusHolder transformedFrom: self)) ] in HandMorph>>sendFocusEvent:to:clear: in Block: [ ActiveHand := self....
-BlockClosure>>on:do:
-WorldMorph(PasteUpMorph)>>becomeActiveDuring:
-HandMorph>>sendFocusEvent:to:clear:
-HandMorph>>sendEvent:focus:clear:
-HandMorph>>sendKeyboardEvent:
-HandMorph>>handleEvent:
-HandMorph>>processEventsFromQueue:
-HandMorph>>processEvents
-[ :h | 
-self activeHand: h.
-h processEvents.
-self activeHand: nil ] in WorldState>>doOneCycleNowFor: in Block: [ :h | ...
-Array(SequenceableCollection)>>do:
-WorldState>>handsDo:
-WorldState>>doOneCycleNowFor:
-WorldState>>doOneCycleFor:
-WorldMorph>>doOneCycle
-WorldMorph class>>doOneCycle
-[ [ WorldMorph doOneCycle.
-Processor yield.
-false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
-[ self value.
-Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
-[0m[31mInstance of SmallInteger did not understand #,
-[0mSmallInteger(Object)>>doesNotUnderstand: #,
-KeyListener>>handleKeystroke:
-KeyboardEvent>>sentTo:
-KeyListener(Morph)>>handleEvent:
-KeyListener(Morph)>>handleFocusEvent:
-[ ActiveHand := self.
-ActiveEvent := anEvent.
-result := focusHolder
-	handleFocusEvent: (anEvent transformedBy: (focusHolder transformedFrom: self)) ] in HandMorph>>sendFocusEvent:to:clear: in Block: [ ActiveHand := self....
-BlockClosure>>on:do:
-WorldMorph(PasteUpMorph)>>becomeActiveDuring:
-HandMorph>>sendFocusEvent:to:clear:
-HandMorph>>sendEvent:focus:clear:
-HandMorph>>sendKeyboardEvent:
-HandMorph>>handleEvent:
-HandMorph>>processEventsFromQueue:
-HandMorph>>processEvents
-[ :h | 
-self activeHand: h.
-h processEvents.
-self activeHand: nil ] in WorldState>>doOneCycleNowFor: in Block: [ :h | ...
-Array(SequenceableCollection)>>do:
-WorldState>>handsDo:
-WorldState>>doOneCycleNowFor:
-WorldState>>doOneCycleFor:
-WorldMorph>>doOneCycle
-WorldMorph class>>doOneCycle
-[ [ WorldMorph doOneCycle.
-Processor yield.
-false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
-[ self value.
-Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
-[0m[31mInstance of SmallInteger did not understand #asText
-[0mSmallInteger(Object)>>doesNotUnderstand: #asText
-TextMorph>>newContents:
-TextMorph>>contentsAsIs:
-TextMorph>>contents:
-KeyListener>>handleKeystroke:
-KeyboardEvent>>sentTo:
-KeyListener(Morph)>>handleEvent:
-KeyListener(Morph)>>handleFocusEvent:
-[ ActiveHand := self.
-ActiveEvent := anEvent.
-result := focusHolder
-	handleFocusEvent: (anEvent transformedBy: (focusHolder transformedFrom: self)) ] in HandMorph>>sendFocusEvent:to:clear: in Block: [ ActiveHand := self....
-BlockClosure>>on:do:
-WorldMorph(PasteUpMorph)>>becomeActiveDuring:
-HandMorph>>sendFocusEvent:to:clear:
-HandMorph>>sendEvent:focus:clear:
-HandMorph>>sendKeyboardEvent:
-HandMorph>>handleEvent:
-HandMorph>>processEventsFromQueue:
-HandMorph>>processEvents
-[ :h | 
-self activeHand: h.
-h processEvents.
-self activeHand: nil ] in WorldState>>doOneCycleNowFor: in Block: [ :h | ...
-Array(SequenceableCollection)>>do:
-WorldState>>handsDo:
-WorldState>>doOneCycleNowFor:
-WorldState>>doOneCycleFor:
-WorldMorph>>doOneCycle
-WorldMorph class>>doOneCycle
-[ [ WorldMorph doOneCycle.
-Processor yield.
-false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
+[0m[31mSubscriptOutOfBounds: 0
+[0mArray(Object)>>errorSubscriptBounds:
+Array(Object)>>at:
+SnakeModel>>respawn:
+SnakeModel>>moveNorth:
+SnakeModel>>executeStep
+[ [ winner isNil ]
+	whileTrue: [ | delay |
+		delay := Delay forMilliseconds: 200.
+		delay wait.
+		model executeStep.
+		winner := model checkWinner.
+		winner notNil
+			ifTrue: [ messageArea contents: winner , ' wins!' ] ] ] in SnakeGame>>start in Block: [ [ winner isNil ]...
 [ self value.
 Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
 [0m[31m
@@ -515,1203 +495,478 @@ WorldMorph(PasteUpMorph)>>restoreMorphicDisplay
 WorldMorph class>>startUp
 WorldMorph class(Behavior)>>startUp:
 ClassSessionHandler>>startup:
-[0m[31mInstance of True did not understand #whileTrue:
-[0mTrue(Object)>>doesNotUnderstand: #whileTrue:
-SnakeGame>>start
-[ self start ] in SnakeGame>>addControls in Block: [ self start ]
-MorphEventSubscription>>notify:from:
-[ :s | result := result | ((s notify: anEvent from: sourceMorph) == true) ] in MorphicEventHandler>>notifyMorphsOfEvent:ofType:from: in Block: [ :s | result := result | ((s notify: anEvent from...etc...
-Set>>do:
-MorphicEventHandler>>notifyMorphsOfEvent:ofType:from:
-MorphicEventHandler>>click:fromMorph:
-SimpleButtonMorph(Morph)>>click:
-MouseClickState>>click
-MouseClickState>>handleEvent:from:
-HandMorph>>handleEvent:
-HandMorph>>processEventsFromQueue:
-HandMorph>>processEvents
-[ :h | 
-self activeHand: h.
-h processEvents.
-self activeHand: nil ] in WorldState>>doOneCycleNowFor: in Block: [ :h | ...
+[0m[31m
+[0mProcess>>terminate
+NECController>>stopCompletionDelay
+NECController>>closeMenu
+MessageSend>>value
+MessageSend>>cull:
+MessageSend>>cull:cull:
+[ action cull: anAnnouncement cull: announcer ] in AnnouncementSubscription>>deliver: in Block: [ action cull: anAnnouncement cull: announcer ]
+BlockClosure>>on:do:
+BlockClosure>>on:fork:
+AnnouncementSubscription>>deliver:
+[ "Ensure delivery to remaining announcements" subscription deliver: anAnnouncement ] in SubscriptionRegistry>>deliver:to:startingAt: in Block: [ "Ensure delivery to remaining announcements" sub...etc...
+BlockClosure>>ifCurtailed:
+SubscriptionRegistry>>deliver:to:startingAt:
+SubscriptionRegistry>>deliver:to:
+SubscriptionRegistry>>deliver:
+Announcer>>announce:
+RubEditingArea(Morph)>>doAnnounce:
+RubEditingArea(Morph)>>announceKeyboardFocusChange:
+RubEditingArea(Morph)>>keyboardFocusChange:
+RubEditingArea(RubAbstractTextArea)>>keyboardFocusChange:
+HandMorph>>newKeyboardFocus:
+HandMorph>>releaseKeyboardFocus
+[ :hand | hand releaseKeyboardFocus ] in WorldMorph>>viewBox: in Block: [ :hand | hand releaseKeyboardFocus ]
 Array(SequenceableCollection)>>do:
 WorldState>>handsDo:
-WorldState>>doOneCycleNowFor:
-WorldState>>doOneCycleFor:
-WorldMorph>>doOneCycle
-WorldMorph class>>doOneCycle
-[ [ WorldMorph doOneCycle.
-Processor yield.
-false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
-[ self value.
-Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
-[0m[31mInstance of Array did not understand #at:at:
-[0mArray(Object)>>doesNotUnderstand: #at:at:
-SnakeModel>>moveSouth:
-SnakeModel>>executeStep
-SnakeGame>>start
-[ self start ] in SnakeGame>>addControls in Block: [ self start ]
-MorphEventSubscription>>notify:from:
-[ :s | result := result | ((s notify: anEvent from: sourceMorph) == true) ] in MorphicEventHandler>>notifyMorphsOfEvent:ofType:from: in Block: [ :s | result := result | ((s notify: anEvent from...etc...
-Set>>do:
-MorphicEventHandler>>notifyMorphsOfEvent:ofType:from:
-MorphicEventHandler>>click:fromMorph:
-SimpleButtonMorph(Morph)>>click:
-MouseClickState>>click
-MouseClickState>>handleEvent:from:
-HandMorph>>handleEvent:
-HandMorph>>processEventsFromQueue:
-HandMorph>>processEvents
-[ :h | 
-self activeHand: h.
-h processEvents.
-self activeHand: nil ] in WorldState>>doOneCycleNowFor: in Block: [ :h | ...
+WorldMorph>>viewBox:
+WorldMorph(PasteUpMorph)>>restoreMorphicDisplay
+WorldMorph class>>startUp
+WorldMorph class(Behavior)>>startUp:
+ClassSessionHandler>>startup:
+[0m[31m
+[0mProcess>>terminate
+NECController>>stopCompletionDelay
+NECController>>closeMenu
+MessageSend>>value
+MessageSend>>cull:
+MessageSend>>cull:cull:
+[ action cull: anAnnouncement cull: announcer ] in AnnouncementSubscription>>deliver: in Block: [ action cull: anAnnouncement cull: announcer ]
+BlockClosure>>on:do:
+BlockClosure>>on:fork:
+AnnouncementSubscription>>deliver:
+[ "Ensure delivery to remaining announcements" subscription deliver: anAnnouncement ] in SubscriptionRegistry>>deliver:to:startingAt: in Block: [ "Ensure delivery to remaining announcements" sub...etc...
+BlockClosure>>ifCurtailed:
+SubscriptionRegistry>>deliver:to:startingAt:
+SubscriptionRegistry>>deliver:to:
+SubscriptionRegistry>>deliver:
+Announcer>>announce:
+RubEditingArea(Morph)>>doAnnounce:
+RubEditingArea(Morph)>>announceKeyboardFocusChange:
+RubEditingArea(Morph)>>keyboardFocusChange:
+RubEditingArea(RubAbstractTextArea)>>keyboardFocusChange:
+HandMorph>>newKeyboardFocus:
+HandMorph>>releaseKeyboardFocus
+[ :hand | hand releaseKeyboardFocus ] in WorldMorph>>viewBox: in Block: [ :hand | hand releaseKeyboardFocus ]
 Array(SequenceableCollection)>>do:
 WorldState>>handsDo:
-WorldState>>doOneCycleNowFor:
-WorldState>>doOneCycleFor:
-WorldMorph>>doOneCycle
-WorldMorph class>>doOneCycle
-[ [ WorldMorph doOneCycle.
-Processor yield.
-false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
-[ self value.
-Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
-[0m[31mInstance of Array did not understand #at:at:
-[0mArray(Object)>>doesNotUnderstand: #at:at:
-SnakeModel>>moveSouth:
-SnakeModel>>executeStep
-SnakeGame>>start
-[ self start ] in SnakeGame>>addControls in Block: [ self start ]
-MorphEventSubscription>>notify:from:
-[ :s | result := result | ((s notify: anEvent from: sourceMorph) == true) ] in MorphicEventHandler>>notifyMorphsOfEvent:ofType:from: in Block: [ :s | result := result | ((s notify: anEvent from...etc...
-Set>>do:
-MorphicEventHandler>>notifyMorphsOfEvent:ofType:from:
-MorphicEventHandler>>click:fromMorph:
-SimpleButtonMorph(Morph)>>click:
-MouseClickState>>click
-MouseClickState>>handleEvent:from:
-HandMorph>>handleEvent:
-HandMorph>>processEventsFromQueue:
-HandMorph>>processEvents
-[ :h | 
-self activeHand: h.
-h processEvents.
-self activeHand: nil ] in WorldState>>doOneCycleNowFor: in Block: [ :h | ...
+WorldMorph>>viewBox:
+WorldMorph(PasteUpMorph)>>restoreMorphicDisplay
+WorldMorph class>>startUp
+WorldMorph class(Behavior)>>startUp:
+ClassSessionHandler>>startup:
+[0m[31m
+[0mProcess>>terminate
+NECController>>stopCompletionDelay
+NECController>>closeMenu
+MessageSend>>value
+MessageSend>>cull:
+MessageSend>>cull:cull:
+[ action cull: anAnnouncement cull: announcer ] in AnnouncementSubscription>>deliver: in Block: [ action cull: anAnnouncement cull: announcer ]
+BlockClosure>>on:do:
+BlockClosure>>on:fork:
+AnnouncementSubscription>>deliver:
+[ "Ensure delivery to remaining announcements" subscription deliver: anAnnouncement ] in SubscriptionRegistry>>deliver:to:startingAt: in Block: [ "Ensure delivery to remaining announcements" sub...etc...
+BlockClosure>>ifCurtailed:
+SubscriptionRegistry>>deliver:to:startingAt:
+SubscriptionRegistry>>deliver:to:
+SubscriptionRegistry>>deliver:
+Announcer>>announce:
+RubEditingArea(Morph)>>doAnnounce:
+RubEditingArea(Morph)>>announceKeyboardFocusChange:
+RubEditingArea(Morph)>>keyboardFocusChange:
+RubEditingArea(RubAbstractTextArea)>>keyboardFocusChange:
+HandMorph>>newKeyboardFocus:
+HandMorph>>releaseKeyboardFocus
+[ :hand | hand releaseKeyboardFocus ] in WorldMorph>>viewBox: in Block: [ :hand | hand releaseKeyboardFocus ]
 Array(SequenceableCollection)>>do:
 WorldState>>handsDo:
-WorldState>>doOneCycleNowFor:
-WorldState>>doOneCycleFor:
-WorldMorph>>doOneCycle
-WorldMorph class>>doOneCycle
-[ [ WorldMorph doOneCycle.
-Processor yield.
-false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
-[ self value.
-Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
-[0m[31mInstance of Array did not understand #at:at:
-[0mArray(Object)>>doesNotUnderstand: #at:at:
-SnakeModel>>moveSouth:
-SnakeModel>>executeStep
-SnakeGame>>start
-[ self start ] in SnakeGame>>addControls in Block: [ self start ]
-MorphEventSubscription>>notify:from:
-[ :s | result := result | ((s notify: anEvent from: sourceMorph) == true) ] in MorphicEventHandler>>notifyMorphsOfEvent:ofType:from: in Block: [ :s | result := result | ((s notify: anEvent from...etc...
-Set>>do:
-MorphicEventHandler>>notifyMorphsOfEvent:ofType:from:
-MorphicEventHandler>>click:fromMorph:
-SimpleButtonMorph(Morph)>>click:
-MouseClickState>>click
-MouseClickState>>handleEvent:from:
-HandMorph>>handleEvent:
-HandMorph>>processEventsFromQueue:
-HandMorph>>processEvents
-[ :h | 
-self activeHand: h.
-h processEvents.
-self activeHand: nil ] in WorldState>>doOneCycleNowFor: in Block: [ :h | ...
+WorldMorph>>viewBox:
+WorldMorph(PasteUpMorph)>>restoreMorphicDisplay
+WorldMorph class>>startUp
+WorldMorph class(Behavior)>>startUp:
+ClassSessionHandler>>startup:
+[0m[31m
+[0mProcess>>terminate
+NECController>>stopCompletionDelay
+NECController>>closeMenu
+MessageSend>>value
+MessageSend>>cull:
+MessageSend>>cull:cull:
+[ action cull: anAnnouncement cull: announcer ] in AnnouncementSubscription>>deliver: in Block: [ action cull: anAnnouncement cull: announcer ]
+BlockClosure>>on:do:
+BlockClosure>>on:fork:
+AnnouncementSubscription>>deliver:
+[ "Ensure delivery to remaining announcements" subscription deliver: anAnnouncement ] in SubscriptionRegistry>>deliver:to:startingAt: in Block: [ "Ensure delivery to remaining announcements" sub...etc...
+BlockClosure>>ifCurtailed:
+SubscriptionRegistry>>deliver:to:startingAt:
+SubscriptionRegistry>>deliver:to:
+SubscriptionRegistry>>deliver:
+Announcer>>announce:
+RubEditingArea(Morph)>>doAnnounce:
+RubEditingArea(Morph)>>announceKeyboardFocusChange:
+RubEditingArea(Morph)>>keyboardFocusChange:
+RubEditingArea(RubAbstractTextArea)>>keyboardFocusChange:
+HandMorph>>newKeyboardFocus:
+HandMorph>>releaseKeyboardFocus
+[ :hand | hand releaseKeyboardFocus ] in WorldMorph>>viewBox: in Block: [ :hand | hand releaseKeyboardFocus ]
 Array(SequenceableCollection)>>do:
 WorldState>>handsDo:
-WorldState>>doOneCycleNowFor:
-WorldState>>doOneCycleFor:
-WorldMorph>>doOneCycle
-WorldMorph class>>doOneCycle
-[ [ WorldMorph doOneCycle.
-Processor yield.
-false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
-[ self value.
-Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
-[0m[31mInstance of Array did not understand #at:at:
-[0mArray(Object)>>doesNotUnderstand: #at:at:
-SnakeGame>>rows:at:
-SnakeModel>>moveSouth:
-SnakeModel>>executeStep
-SnakeGame>>start
-[ self start ] in SnakeGame>>addControls in Block: [ self start ]
-MorphEventSubscription>>notify:from:
-[ :s | result := result | ((s notify: anEvent from: sourceMorph) == true) ] in MorphicEventHandler>>notifyMorphsOfEvent:ofType:from: in Block: [ :s | result := result | ((s notify: anEvent from...etc...
-Set>>do:
-MorphicEventHandler>>notifyMorphsOfEvent:ofType:from:
-MorphicEventHandler>>click:fromMorph:
-SimpleButtonMorph(Morph)>>click:
-MouseClickState>>click
-MouseClickState>>handleEvent:from:
-HandMorph>>handleEvent:
-HandMorph>>processEventsFromQueue:
-HandMorph>>processEvents
-[ :h | 
-self activeHand: h.
-h processEvents.
-self activeHand: nil ] in WorldState>>doOneCycleNowFor: in Block: [ :h | ...
+WorldMorph>>viewBox:
+WorldMorph(PasteUpMorph)>>restoreMorphicDisplay
+WorldMorph class>>startUp
+WorldMorph class(Behavior)>>startUp:
+ClassSessionHandler>>startup:
+[0m[31m
+[0mProcess>>terminate
+NECController>>stopCompletionDelay
+NECController>>closeMenu
+MessageSend>>value
+MessageSend>>cull:
+MessageSend>>cull:cull:
+[ action cull: anAnnouncement cull: announcer ] in AnnouncementSubscription>>deliver: in Block: [ action cull: anAnnouncement cull: announcer ]
+BlockClosure>>on:do:
+BlockClosure>>on:fork:
+AnnouncementSubscription>>deliver:
+[ "Ensure delivery to remaining announcements" subscription deliver: anAnnouncement ] in SubscriptionRegistry>>deliver:to:startingAt: in Block: [ "Ensure delivery to remaining announcements" sub...etc...
+BlockClosure>>ifCurtailed:
+SubscriptionRegistry>>deliver:to:startingAt:
+SubscriptionRegistry>>deliver:to:
+SubscriptionRegistry>>deliver:
+Announcer>>announce:
+RubEditingArea(Morph)>>doAnnounce:
+RubEditingArea(Morph)>>announceKeyboardFocusChange:
+RubEditingArea(Morph)>>keyboardFocusChange:
+RubEditingArea(RubAbstractTextArea)>>keyboardFocusChange:
+HandMorph>>newKeyboardFocus:
+HandMorph>>releaseKeyboardFocus
+[ :hand | hand releaseKeyboardFocus ] in WorldMorph>>viewBox: in Block: [ :hand | hand releaseKeyboardFocus ]
 Array(SequenceableCollection)>>do:
 WorldState>>handsDo:
-WorldState>>doOneCycleNowFor:
-WorldState>>doOneCycleFor:
-WorldMorph>>doOneCycle
-WorldMorph class>>doOneCycle
-[ [ WorldMorph doOneCycle.
-Processor yield.
-false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
-[ self value.
-Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
-[0m[31mInstance of Array did not understand #at:at:
-[0mArray(Object)>>doesNotUnderstand: #at:at:
-SnakeGame>>rows:at:
-SnakeModel>>moveSouth:
-SnakeModel>>executeStep
-SnakeGame>>start
-[ self start ] in SnakeGame>>addControls in Block: [ self start ]
-MorphEventSubscription>>notify:from:
-[ :s | result := result | ((s notify: anEvent from: sourceMorph) == true) ] in MorphicEventHandler>>notifyMorphsOfEvent:ofType:from: in Block: [ :s | result := result | ((s notify: anEvent from...etc...
-Set>>do:
-MorphicEventHandler>>notifyMorphsOfEvent:ofType:from:
-MorphicEventHandler>>click:fromMorph:
-SimpleButtonMorph(Morph)>>click:
-MouseClickState>>click
-MouseClickState>>handleEvent:from:
-HandMorph>>handleEvent:
-HandMorph>>processEventsFromQueue:
-HandMorph>>processEvents
-[ :h | 
-self activeHand: h.
-h processEvents.
-self activeHand: nil ] in WorldState>>doOneCycleNowFor: in Block: [ :h | ...
-Array(SequenceableCollection)>>do:
-WorldState>>handsDo:
-WorldState>>doOneCycleNowFor:
-WorldState>>doOneCycleFor:
-WorldMorph>>doOneCycle
-WorldMorph class>>doOneCycle
-[ [ WorldMorph doOneCycle.
-Processor yield.
-false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
-[ self value.
-Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
-[0m[31m#color: was sent to nil
-[0mUndefinedObject(Object)>>doesNotUnderstand: #color:
-SnakeModel>>moveSouth:
-SnakeModel>>executeStep
-SnakeGame>>start
-[ self start ] in SnakeGame>>addControls in Block: [ self start ]
-MorphEventSubscription>>notify:from:
-[ :s | result := result | ((s notify: anEvent from: sourceMorph) == true) ] in MorphicEventHandler>>notifyMorphsOfEvent:ofType:from: in Block: [ :s | result := result | ((s notify: anEvent from...etc...
-Set>>do:
-MorphicEventHandler>>notifyMorphsOfEvent:ofType:from:
-MorphicEventHandler>>click:fromMorph:
-SimpleButtonMorph(Morph)>>click:
-MouseClickState>>click
-MouseClickState>>handleEvent:from:
-HandMorph>>handleEvent:
-HandMorph>>processEventsFromQueue:
-HandMorph>>processEvents
-[ :h | 
-self activeHand: h.
-h processEvents.
-self activeHand: nil ] in WorldState>>doOneCycleNowFor: in Block: [ :h | ...
-Array(SequenceableCollection)>>do:
-WorldState>>handsDo:
-WorldState>>doOneCycleNowFor:
-WorldState>>doOneCycleFor:
-WorldMorph>>doOneCycle
-WorldMorph class>>doOneCycle
-[ [ WorldMorph doOneCycle.
-Processor yield.
-false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
-[ self value.
-Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
-[0m[31m#color: was sent to nil
-[0mUndefinedObject(Object)>>doesNotUnderstand: #color:
-SnakeModel>>moveSouth:
-SnakeModel>>executeStep
-SnakeGame>>start
-[ self start ] in SnakeGame>>addControls in Block: [ self start ]
-MorphEventSubscription>>notify:from:
-[ :s | result := result | ((s notify: anEvent from: sourceMorph) == true) ] in MorphicEventHandler>>notifyMorphsOfEvent:ofType:from: in Block: [ :s | result := result | ((s notify: anEvent from...etc...
-Set>>do:
-MorphicEventHandler>>notifyMorphsOfEvent:ofType:from:
-MorphicEventHandler>>click:fromMorph:
-SimpleButtonMorph(Morph)>>click:
-MouseClickState>>click
-MouseClickState>>handleEvent:from:
-HandMorph>>handleEvent:
-HandMorph>>processEventsFromQueue:
-HandMorph>>processEvents
-[ :h | 
-self activeHand: h.
-h processEvents.
-self activeHand: nil ] in WorldState>>doOneCycleNowFor: in Block: [ :h | ...
-Array(SequenceableCollection)>>do:
-WorldState>>handsDo:
-WorldState>>doOneCycleNowFor:
-WorldState>>doOneCycleFor:
-WorldMorph>>doOneCycle
-WorldMorph class>>doOneCycle
-[ [ WorldMorph doOneCycle.
-Processor yield.
-false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
-[ self value.
-Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
-[0m[31m#color: was sent to nil
-[0mUndefinedObject(Object)>>doesNotUnderstand: #color:
-SnakeModel>>moveSouth:
-SnakeModel>>executeStep
-SnakeGame>>start
-[ self start ] in SnakeGame>>addControls in Block: [ self start ]
-MorphEventSubscription>>notify:from:
-[ :s | result := result | ((s notify: anEvent from: sourceMorph) == true) ] in MorphicEventHandler>>notifyMorphsOfEvent:ofType:from: in Block: [ :s | result := result | ((s notify: anEvent from...etc...
-Set>>do:
-MorphicEventHandler>>notifyMorphsOfEvent:ofType:from:
-MorphicEventHandler>>click:fromMorph:
-SimpleButtonMorph(Morph)>>click:
-MouseClickState>>click
-MouseClickState>>handleEvent:from:
-HandMorph>>handleEvent:
-HandMorph>>processEventsFromQueue:
-HandMorph>>processEvents
-[ :h | 
-self activeHand: h.
-h processEvents.
-self activeHand: nil ] in WorldState>>doOneCycleNowFor: in Block: [ :h | ...
-Array(SequenceableCollection)>>do:
-WorldState>>handsDo:
-WorldState>>doOneCycleNowFor:
-WorldState>>doOneCycleFor:
-WorldMorph>>doOneCycle
-WorldMorph class>>doOneCycle
-[ [ WorldMorph doOneCycle.
-Processor yield.
-false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
-[ self value.
-Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
-[0m[31m#color: was sent to nil
-[0mUndefinedObject(Object)>>doesNotUnderstand: #color:
-SnakeModel>>moveSouth:
-SnakeModel>>executeStep
-SnakeGame>>start
-[ self start ] in SnakeGame>>addControls in Block: [ self start ]
-MorphEventSubscription>>notify:from:
-[ :s | result := result | ((s notify: anEvent from: sourceMorph) == true) ] in MorphicEventHandler>>notifyMorphsOfEvent:ofType:from: in Block: [ :s | result := result | ((s notify: anEvent from...etc...
-Set>>do:
-MorphicEventHandler>>notifyMorphsOfEvent:ofType:from:
-MorphicEventHandler>>click:fromMorph:
-SimpleButtonMorph(Morph)>>click:
-MouseClickState>>click
-MouseClickState>>handleEvent:from:
-HandMorph>>handleEvent:
-HandMorph>>processEventsFromQueue:
-HandMorph>>processEvents
-[ :h | 
-self activeHand: h.
-h processEvents.
-self activeHand: nil ] in WorldState>>doOneCycleNowFor: in Block: [ :h | ...
-Array(SequenceableCollection)>>do:
-WorldState>>handsDo:
-WorldState>>doOneCycleNowFor:
-WorldState>>doOneCycleFor:
-WorldMorph>>doOneCycle
-WorldMorph class>>doOneCycle
-[ [ WorldMorph doOneCycle.
-Processor yield.
-false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
-[ self value.
-Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
-[0m[31m#color: was sent to nil
-[0mUndefinedObject(Object)>>doesNotUnderstand: #color:
-SnakeModel>>moveSouth:
-SnakeModel>>executeStep
-SnakeGame>>start
-[ self start ] in SnakeGame>>addControls in Block: [ self start ]
-MorphEventSubscription>>notify:from:
-[ :s | result := result | ((s notify: anEvent from: sourceMorph) == true) ] in MorphicEventHandler>>notifyMorphsOfEvent:ofType:from: in Block: [ :s | result := result | ((s notify: anEvent from...etc...
-Set>>do:
-MorphicEventHandler>>notifyMorphsOfEvent:ofType:from:
-MorphicEventHandler>>click:fromMorph:
-SimpleButtonMorph(Morph)>>click:
-MouseClickState>>click
-MouseClickState>>handleEvent:from:
-HandMorph>>handleEvent:
-HandMorph>>processEventsFromQueue:
-HandMorph>>processEvents
-[ :h | 
-self activeHand: h.
-h processEvents.
-self activeHand: nil ] in WorldState>>doOneCycleNowFor: in Block: [ :h | ...
-Array(SequenceableCollection)>>do:
-WorldState>>handsDo:
-WorldState>>doOneCycleNowFor:
-WorldState>>doOneCycleFor:
-WorldMorph>>doOneCycle
-WorldMorph class>>doOneCycle
-[ [ WorldMorph doOneCycle.
-Processor yield.
-false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
-[ self value.
-Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
-[0m[31m#color: was sent to nil
-[0mUndefinedObject(Object)>>doesNotUnderstand: #color:
-SnakeModel>>moveSouth:
-SnakeModel>>executeStep
-SnakeGame>>start
-[ self start ] in SnakeGame>>addControls in Block: [ self start ]
-MorphEventSubscription>>notify:from:
-[ :s | result := result | ((s notify: anEvent from: sourceMorph) == true) ] in MorphicEventHandler>>notifyMorphsOfEvent:ofType:from: in Block: [ :s | result := result | ((s notify: anEvent from...etc...
-Set>>do:
-MorphicEventHandler>>notifyMorphsOfEvent:ofType:from:
-MorphicEventHandler>>click:fromMorph:
-SimpleButtonMorph(Morph)>>click:
-MouseClickState>>click
-MouseClickState>>handleEvent:from:
-HandMorph>>handleEvent:
-HandMorph>>processEventsFromQueue:
-HandMorph>>processEvents
-[ :h | 
-self activeHand: h.
-h processEvents.
-self activeHand: nil ] in WorldState>>doOneCycleNowFor: in Block: [ :h | ...
-Array(SequenceableCollection)>>do:
-WorldState>>handsDo:
-WorldState>>doOneCycleNowFor:
-WorldState>>doOneCycleFor:
-WorldMorph>>doOneCycle
-WorldMorph class>>doOneCycle
-[ [ WorldMorph doOneCycle.
-Processor yield.
-false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
-[ self value.
-Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
-[0m[31m#color: was sent to nil
-[0mUndefinedObject(Object)>>doesNotUnderstand: #color:
-SnakeModel>>moveSouth:
-SnakeModel>>executeStep
-SnakeGame>>start
-[ self start ] in SnakeGame>>addControls in Block: [ self start ]
-MorphEventSubscription>>notify:from:
-[ :s | result := result | ((s notify: anEvent from: sourceMorph) == true) ] in MorphicEventHandler>>notifyMorphsOfEvent:ofType:from: in Block: [ :s | result := result | ((s notify: anEvent from...etc...
-Set>>do:
-MorphicEventHandler>>notifyMorphsOfEvent:ofType:from:
-MorphicEventHandler>>click:fromMorph:
-SimpleButtonMorph(Morph)>>click:
-MouseClickState>>click
-MouseClickState>>handleEvent:from:
-HandMorph>>handleEvent:
-HandMorph>>processEventsFromQueue:
-HandMorph>>processEvents
-[ :h | 
-self activeHand: h.
-h processEvents.
-self activeHand: nil ] in WorldState>>doOneCycleNowFor: in Block: [ :h | ...
-Array(SequenceableCollection)>>do:
-WorldState>>handsDo:
-WorldState>>doOneCycleNowFor:
-WorldState>>doOneCycleFor:
-WorldMorph>>doOneCycle
-WorldMorph class>>doOneCycle
-[ [ WorldMorph doOneCycle.
-Processor yield.
-false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
-[ self value.
-Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
-[0m[31m#color: was sent to nil
-[0mUndefinedObject(Object)>>doesNotUnderstand: #color:
-SnakeModel>>moveSouth:
-SnakeModel>>executeStep
-SnakeGame>>start
-[ self start ] in SnakeGame>>addControls in Block: [ self start ]
-MorphEventSubscription>>notify:from:
-[ :s | result := result | ((s notify: anEvent from: sourceMorph) == true) ] in MorphicEventHandler>>notifyMorphsOfEvent:ofType:from: in Block: [ :s | result := result | ((s notify: anEvent from...etc...
-Set>>do:
-MorphicEventHandler>>notifyMorphsOfEvent:ofType:from:
-MorphicEventHandler>>click:fromMorph:
-SimpleButtonMorph(Morph)>>click:
-MouseClickState>>click
-MouseClickState>>handleEvent:from:
-HandMorph>>handleEvent:
-HandMorph>>processEventsFromQueue:
-HandMorph>>processEvents
-[ :h | 
-self activeHand: h.
-h processEvents.
-self activeHand: nil ] in WorldState>>doOneCycleNowFor: in Block: [ :h | ...
-Array(SequenceableCollection)>>do:
-WorldState>>handsDo:
-WorldState>>doOneCycleNowFor:
-WorldState>>doOneCycleFor:
-WorldMorph>>doOneCycle
-WorldMorph class>>doOneCycle
-[ [ WorldMorph doOneCycle.
-Processor yield.
-false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
-[ self value.
-Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
-[0m[31m#color: was sent to nil
-[0mUndefinedObject(Object)>>doesNotUnderstand: #color:
-SnakeModel>>moveSouth:
-SnakeModel>>executeStep
-SnakeGame>>start
-[ self start ] in SnakeGame>>addControls in Block: [ self start ]
-MorphEventSubscription>>notify:from:
-[ :s | result := result | ((s notify: anEvent from: sourceMorph) == true) ] in MorphicEventHandler>>notifyMorphsOfEvent:ofType:from: in Block: [ :s | result := result | ((s notify: anEvent from...etc...
-Set>>do:
-MorphicEventHandler>>notifyMorphsOfEvent:ofType:from:
-MorphicEventHandler>>click:fromMorph:
-SimpleButtonMorph(Morph)>>click:
-MouseClickState>>click
-MouseClickState>>handleEvent:from:
-HandMorph>>handleEvent:
-HandMorph>>processEventsFromQueue:
-HandMorph>>processEvents
-[ :h | 
-self activeHand: h.
-h processEvents.
-self activeHand: nil ] in WorldState>>doOneCycleNowFor: in Block: [ :h | ...
-Array(SequenceableCollection)>>do:
-WorldState>>handsDo:
-WorldState>>doOneCycleNowFor:
-WorldState>>doOneCycleFor:
-WorldMorph>>doOneCycle
-WorldMorph class>>doOneCycle
-[ [ WorldMorph doOneCycle.
-Processor yield.
-false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
-[ self value.
-Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
-[0m[31m#color: was sent to nil
-[0mUndefinedObject(Object)>>doesNotUnderstand: #color:
-SnakeModel>>moveSouth:
-SnakeModel>>executeStep
-SnakeGame>>start
-[ self start ] in SnakeGame>>addControls in Block: [ self start ]
-MorphEventSubscription>>notify:from:
-[ :s | result := result | ((s notify: anEvent from: sourceMorph) == true) ] in MorphicEventHandler>>notifyMorphsOfEvent:ofType:from: in Block: [ :s | result := result | ((s notify: anEvent from...etc...
-Set>>do:
-MorphicEventHandler>>notifyMorphsOfEvent:ofType:from:
-MorphicEventHandler>>click:fromMorph:
-SimpleButtonMorph(Morph)>>click:
-MouseClickState>>click
-MouseClickState>>handleEvent:from:
-HandMorph>>handleEvent:
-HandMorph>>processEventsFromQueue:
-HandMorph>>processEvents
-[ :h | 
-self activeHand: h.
-h processEvents.
-self activeHand: nil ] in WorldState>>doOneCycleNowFor: in Block: [ :h | ...
-Array(SequenceableCollection)>>do:
-WorldState>>handsDo:
-WorldState>>doOneCycleNowFor:
-WorldState>>doOneCycleFor:
-WorldMorph>>doOneCycle
-WorldMorph class>>doOneCycle
-[ [ WorldMorph doOneCycle.
-Processor yield.
-false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
-[ self value.
-Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
-[0m[31m#color: was sent to nil
-[0mUndefinedObject(Object)>>doesNotUnderstand: #color:
-SnakeModel>>moveSouth:
-SnakeModel>>executeStep
-SnakeGame>>start
-[ self start ] in SnakeGame>>addControls in Block: [ self start ]
-MorphEventSubscription>>notify:from:
-[ :s | result := result | ((s notify: anEvent from: sourceMorph) == true) ] in MorphicEventHandler>>notifyMorphsOfEvent:ofType:from: in Block: [ :s | result := result | ((s notify: anEvent from...etc...
-Set>>do:
-MorphicEventHandler>>notifyMorphsOfEvent:ofType:from:
-MorphicEventHandler>>click:fromMorph:
-SimpleButtonMorph(Morph)>>click:
-MouseClickState>>click
-MouseClickState>>handleEvent:from:
-HandMorph>>handleEvent:
-HandMorph>>processEventsFromQueue:
-HandMorph>>processEvents
-[ :h | 
-self activeHand: h.
-h processEvents.
-self activeHand: nil ] in WorldState>>doOneCycleNowFor: in Block: [ :h | ...
-Array(SequenceableCollection)>>do:
-WorldState>>handsDo:
-WorldState>>doOneCycleNowFor:
-WorldState>>doOneCycleFor:
-WorldMorph>>doOneCycle
-WorldMorph class>>doOneCycle
-[ [ WorldMorph doOneCycle.
-Processor yield.
-false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
-[ self value.
-Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
-[0m[31m#color: was sent to nil
-[0mUndefinedObject(Object)>>doesNotUnderstand: #color:
-SnakeModel>>moveSouth:
-SnakeModel>>executeStep
-SnakeGame>>start
-[ self start ] in SnakeGame>>addControls in Block: [ self start ]
-MorphEventSubscription>>notify:from:
-[ :s | result := result | ((s notify: anEvent from: sourceMorph) == true) ] in MorphicEventHandler>>notifyMorphsOfEvent:ofType:from: in Block: [ :s | result := result | ((s notify: anEvent from...etc...
-Set>>do:
-MorphicEventHandler>>notifyMorphsOfEvent:ofType:from:
-MorphicEventHandler>>click:fromMorph:
-SimpleButtonMorph(Morph)>>click:
-MouseClickState>>click
-MouseClickState>>handleEvent:from:
-HandMorph>>handleEvent:
-HandMorph>>processEventsFromQueue:
-HandMorph>>processEvents
-[ :h | 
-self activeHand: h.
-h processEvents.
-self activeHand: nil ] in WorldState>>doOneCycleNowFor: in Block: [ :h | ...
-Array(SequenceableCollection)>>do:
-WorldState>>handsDo:
-WorldState>>doOneCycleNowFor:
-WorldState>>doOneCycleFor:
-WorldMorph>>doOneCycle
-WorldMorph class>>doOneCycle
-[ [ WorldMorph doOneCycle.
-Processor yield.
-false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
-[ self value.
-Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
-[0m[31m#color: was sent to nil
-[0mUndefinedObject(Object)>>doesNotUnderstand: #color:
-SnakeModel>>moveSouth:
-SnakeModel>>executeStep
-SnakeGame>>start
-[ self start ] in SnakeGame>>addControls in Block: [ self start ]
-MorphEventSubscription>>notify:from:
-[ :s | result := result | ((s notify: anEvent from: sourceMorph) == true) ] in MorphicEventHandler>>notifyMorphsOfEvent:ofType:from: in Block: [ :s | result := result | ((s notify: anEvent from...etc...
-Set>>do:
-MorphicEventHandler>>notifyMorphsOfEvent:ofType:from:
-MorphicEventHandler>>click:fromMorph:
-SimpleButtonMorph(Morph)>>click:
-MouseClickState>>click
-MouseClickState>>handleEvent:from:
-HandMorph>>handleEvent:
-HandMorph>>processEventsFromQueue:
-HandMorph>>processEvents
-[ :h | 
-self activeHand: h.
-h processEvents.
-self activeHand: nil ] in WorldState>>doOneCycleNowFor: in Block: [ :h | ...
-Array(SequenceableCollection)>>do:
-WorldState>>handsDo:
-WorldState>>doOneCycleNowFor:
-WorldState>>doOneCycleFor:
-WorldMorph>>doOneCycle
-WorldMorph class>>doOneCycle
-[ [ WorldMorph doOneCycle.
-Processor yield.
-false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
-[ self value.
-Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
-[0m[31m#color: was sent to nil
-[0mUndefinedObject(Object)>>doesNotUnderstand: #color:
-SnakeModel>>moveSouth:
-SnakeModel>>executeStep
-SnakeGame>>start
-[ self start ] in SnakeGame>>addControls in Block: [ self start ]
-MorphEventSubscription>>notify:from:
-[ :s | result := result | ((s notify: anEvent from: sourceMorph) == true) ] in MorphicEventHandler>>notifyMorphsOfEvent:ofType:from: in Block: [ :s | result := result | ((s notify: anEvent from...etc...
-Set>>do:
-MorphicEventHandler>>notifyMorphsOfEvent:ofType:from:
-MorphicEventHandler>>click:fromMorph:
-SimpleButtonMorph(Morph)>>click:
-MouseClickState>>click
-MouseClickState>>handleEvent:from:
-HandMorph>>handleEvent:
-HandMorph>>processEventsFromQueue:
-HandMorph>>processEvents
-[ :h | 
-self activeHand: h.
-h processEvents.
-self activeHand: nil ] in WorldState>>doOneCycleNowFor: in Block: [ :h | ...
-Array(SequenceableCollection)>>do:
-WorldState>>handsDo:
-WorldState>>doOneCycleNowFor:
-WorldState>>doOneCycleFor:
-WorldMorph>>doOneCycle
-WorldMorph class>>doOneCycle
-[ [ WorldMorph doOneCycle.
-Processor yield.
-false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
-[ self value.
-Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
-[0m[31m#color: was sent to nil
-[0mUndefinedObject(Object)>>doesNotUnderstand: #color:
-SnakeModel>>moveSouth:
-SnakeModel>>executeStep
-SnakeGame>>start
-[ self start ] in SnakeGame>>addControls in Block: [ self start ]
-MorphEventSubscription>>notify:from:
-[ :s | result := result | ((s notify: anEvent from: sourceMorph) == true) ] in MorphicEventHandler>>notifyMorphsOfEvent:ofType:from: in Block: [ :s | result := result | ((s notify: anEvent from...etc...
-Set>>do:
-MorphicEventHandler>>notifyMorphsOfEvent:ofType:from:
-MorphicEventHandler>>click:fromMorph:
-SimpleButtonMorph(Morph)>>click:
-MouseClickState>>click
-MouseClickState>>handleEvent:from:
-HandMorph>>handleEvent:
-HandMorph>>processEventsFromQueue:
-HandMorph>>processEvents
-[ :h | 
-self activeHand: h.
-h processEvents.
-self activeHand: nil ] in WorldState>>doOneCycleNowFor: in Block: [ :h | ...
-Array(SequenceableCollection)>>do:
-WorldState>>handsDo:
-WorldState>>doOneCycleNowFor:
-WorldState>>doOneCycleFor:
-WorldMorph>>doOneCycle
-WorldMorph class>>doOneCycle
-[ [ WorldMorph doOneCycle.
-Processor yield.
-false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
-[ self value.
-Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
-[0m[31m#color: was sent to nil
-[0mUndefinedObject(Object)>>doesNotUnderstand: #color:
-SnakeModel>>moveSouth:
-SnakeModel>>executeStep
-SnakeGame>>start
-[ self start ] in SnakeGame>>addControls in Block: [ self start ]
-MorphEventSubscription>>notify:from:
-[ :s | result := result | ((s notify: anEvent from: sourceMorph) == true) ] in MorphicEventHandler>>notifyMorphsOfEvent:ofType:from: in Block: [ :s | result := result | ((s notify: anEvent from...etc...
-Set>>do:
-MorphicEventHandler>>notifyMorphsOfEvent:ofType:from:
-MorphicEventHandler>>click:fromMorph:
-SimpleButtonMorph(Morph)>>click:
-MouseClickState>>click
-MouseClickState>>handleEvent:from:
-HandMorph>>handleEvent:
-HandMorph>>processEventsFromQueue:
-HandMorph>>processEvents
-[ :h | 
-self activeHand: h.
-h processEvents.
-self activeHand: nil ] in WorldState>>doOneCycleNowFor: in Block: [ :h | ...
-Array(SequenceableCollection)>>do:
-WorldState>>handsDo:
-WorldState>>doOneCycleNowFor:
-WorldState>>doOneCycleFor:
-WorldMorph>>doOneCycle
-WorldMorph class>>doOneCycle
-[ [ WorldMorph doOneCycle.
-Processor yield.
-false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
-[ self value.
-Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
-[0m[31m#color: was sent to nil
-[0mUndefinedObject(Object)>>doesNotUnderstand: #color:
-SnakeModel>>moveSouth:
-SnakeModel>>executeStep
-SnakeGame>>start
-[ self start ] in SnakeGame>>addControls in Block: [ self start ]
-MorphEventSubscription>>notify:from:
-[ :s | result := result | ((s notify: anEvent from: sourceMorph) == true) ] in MorphicEventHandler>>notifyMorphsOfEvent:ofType:from: in Block: [ :s | result := result | ((s notify: anEvent from...etc...
-Set>>do:
-MorphicEventHandler>>notifyMorphsOfEvent:ofType:from:
-MorphicEventHandler>>click:fromMorph:
-SimpleButtonMorph(Morph)>>click:
-MouseClickState>>click
-MouseClickState>>handleEvent:from:
-HandMorph>>handleEvent:
-HandMorph>>processEventsFromQueue:
-HandMorph>>processEvents
-[ :h | 
-self activeHand: h.
-h processEvents.
-self activeHand: nil ] in WorldState>>doOneCycleNowFor: in Block: [ :h | ...
-Array(SequenceableCollection)>>do:
-WorldState>>handsDo:
-WorldState>>doOneCycleNowFor:
-WorldState>>doOneCycleFor:
-WorldMorph>>doOneCycle
-WorldMorph class>>doOneCycle
-[ [ WorldMorph doOneCycle.
-Processor yield.
-false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
-[ self value.
-Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
-[0m[31m#color: was sent to nil
-[0mUndefinedObject(Object)>>doesNotUnderstand: #color:
-SnakeModel>>moveSouth:
-SnakeModel>>executeStep
-SnakeGame>>start
-[ self start ] in SnakeGame>>addControls in Block: [ self start ]
-MorphEventSubscription>>notify:from:
-[ :s | result := result | ((s notify: anEvent from: sourceMorph) == true) ] in MorphicEventHandler>>notifyMorphsOfEvent:ofType:from: in Block: [ :s | result := result | ((s notify: anEvent from...etc...
-Set>>do:
-MorphicEventHandler>>notifyMorphsOfEvent:ofType:from:
-MorphicEventHandler>>click:fromMorph:
-SimpleButtonMorph(Morph)>>click:
-MouseClickState>>click
-MouseClickState>>handleEvent:from:
-HandMorph>>handleEvent:
-HandMorph>>processEventsFromQueue:
-HandMorph>>processEvents
-[ :h | 
-self activeHand: h.
-h processEvents.
-self activeHand: nil ] in WorldState>>doOneCycleNowFor: in Block: [ :h | ...
-Array(SequenceableCollection)>>do:
-WorldState>>handsDo:
-WorldState>>doOneCycleNowFor:
-WorldState>>doOneCycleFor:
-WorldMorph>>doOneCycle
-WorldMorph class>>doOneCycle
-[ [ WorldMorph doOneCycle.
-Processor yield.
-false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
-[ self value.
-Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
-[0m[31m#color: was sent to nil
-[0mUndefinedObject(Object)>>doesNotUnderstand: #color:
-SnakeModel>>moveSouth:
-SnakeModel>>executeStep
-SnakeGame>>start
-[ self start ] in SnakeGame>>addControls in Block: [ self start ]
-MorphEventSubscription>>notify:from:
-[ :s | result := result | ((s notify: anEvent from: sourceMorph) == true) ] in MorphicEventHandler>>notifyMorphsOfEvent:ofType:from: in Block: [ :s | result := result | ((s notify: anEvent from...etc...
-Set>>do:
-MorphicEventHandler>>notifyMorphsOfEvent:ofType:from:
-MorphicEventHandler>>click:fromMorph:
-SimpleButtonMorph(Morph)>>click:
-MouseClickState>>click
-MouseClickState>>handleEvent:from:
-HandMorph>>handleEvent:
-HandMorph>>processEventsFromQueue:
-HandMorph>>processEvents
-[ :h | 
-self activeHand: h.
-h processEvents.
-self activeHand: nil ] in WorldState>>doOneCycleNowFor: in Block: [ :h | ...
-Array(SequenceableCollection)>>do:
-WorldState>>handsDo:
-WorldState>>doOneCycleNowFor:
-WorldState>>doOneCycleFor:
-WorldMorph>>doOneCycle
-WorldMorph class>>doOneCycle
-[ [ WorldMorph doOneCycle.
-Processor yield.
-false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
-[ self value.
-Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
-[0m[31m#color: was sent to nil
-[0mUndefinedObject(Object)>>doesNotUnderstand: #color:
-SnakeModel>>moveSouth:
-SnakeModel>>executeStep
-SnakeGame>>start
-[ self start ] in SnakeGame>>addControls in Block: [ self start ]
-MorphEventSubscription>>notify:from:
-[ :s | result := result | ((s notify: anEvent from: sourceMorph) == true) ] in MorphicEventHandler>>notifyMorphsOfEvent:ofType:from: in Block: [ :s | result := result | ((s notify: anEvent from...etc...
-Set>>do:
-MorphicEventHandler>>notifyMorphsOfEvent:ofType:from:
-MorphicEventHandler>>click:fromMorph:
-SimpleButtonMorph(Morph)>>click:
-MouseClickState>>click
-MouseClickState>>handleEvent:from:
-HandMorph>>handleEvent:
-HandMorph>>processEventsFromQueue:
-HandMorph>>processEvents
-[ :h | 
-self activeHand: h.
-h processEvents.
-self activeHand: nil ] in WorldState>>doOneCycleNowFor: in Block: [ :h | ...
-Array(SequenceableCollection)>>do:
-WorldState>>handsDo:
-WorldState>>doOneCycleNowFor:
-WorldState>>doOneCycleFor:
-WorldMorph>>doOneCycle
-WorldMorph class>>doOneCycle
-[ [ WorldMorph doOneCycle.
-Processor yield.
-false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
-[ self value.
-Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
-[0m[31m#color: was sent to nil
-[0mUndefinedObject(Object)>>doesNotUnderstand: #color:
-SnakeModel>>moveSouth:
-SnakeModel>>executeStep
-SnakeGame>>start
-[ self start ] in SnakeGame>>addControls in Block: [ self start ]
-MorphEventSubscription>>notify:from:
-[ :s | result := result | ((s notify: anEvent from: sourceMorph) == true) ] in MorphicEventHandler>>notifyMorphsOfEvent:ofType:from: in Block: [ :s | result := result | ((s notify: anEvent from...etc...
-Set>>do:
-MorphicEventHandler>>notifyMorphsOfEvent:ofType:from:
-MorphicEventHandler>>click:fromMorph:
-SimpleButtonMorph(Morph)>>click:
-MouseClickState>>click
-MouseClickState>>handleEvent:from:
-HandMorph>>handleEvent:
-HandMorph>>processEventsFromQueue:
-HandMorph>>processEvents
-[ :h | 
-self activeHand: h.
-h processEvents.
-self activeHand: nil ] in WorldState>>doOneCycleNowFor: in Block: [ :h | ...
-Array(SequenceableCollection)>>do:
-WorldState>>handsDo:
-WorldState>>doOneCycleNowFor:
-WorldState>>doOneCycleFor:
-WorldMorph>>doOneCycle
-WorldMorph class>>doOneCycle
-[ [ WorldMorph doOneCycle.
-Processor yield.
-false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
-[ self value.
-Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
-[0m[31m#color: was sent to nil
-[0mUndefinedObject(Object)>>doesNotUnderstand: #color:
-SnakeModel>>moveSouth:
-SnakeModel>>executeStep
-SnakeGame>>start
-[ self start ] in SnakeGame>>addControls in Block: [ self start ]
-MorphEventSubscription>>notify:from:
-[ :s | result := result | ((s notify: anEvent from: sourceMorph) == true) ] in MorphicEventHandler>>notifyMorphsOfEvent:ofType:from: in Block: [ :s | result := result | ((s notify: anEvent from...etc...
-Set>>do:
-MorphicEventHandler>>notifyMorphsOfEvent:ofType:from:
-MorphicEventHandler>>click:fromMorph:
-SimpleButtonMorph(Morph)>>click:
-MouseClickState>>click
-MouseClickState>>handleEvent:from:
-HandMorph>>handleEvent:
-HandMorph>>processEventsFromQueue:
-HandMorph>>processEvents
-[ :h | 
-self activeHand: h.
-h processEvents.
-self activeHand: nil ] in WorldState>>doOneCycleNowFor: in Block: [ :h | ...
-Array(SequenceableCollection)>>do:
-WorldState>>handsDo:
-WorldState>>doOneCycleNowFor:
-WorldState>>doOneCycleFor:
-WorldMorph>>doOneCycle
-WorldMorph class>>doOneCycle
-[ [ WorldMorph doOneCycle.
-Processor yield.
-false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
-[ self value.
-Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
-[0m[31m#color: was sent to nil
-[0mUndefinedObject(Object)>>doesNotUnderstand: #color:
-SnakeModel>>moveSouth:
-SnakeModel>>executeStep
-SnakeGame>>start
-[ self start ] in SnakeGame>>addControls in Block: [ self start ]
-MorphEventSubscription>>notify:from:
-[ :s | result := result | ((s notify: anEvent from: sourceMorph) == true) ] in MorphicEventHandler>>notifyMorphsOfEvent:ofType:from: in Block: [ :s | result := result | ((s notify: anEvent from...etc...
-Set>>do:
-MorphicEventHandler>>notifyMorphsOfEvent:ofType:from:
-MorphicEventHandler>>click:fromMorph:
-SimpleButtonMorph(Morph)>>click:
-MouseClickState>>click
-MouseClickState>>handleEvent:from:
-HandMorph>>handleEvent:
-HandMorph>>processEventsFromQueue:
-HandMorph>>processEvents
-[ :h | 
-self activeHand: h.
-h processEvents.
-self activeHand: nil ] in WorldState>>doOneCycleNowFor: in Block: [ :h | ...
-Array(SequenceableCollection)>>do:
-WorldState>>handsDo:
-WorldState>>doOneCycleNowFor:
-WorldState>>doOneCycleFor:
-WorldMorph>>doOneCycle
-WorldMorph class>>doOneCycle
-[ [ WorldMorph doOneCycle.
-Processor yield.
-false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
-[ self value.
-Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
-[0m[31m#color: was sent to nil
-[0mUndefinedObject(Object)>>doesNotUnderstand: #color:
-SnakeModel>>moveSouth:
-SnakeModel>>executeStep
-SnakeGame>>start
-[ self start ] in SnakeGame>>addControls in Block: [ self start ]
-MorphEventSubscription>>notify:from:
-[ :s | result := result | ((s notify: anEvent from: sourceMorph) == true) ] in MorphicEventHandler>>notifyMorphsOfEvent:ofType:from: in Block: [ :s | result := result | ((s notify: anEvent from...etc...
-Set>>do:
-MorphicEventHandler>>notifyMorphsOfEvent:ofType:from:
-MorphicEventHandler>>click:fromMorph:
-SimpleButtonMorph(Morph)>>click:
-MouseClickState>>click
-MouseClickState>>handleEvent:from:
-HandMorph>>handleEvent:
-HandMorph>>processEventsFromQueue:
-HandMorph>>processEvents
-[ :h | 
-self activeHand: h.
-h processEvents.
-self activeHand: nil ] in WorldState>>doOneCycleNowFor: in Block: [ :h | ...
-Array(SequenceableCollection)>>do:
-WorldState>>handsDo:
-WorldState>>doOneCycleNowFor:
-WorldState>>doOneCycleFor:
-WorldMorph>>doOneCycle
-WorldMorph class>>doOneCycle
-[ [ WorldMorph doOneCycle.
-Processor yield.
-false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
-[ self value.
-Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
-[0m[31m#color: was sent to nil
-[0mUndefinedObject(Object)>>doesNotUnderstand: #color:
-SnakeModel>>moveSouth:
-SnakeModel>>executeStep
-SnakeGame>>start
-[ self start ] in SnakeGame>>addControls in Block: [ self start ]
-MorphEventSubscription>>notify:from:
-[ :s | result := result | ((s notify: anEvent from: sourceMorph) == true) ] in MorphicEventHandler>>notifyMorphsOfEvent:ofType:from: in Block: [ :s | result := result | ((s notify: anEvent from...etc...
-Set>>do:
-MorphicEventHandler>>notifyMorphsOfEvent:ofType:from:
-MorphicEventHandler>>click:fromMorph:
-SimpleButtonMorph(Morph)>>click:
-MouseClickState>>click
-MouseClickState>>handleEvent:from:
-HandMorph>>handleEvent:
-HandMorph>>processEventsFromQueue:
-HandMorph>>processEvents
-[ :h | 
-self activeHand: h.
-h processEvents.
-self activeHand: nil ] in WorldState>>doOneCycleNowFor: in Block: [ :h | ...
-Array(SequenceableCollection)>>do:
-WorldState>>handsDo:
-WorldState>>doOneCycleNowFor:
-WorldState>>doOneCycleFor:
-WorldMorph>>doOneCycle
-WorldMorph class>>doOneCycle
-[ [ WorldMorph doOneCycle.
-Processor yield.
-false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
-[ self value.
-Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
-[0m[31m#color: was sent to nil
-[0mUndefinedObject(Object)>>doesNotUnderstand: #color:
-SnakeModel>>moveSouth:
-SnakeModel>>executeStep
-SnakeGame>>start
-[ self start ] in SnakeGame>>addControls in Block: [ self start ]
-MorphEventSubscription>>notify:from:
-[ :s | result := result | ((s notify: anEvent from: sourceMorph) == true) ] in MorphicEventHandler>>notifyMorphsOfEvent:ofType:from: in Block: [ :s | result := result | ((s notify: anEvent from...etc...
-Set>>do:
-MorphicEventHandler>>notifyMorphsOfEvent:ofType:from:
-MorphicEventHandler>>click:fromMorph:
-SimpleButtonMorph(Morph)>>click:
-MouseClickState>>click
-MouseClickState>>handleEvent:from:
-HandMorph>>handleEvent:
-HandMorph>>processEventsFromQueue:
-HandMorph>>processEvents
-[ :h | 
-self activeHand: h.
-h processEvents.
-self activeHand: nil ] in WorldState>>doOneCycleNowFor: in Block: [ :h | ...
-Array(SequenceableCollection)>>do:
-WorldState>>handsDo:
-WorldState>>doOneCycleNowFor:
-WorldState>>doOneCycleFor:
-WorldMorph>>doOneCycle
-WorldMorph class>>doOneCycle
-[ [ WorldMorph doOneCycle.
-Processor yield.
-false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
-[ self value.
-Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
-[0m[31m#color: was sent to nil
-[0mUndefinedObject(Object)>>doesNotUnderstand: #color:
-SnakeModel>>moveSouth:
-SnakeModel>>executeStep
-SnakeGame>>start
-[ self start ] in SnakeGame>>addControls in Block: [ self start ]
-MorphEventSubscription>>notify:from:
-[ :s | result := result | ((s notify: anEvent from: sourceMorph) == true) ] in MorphicEventHandler>>notifyMorphsOfEvent:ofType:from: in Block: [ :s | result := result | ((s notify: anEvent from...etc...
-Set>>do:
-MorphicEventHandler>>notifyMorphsOfEvent:ofType:from:
-MorphicEventHandler>>click:fromMorph:
-SimpleButtonMorph(Morph)>>click:
-MouseClickState>>click
-MouseClickState>>handleEvent:from:
-HandMorph>>handleEvent:
-HandMorph>>processEventsFromQueue:
-HandMorph>>processEvents
-[ :h | 
-self activeHand: h.
-h processEvents.
-self activeHand: nil ] in WorldState>>doOneCycleNowFor: in Block: [ :h | ...
-Array(SequenceableCollection)>>do:
-WorldState>>handsDo:
-WorldState>>doOneCycleNowFor:
-WorldState>>doOneCycleFor:
-WorldMorph>>doOneCycle
-WorldMorph class>>doOneCycle
-[ [ WorldMorph doOneCycle.
-Processor yield.
-false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
-[ self value.
-Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
-[0m[31m#color: was sent to nil
-[0mUndefinedObject(Object)>>doesNotUnderstand: #color:
-SnakeModel>>moveEast:
-SnakeModel>>executeStep
+WorldMorph>>viewBox:
+WorldMorph(PasteUpMorph)>>restoreMorphicDisplay
+WorldMorph class>>startUp
+WorldMorph class(Behavior)>>startUp:
+ClassSessionHandler>>startup:
+[0m[31mInstance of ByteString did not understand #numberOfRows
+[0mByteString(Object)>>doesNotUnderstand: #numberOfRows
+[ numberOfRows = aMatrix numberOfRows ] in SnakeModel(Matrix)>>, in Block: [ numberOfRows = aMatrix numberOfRows ]
+BlockClosure>>assert
+SnakeModel(Matrix)>>,
 [ [ winner isNil ]
 	whileTrue: [ | delay |
-		delay := Delay forMilliseconds: 250.
+		delay := Delay forMilliseconds: 200.
 		delay wait.
 		model executeStep.
-		winner := model checkWinner ] ] in SnakeGame>>start in Block: [ [ winner isNil ]...
+		winner := model checkWinner.
+		winner notNil
+			ifTrue: [ messageArea contents: winner , ' wins!' ] ] ] in SnakeGame>>start in Block: [ [ winner isNil ]...
 [ self value.
 Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
-[0m[31m#color: was sent to nil
-[0mUndefinedObject(Object)>>doesNotUnderstand: #color:
-SnakeModel>>moveEast:
-SnakeModel>>executeStep
-[ [ winner isNil ]
-	whileTrue: [ | delay |
-		delay := Delay forMilliseconds: 250.
-		delay wait.
-		model executeStep.
-		winner := model checkWinner ] ] in SnakeGame>>start in Block: [ [ winner isNil ]...
-[ self value.
-Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
-[0m[31mSubscriptOutOfBounds: 0
-[0mArray(Object)>>errorSubscriptBounds:
-Array(Object)>>at:
-SnakeGame>>rows:at:
-SnakeModel>>moveEast:
+[0m[31m
+[0mProcess>>terminate
+NECController>>stopCompletionDelay
+NECController>>closeMenu
+MessageSend>>value
+MessageSend>>cull:
+MessageSend>>cull:cull:
+[ action cull: anAnnouncement cull: announcer ] in AnnouncementSubscription>>deliver: in Block: [ action cull: anAnnouncement cull: announcer ]
+BlockClosure>>on:do:
+BlockClosure>>on:fork:
+AnnouncementSubscription>>deliver:
+[ "Ensure delivery to remaining announcements" subscription deliver: anAnnouncement ] in SubscriptionRegistry>>deliver:to:startingAt: in Block: [ "Ensure delivery to remaining announcements" sub...etc...
+BlockClosure>>ifCurtailed:
+SubscriptionRegistry>>deliver:to:startingAt:
+SubscriptionRegistry>>deliver:to:
+SubscriptionRegistry>>deliver:
+Announcer>>announce:
+RubEditingArea(Morph)>>doAnnounce:
+RubEditingArea(Morph)>>announceKeyboardFocusChange:
+RubEditingArea(Morph)>>keyboardFocusChange:
+RubEditingArea(RubAbstractTextArea)>>keyboardFocusChange:
+HandMorph>>newKeyboardFocus:
+HandMorph>>releaseKeyboardFocus
+[ :hand | hand releaseKeyboardFocus ] in WorldMorph>>viewBox: in Block: [ :hand | hand releaseKeyboardFocus ]
+Array(SequenceableCollection)>>do:
+WorldState>>handsDo:
+WorldMorph>>viewBox:
+WorldMorph(PasteUpMorph)>>restoreMorphicDisplay
+WorldMorph class>>startUp
+WorldMorph class(Behavior)>>startUp:
+ClassSessionHandler>>startup:
+[0m[31m
+[0mProcess>>terminate
+NECController>>stopCompletionDelay
+NECController>>closeMenu
+MessageSend>>value
+MessageSend>>cull:
+MessageSend>>cull:cull:
+[ action cull: anAnnouncement cull: announcer ] in AnnouncementSubscription>>deliver: in Block: [ action cull: anAnnouncement cull: announcer ]
+BlockClosure>>on:do:
+BlockClosure>>on:fork:
+AnnouncementSubscription>>deliver:
+[ "Ensure delivery to remaining announcements" subscription deliver: anAnnouncement ] in SubscriptionRegistry>>deliver:to:startingAt: in Block: [ "Ensure delivery to remaining announcements" sub...etc...
+BlockClosure>>ifCurtailed:
+SubscriptionRegistry>>deliver:to:startingAt:
+SubscriptionRegistry>>deliver:to:
+SubscriptionRegistry>>deliver:
+Announcer>>announce:
+RubEditingArea(Morph)>>doAnnounce:
+RubEditingArea(Morph)>>announceKeyboardFocusChange:
+RubEditingArea(Morph)>>keyboardFocusChange:
+RubEditingArea(RubAbstractTextArea)>>keyboardFocusChange:
+HandMorph>>newKeyboardFocus:
+HandMorph>>releaseKeyboardFocus
+[ :hand | hand releaseKeyboardFocus ] in WorldMorph>>viewBox: in Block: [ :hand | hand releaseKeyboardFocus ]
+Array(SequenceableCollection)>>do:
+WorldState>>handsDo:
+WorldMorph>>viewBox:
+WorldMorph(PasteUpMorph)>>restoreMorphicDisplay
+WorldMorph class>>startUp
+WorldMorph class(Behavior)>>startUp:
+ClassSessionHandler>>startup:
+[0m[31m
+[0mProcess>>terminate
+NECController>>stopCompletionDelay
+NECController>>closeMenu
+MessageSend>>value
+MessageSend>>cull:
+MessageSend>>cull:cull:
+[ action cull: anAnnouncement cull: announcer ] in AnnouncementSubscription>>deliver: in Block: [ action cull: anAnnouncement cull: announcer ]
+BlockClosure>>on:do:
+BlockClosure>>on:fork:
+AnnouncementSubscription>>deliver:
+[ "Ensure delivery to remaining announcements" subscription deliver: anAnnouncement ] in SubscriptionRegistry>>deliver:to:startingAt: in Block: [ "Ensure delivery to remaining announcements" sub...etc...
+BlockClosure>>ifCurtailed:
+SubscriptionRegistry>>deliver:to:startingAt:
+SubscriptionRegistry>>deliver:to:
+SubscriptionRegistry>>deliver:
+Announcer>>announce:
+RubEditingArea(Morph)>>doAnnounce:
+RubEditingArea(Morph)>>announceKeyboardFocusChange:
+RubEditingArea(Morph)>>keyboardFocusChange:
+RubEditingArea(RubAbstractTextArea)>>keyboardFocusChange:
+HandMorph>>newKeyboardFocus:
+HandMorph>>releaseKeyboardFocus
+[ :hand | hand releaseKeyboardFocus ] in WorldMorph>>viewBox: in Block: [ :hand | hand releaseKeyboardFocus ]
+Array(SequenceableCollection)>>do:
+WorldState>>handsDo:
+WorldMorph>>viewBox:
+WorldMorph(PasteUpMorph)>>restoreMorphicDisplay
+WorldMorph class>>startUp
+WorldMorph class(Behavior)>>startUp:
+ClassSessionHandler>>startup:
+[0m[31mError: Instances of SmallInteger are not indexable
+[0mSmallInteger(Object)>>error:
+SmallInteger(Object)>>errorNotIndexable
+SmallInteger(Object)>>size
+ByteString(SequenceableCollection)>>copyReplaceFrom:to:with:
+ByteString(SequenceableCollection)>>,
 SnakeModel>>executeStep
 [ [ winner isNil ]
 	whileTrue: [ | delay |
 		delay := Delay forMilliseconds: 200.
 		delay wait.
 		model executeStep.
-		winner := model checkWinner ] ] in SnakeGame>>start in Block: [ [ winner isNil ]...
+		winner := model checkWinner.
+		winner notNil
+			ifTrue: [ messageArea contents: winner , ' wins!' ] ] ] in SnakeGame>>start in Block: [ [ winner isNil ]...
 [ self value.
 Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
-[0m[31mSubscriptOutOfBounds: 0
-[0mArray(Object)>>errorSubscriptBounds:
-Array(Object)>>at:
-SnakeGame>>rows:at:
-SnakeModel>>moveEast:
+[0m[31mError: Instances of SmallInteger are not indexable
+[0mSmallInteger(Object)>>error:
+SmallInteger(Object)>>errorNotIndexable
+SmallInteger(Object)>>size
+ByteString(SequenceableCollection)>>copyReplaceFrom:to:with:
+ByteString(SequenceableCollection)>>,
 SnakeModel>>executeStep
 [ [ winner isNil ]
 	whileTrue: [ | delay |
 		delay := Delay forMilliseconds: 200.
 		delay wait.
 		model executeStep.
-		winner := model checkWinner ] ] in SnakeGame>>start in Block: [ [ winner isNil ]...
+		winner := model checkWinner.
+		winner notNil
+			ifTrue: [ messageArea contents: winner , ' wins!' ] ] ] in SnakeGame>>start in Block: [ [ winner isNil ]...
 [ self value.
 Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
-[0m[31mSubscriptOutOfBounds: 0
-[0mArray(Object)>>errorSubscriptBounds:
-Array(Object)>>at:
-Array(Object)>>at:
-SnakeGame>>rows:at:
-SnakeModel>>moveEast:
-SnakeModel>>executeStep
-[ [ winner isNil ]
-	whileTrue: [ | delay |
-		delay := Delay forMilliseconds: 200.
-		delay wait.
-		model executeStep.
-		winner := model checkWinner ] ] in SnakeGame>>start in Block: [ [ winner isNil ]...
-[ self value.
-Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
-[0m[31mSubscriptOutOfBounds: 0
-[0mArray(Object)>>errorSubscriptBounds:
-Array(Object)>>at:
-SnakeGame>>rows:at:
-SnakeModel>>moveEast:
-SnakeModel>>executeStep
-[ [ winner isNil ]
-	whileTrue: [ | delay |
-		delay := Delay forMilliseconds: 200.
-		delay wait.
-		model executeStep.
-		winner := model checkWinner ] ] in SnakeGame>>start in Block: [ [ winner isNil ]...
-[ self value.
-Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
-[0m[31mInstance of Array did not understand #at:at:
-[0mArray(Object)>>doesNotUnderstand: #at:at:
-SnakeGame>>start
-[ self start ] in SnakeGame>>addControls in Block: [ self start ]
-MorphEventSubscription>>notify:from:
-[ :s | result := result | ((s notify: anEvent from: sourceMorph) == true) ] in MorphicEventHandler>>notifyMorphsOfEvent:ofType:from: in Block: [ :s | result := result | ((s notify: anEvent from...etc...
-Set>>do:
-MorphicEventHandler>>notifyMorphsOfEvent:ofType:from:
-MorphicEventHandler>>click:fromMorph:
-SimpleButtonMorph(Morph)>>click:
-MouseClickState>>click
-MouseClickState>>handleEvent:from:
-HandMorph>>handleEvent:
-HandMorph>>processEventsFromQueue:
-HandMorph>>processEvents
-[ :h | 
-self activeHand: h.
-h processEvents.
-self activeHand: nil ] in WorldState>>doOneCycleNowFor: in Block: [ :h | ...
+[0m[31m
+[0mProcess>>terminate
+NECController>>stopCompletionDelay
+NECController>>closeMenu
+MessageSend>>value
+MessageSend>>cull:
+MessageSend>>cull:cull:
+[ action cull: anAnnouncement cull: announcer ] in AnnouncementSubscription>>deliver: in Block: [ action cull: anAnnouncement cull: announcer ]
+BlockClosure>>on:do:
+BlockClosure>>on:fork:
+AnnouncementSubscription>>deliver:
+[ "Ensure delivery to remaining announcements" subscription deliver: anAnnouncement ] in SubscriptionRegistry>>deliver:to:startingAt: in Block: [ "Ensure delivery to remaining announcements" sub...etc...
+BlockClosure>>ifCurtailed:
+SubscriptionRegistry>>deliver:to:startingAt:
+SubscriptionRegistry>>deliver:to:
+SubscriptionRegistry>>deliver:
+Announcer>>announce:
+RubEditingArea(Morph)>>doAnnounce:
+RubEditingArea(Morph)>>announceKeyboardFocusChange:
+RubEditingArea(Morph)>>keyboardFocusChange:
+RubEditingArea(RubAbstractTextArea)>>keyboardFocusChange:
+HandMorph>>newKeyboardFocus:
+HandMorph>>releaseKeyboardFocus
+[ :hand | hand releaseKeyboardFocus ] in WorldMorph>>viewBox: in Block: [ :hand | hand releaseKeyboardFocus ]
 Array(SequenceableCollection)>>do:
 WorldState>>handsDo:
-WorldState>>doOneCycleNowFor:
-WorldState>>doOneCycleFor:
-WorldMorph>>doOneCycle
-WorldMorph class>>doOneCycle
-[ [ WorldMorph doOneCycle.
-Processor yield.
-false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
+WorldMorph>>viewBox:
+WorldMorph(PasteUpMorph)>>restoreMorphicDisplay
+WorldMorph class>>startUp
+WorldMorph class(Behavior)>>startUp:
+ClassSessionHandler>>startup:
+[0m[31mError: Instances of SmallInteger are not indexable
+[0mSmallInteger(Object)>>error:
+SmallInteger(Object)>>errorNotIndexable
+SmallInteger(Object)>>size
+ByteString(SequenceableCollection)>>copyReplaceFrom:to:with:
+ByteString(SequenceableCollection)>>,
+SnakeModel>>executeStep
+[ [ winner isNil ]
+	whileTrue: [ | delay |
+		delay := Delay forMilliseconds: 200.
+		delay wait.
+		model executeStep.
+		winner := model checkWinner.
+		winner notNil
+			ifTrue: [ messageArea contents: winner , ' wins!' ] ] ] in SnakeGame>>start in Block: [ [ winner isNil ]...
 [ self value.
 Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
-[0m[31mInstance of Array did not understand #at:at:
-[0mArray(Object)>>doesNotUnderstand: #at:at:
-SnakeGame>>start
-[ self start ] in SnakeGame>>addControls in Block: [ self start ]
-MorphEventSubscription>>notify:from:
-[ :s | result := result | ((s notify: anEvent from: sourceMorph) == true) ] in MorphicEventHandler>>notifyMorphsOfEvent:ofType:from: in Block: [ :s | result := result | ((s notify: anEvent from...etc...
-Set>>do:
-MorphicEventHandler>>notifyMorphsOfEvent:ofType:from:
-MorphicEventHandler>>click:fromMorph:
-SimpleButtonMorph(Morph)>>click:
-MouseClickState>>click
-MouseClickState>>handleEvent:from:
-HandMorph>>handleEvent:
-HandMorph>>processEventsFromQueue:
-HandMorph>>processEvents
-[ :h | 
-self activeHand: h.
-h processEvents.
-self activeHand: nil ] in WorldState>>doOneCycleNowFor: in Block: [ :h | ...
+[0m[31m
+[0mProcess>>terminate
+NECController>>stopCompletionDelay
+NECController>>closeMenu
+MessageSend>>value
+MessageSend>>cull:
+MessageSend>>cull:cull:
+[ action cull: anAnnouncement cull: announcer ] in AnnouncementSubscription>>deliver: in Block: [ action cull: anAnnouncement cull: announcer ]
+BlockClosure>>on:do:
+BlockClosure>>on:fork:
+AnnouncementSubscription>>deliver:
+[ "Ensure delivery to remaining announcements" subscription deliver: anAnnouncement ] in SubscriptionRegistry>>deliver:to:startingAt: in Block: [ "Ensure delivery to remaining announcements" sub...etc...
+BlockClosure>>ifCurtailed:
+SubscriptionRegistry>>deliver:to:startingAt:
+SubscriptionRegistry>>deliver:to:
+SubscriptionRegistry>>deliver:
+Announcer>>announce:
+RubEditingArea(Morph)>>doAnnounce:
+RubEditingArea(Morph)>>announceKeyboardFocusChange:
+RubEditingArea(Morph)>>keyboardFocusChange:
+RubEditingArea(RubAbstractTextArea)>>keyboardFocusChange:
+HandMorph>>newKeyboardFocus:
+HandMorph>>releaseKeyboardFocus
+[ :hand | hand releaseKeyboardFocus ] in WorldMorph>>viewBox: in Block: [ :hand | hand releaseKeyboardFocus ]
 Array(SequenceableCollection)>>do:
 WorldState>>handsDo:
-WorldState>>doOneCycleNowFor:
-WorldState>>doOneCycleFor:
-WorldMorph>>doOneCycle
-WorldMorph class>>doOneCycle
-[ [ WorldMorph doOneCycle.
-Processor yield.
-false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
+WorldMorph>>viewBox:
+WorldMorph(PasteUpMorph)>>restoreMorphicDisplay
+WorldMorph class>>startUp
+WorldMorph class(Behavior)>>startUp:
+ClassSessionHandler>>startup:
+[0m[31mError: Instances of SmallInteger are not indexable
+[0mSmallInteger(Object)>>error:
+SmallInteger(Object)>>errorNotIndexable
+SmallInteger(Object)>>size
+ByteString(SequenceableCollection)>>copyReplaceFrom:to:with:
+ByteString(SequenceableCollection)>>,
+SnakeModel>>executeStep
+[ [ winner isNil ]
+	whileTrue: [ | delay |
+		delay := Delay forMilliseconds: 200.
+		delay wait.
+		model executeStep.
+		winner := model checkWinner.
+		winner notNil
+			ifTrue: [ messageArea contents: winner , ' wins!' ] ] ] in SnakeGame>>start in Block: [ [ winner isNil ]...
 [ self value.
 Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
+[0m[31m
+[0mProcess>>terminate
+NECController>>stopCompletionDelay
+NECController>>closeMenu
+MessageSend>>value
+MessageSend>>cull:
+MessageSend>>cull:cull:
+[ action cull: anAnnouncement cull: announcer ] in AnnouncementSubscription>>deliver: in Block: [ action cull: anAnnouncement cull: announcer ]
+BlockClosure>>on:do:
+BlockClosure>>on:fork:
+AnnouncementSubscription>>deliver:
+[ "Ensure delivery to remaining announcements" subscription deliver: anAnnouncement ] in SubscriptionRegistry>>deliver:to:startingAt: in Block: [ "Ensure delivery to remaining announcements" sub...etc...
+BlockClosure>>ifCurtailed:
+SubscriptionRegistry>>deliver:to:startingAt:
+SubscriptionRegistry>>deliver:to:
+SubscriptionRegistry>>deliver:
+Announcer>>announce:
+RubEditingArea(Morph)>>doAnnounce:
+RubEditingArea(Morph)>>announceKeyboardFocusChange:
+RubEditingArea(Morph)>>keyboardFocusChange:
+RubEditingArea(RubAbstractTextArea)>>keyboardFocusChange:
+HandMorph>>newKeyboardFocus:
+HandMorph>>releaseKeyboardFocus
+[ :hand | hand releaseKeyboardFocus ] in WorldMorph>>viewBox: in Block: [ :hand | hand releaseKeyboardFocus ]
+Array(SequenceableCollection)>>do:
+WorldState>>handsDo:
+WorldMorph>>viewBox:
+WorldMorph(PasteUpMorph)>>restoreMorphicDisplay
+WorldMorph class>>startUp
+WorldMorph class(Behavior)>>startUp:
+ClassSessionHandler>>startup:
+[0m[31mError: Instances of SmallInteger are not indexable
+[0mSmallInteger(Object)>>error:
+SmallInteger(Object)>>errorNotIndexable
+SmallInteger(Object)>>size
+ByteString(SequenceableCollection)>>copyReplaceFrom:to:with:
+ByteString(SequenceableCollection)>>,
+SnakeModel>>executeStep
+[ [ winner isNil ]
+	whileTrue: [ | delay |
+		delay := Delay forMilliseconds: 200.
+		delay wait.
+		model executeStep.
+		winner := model checkWinner.
+		winner notNil
+			ifTrue: [ messageArea contents: winner , ' wins!' ] ] ] in SnakeGame>>start in Block: [ [ winner isNil ]...
+[ self value.
+Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
+[0m[31m
+[0mProcess>>terminate
+NECController>>stopCompletionDelay
+NECController>>closeMenu
+MessageSend>>value
+MessageSend>>cull:
+MessageSend>>cull:cull:
+[ action cull: anAnnouncement cull: announcer ] in AnnouncementSubscription>>deliver: in Block: [ action cull: anAnnouncement cull: announcer ]
+BlockClosure>>on:do:
+BlockClosure>>on:fork:
+AnnouncementSubscription>>deliver:
+[ "Ensure delivery to remaining announcements" subscription deliver: anAnnouncement ] in SubscriptionRegistry>>deliver:to:startingAt: in Block: [ "Ensure delivery to remaining announcements" sub...etc...
+BlockClosure>>ifCurtailed:
+SubscriptionRegistry>>deliver:to:startingAt:
+SubscriptionRegistry>>deliver:to:
+SubscriptionRegistry>>deliver:
+Announcer>>announce:
+RubEditingArea(Morph)>>doAnnounce:
+RubEditingArea(Morph)>>announceKeyboardFocusChange:
+RubEditingArea(Morph)>>keyboardFocusChange:
+RubEditingArea(RubAbstractTextArea)>>keyboardFocusChange:
+HandMorph>>newKeyboardFocus:
+HandMorph>>releaseKeyboardFocus
+[ :hand | hand releaseKeyboardFocus ] in WorldMorph>>viewBox: in Block: [ :hand | hand releaseKeyboardFocus ]
+Array(SequenceableCollection)>>do:
+WorldState>>handsDo:
+WorldMorph>>viewBox:
+WorldMorph(PasteUpMorph)>>restoreMorphicDisplay
+WorldMorph class>>startUp
+WorldMorph class(Behavior)>>startUp:
+ClassSessionHandler>>startup:
 [0m[31m
 [0mProcess>>terminate
 NECController>>stopCompletionDelay
