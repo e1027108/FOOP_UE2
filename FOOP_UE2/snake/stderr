@@ -29,4 +29,82 @@ WorldMorph(PasteUpMorph)>>restoreMorphicDisplay
 WorldMorph class>>startUp
 WorldMorph class(Behavior)>>startUp:
 ClassSessionHandler>>startup:
+[0m[31mError: Instances of UndefinedObject are not indexable
+[0mUndefinedObject(Object)>>error:
+UndefinedObject(Object)>>errorNotIndexable
+UndefinedObject(Object)>>size
+SnakeModel>>despawnArtifact
+SnakeModel>>executeStep
+[ [ winner isNil ]
+	whileTrue: [ | delay |
+		delay := Delay forMilliseconds: 200.
+		delay wait.
+		model executeStep.
+		winner := model checkWinner.
+		winner notNil
+			ifTrue: [ messageArea contents: winner , ' wins!' ] ] ] in SnakeGame>>start in Block: [ [ winner isNil ]...
+[ self value.
+Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
+[0m[31m
+[0mProcess>>terminate
+NECController>>stopCompletionDelay
+NECController>>closeMenu
+MessageSend>>value
+MessageSend>>cull:
+MessageSend>>cull:cull:
+[ action cull: anAnnouncement cull: announcer ] in AnnouncementSubscription>>deliver: in Block: [ action cull: anAnnouncement cull: announcer ]
+BlockClosure>>on:do:
+BlockClosure>>on:fork:
+AnnouncementSubscription>>deliver:
+[ "Ensure delivery to remaining announcements" subscription deliver: anAnnouncement ] in SubscriptionRegistry>>deliver:to:startingAt: in Block: [ "Ensure delivery to remaining announcements" sub...etc...
+BlockClosure>>ifCurtailed:
+SubscriptionRegistry>>deliver:to:startingAt:
+SubscriptionRegistry>>deliver:to:
+SubscriptionRegistry>>deliver:
+Announcer>>announce:
+RubEditingArea(Morph)>>doAnnounce:
+RubEditingArea(Morph)>>announceKeyboardFocusChange:
+RubEditingArea(Morph)>>keyboardFocusChange:
+RubEditingArea(RubAbstractTextArea)>>keyboardFocusChange:
+HandMorph>>newKeyboardFocus:
+HandMorph>>releaseKeyboardFocus
+[ :hand | hand releaseKeyboardFocus ] in WorldMorph>>viewBox: in Block: [ :hand | hand releaseKeyboardFocus ]
+Array(SequenceableCollection)>>do:
+WorldState>>handsDo:
+WorldMorph>>viewBox:
+WorldMorph(PasteUpMorph)>>restoreMorphicDisplay
+WorldMorph class>>startUp
+WorldMorph class(Behavior)>>startUp:
+ClassSessionHandler>>startup:
+[0m[31mInstance of SmallInteger did not understand #artifact:
+[0mSmallInteger(Object)>>doesNotUnderstand: #artifact:
+SnakeModel>>despawnArtifact
+SnakeModel>>executeStep
+[ [ winner isNil ]
+	whileTrue: [ | delay |
+		delay := Delay forMilliseconds: 200.
+		delay wait.
+		model executeStep.
+		winner := model checkWinner.
+		winner notNil
+			ifTrue: [ messageArea contents: winner , ' wins!' ] ] ] in SnakeGame>>start in Block: [ [ winner isNil ]...
+[ self value.
+Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
+[0m[31mError: Instances of Set are not indexable
+[0mSet(Object)>>error:
+Set(Object)>>errorNotIndexable
+Set(Object)>>at:
+SnakeModel>>despawnSingleArtifact:
+SnakeModel>>despawnArtifacts
+SnakeModel>>executeStep
+[ [ winner isNil ]
+	whileTrue: [ | delay |
+		delay := Delay forMilliseconds: 200.
+		delay wait.
+		model executeStep.
+		winner := model checkWinner.
+		winner notNil
+			ifTrue: [ messageArea contents: winner , ' wins!' ] ] ] in SnakeGame>>start in Block: [ [ winner isNil ]...
+[ self value.
+Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
 [0m
